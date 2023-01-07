@@ -3,7 +3,7 @@
 
 ※ 自信のある人と**必要性のある人だけ**進めてください。 （説明が簡素ですみません。）
 
-0. 本サイトからResources.ja-JP.resources をダウンロードします。
+0.本サイトからResources.ja-JP.resources をダウンロードします。
 
 1.インストールフォルダにHTML,Plug-Ins,Resouces,runtimesと4つのフォルダがあるので、Resourcesのフォルダを選択して開きます。
 
