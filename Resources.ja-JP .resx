@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -888,7 +888,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>マウス制限有効化</value>
   </data>
   <data name="tabPreferencesScriptReplHeaderLabel" xml:space="preserve">
-    <value>These are shortcuts, so when you type the token and press the dot/period, the token will be replaced with the value and auto complete will be triggered. For example, you could have sp as a token and StrokesPlus as the value.</value>
+    <value>これらはショートカットでTokenを入力してドット/ピリオドを押すと、TokenがValueに置き換わってオートコンプリート入力が発動します。For example, you could have sp as a token and StrokesPlus as the value.</value>
   </data>
   <data name="tabPreferencesIgnoreKeyControl" xml:space="preserve">
     <value>Control</value>
@@ -975,7 +975,7 @@ clip.SetText(s);</value>
     <value>Opens the Settings window.</value>
   </data>
   <data name="ScriptHelpNameText" xml:space="preserve">
-    <value>Name</value>
+    <value>名前</value>
   </data>
   <data name="tabPreferencesSynapticsTwo" xml:space="preserve">
     <value>2本の指</value>
@@ -2184,7 +2184,7 @@ speech = System.Speech</value>
     <value>StoreStringを使用して、以前に格納した文字列を削除します。</value>
   </data>
   <data name="ActionStepMethods.GetControlFromPointXY.DisplayName" xml:space="preserve">
-    <value>ポイントX、Yから制御を取得</value>
+    <value>ポイントX、Yからコントロールを取得</value>
   </data>
   <data name="ScriptHelp.ActionMethod.FindImageWithinImage.Parameters.haystack.Description" xml:space="preserve">
     <value>The target image to search for the needle image.</value>
@@ -5289,7 +5289,7 @@ if(res != null) {
     <value>string</value>
   </data>
   <data name="Enabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>有効化</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunProgram.Parameters.arguments.Name" xml:space="preserve">
     <value>arguments</value>
@@ -5808,7 +5808,7 @@ if(res != null) {
     <value>milliseconds</value>
   </data>
   <data name="ActionStepMethods.ToggleCommunicationsMute.DisplayName" xml:space="preserve">
-    <value>通信ミュートの切り替え</value>
+    <value>通信ミキサ音量のミュート切り替え</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Sleep.Parameters.milliseconds.Type" xml:space="preserve">
     <value>int</value>
@@ -5920,7 +5920,7 @@ if(res != null) {
     <value>トレイアイコンの切り替え</value>
   </data>
   <data name="ActionStepMethods.SetCommunicationsVolume.DisplayName" xml:space="preserve">
-    <value>通信量の設定</value>
+    <value>通信ミキサ音量の設定</value>
   </data>
   <data name="ActionStepMethods.BreakIf.DisplayName" xml:space="preserve">
     <value>Break If</value>
@@ -6102,7 +6102,7 @@ function PopupMenuCallback(id) {
     <value>AllApplications</value>
   </data>
   <data name="SettingsToolbarHelp" xml:space="preserve">
-    <value>オンラインヘルプ</value>
+    <value>ヘルプ</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetFileProductVersionInfo.Parameters.filePath.Description" xml:space="preserve">
     <value>The full path and name to the file.</value>
@@ -6132,7 +6132,7 @@ function PopupMenuCallback(id) {
     <value>DeleteStoredHandle</value>
   </data>
   <data name="ActionStepMethods.GetCommunicationsVolume.DisplayName" xml:space="preserve">
-    <value>コミュニケーションボリュームを取得する</value>
+    <value>通信ミキサ音量を取得する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisplayImage.Parameters.image.Type" xml:space="preserve">
     <value>画像</value>
@@ -6488,7 +6488,7 @@ for (var i = 0, len = matches.Length; i &lt; len; i++) {
     <value>WindowFromHandle</value>
   </data>
   <data name="ScriptHelpReturnsText" xml:space="preserve">
-    <value>Returns</value>
+    <value>戻り値</value>
   </data>
   <data name="ActionStepMethods.IsWindowAlwaysOnTop.DisplayName" xml:space="preserve">
     <value>ウィンドウは常に上にあります</value>
@@ -6826,7 +6826,7 @@ if(str.length == 0) str = '(no files selected)';
 sp.MessageBox(str, 'Selected File(s)');</value>
   </data>
   <data name="SettingsToolbarGlobalActions" xml:space="preserve">
-    <value>グローバルアクション</value>
+    <value>大域アクション</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StoreDecimal.Parameters.value.Type" xml:space="preserve">
     <value>decimal</value>
@@ -7773,7 +7773,7 @@ clip.SetText(apps);
     <value>SystemWindow</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Enable.Name" xml:space="preserve">
-    <value>有効化</value>
+    <value>Enable</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteAllStoredHistoryScripts.Returns" xml:space="preserve">
     <value>void</value>
@@ -7785,7 +7785,7 @@ clip.SetText(apps);
     <value>フォーラムパスワード</value>
   </data>
   <data name="MacroRecordBeforeStartMessage" xml:space="preserve">
-    <value>Control + Break(一時停止/ブレークキー)を押して、録音を停止します。
+    <value>Control + Break(一時停止/ブレークキー)を押して、記録を停止します。
 
 [停止]ボタンをクリックすることもできますが、スクリプトにはそれらのクリックイベントが終わり近くに含まれるため、おそらくそれらを削除することをお勧めします。
 
@@ -7944,7 +7944,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>Reads the specified registry key and return an array of strings.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.EmptyRecycleBins.Name" xml:space="preserve">
-    <value>ゴミ箱を空にする</value>
+    <value>EmptyRecycleBins</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.EnsureVisible.Description" xml:space="preserve">
     <value>Moves the window to ensure it's displayed as fully as it can be on the current or closest screen.</value>
@@ -8515,7 +8515,7 @@ See this post for more details: https://forum.strokesplus.net/posts/m11783-Examp
     <value>TextAlternateColor</value>
   </data>
   <data name="SettingsToolbarApplications" xml:space="preserve">
-    <value>個別アプリケーション</value>
+    <value>個別アプリ</value>
   </data>
   <data name="ImportConfirmTitle" xml:space="preserve">
     <value>インポートの確認</value>
@@ -9027,7 +9027,7 @@ sp.PlayTemporaryMacro();</value>
     <value>sp.SendKeyDown('a');</value>
   </data>
   <data name="ScriptHelpParametersText" xml:space="preserve">
-    <value>Parameters</value>
+    <value>パラメータ</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetPlaybackVolume.Description" xml:space="preserve">
     <value>Returns the current volume level of the default playback mixer/device. (0 - 100)</value>
@@ -9141,7 +9141,7 @@ sp.ShowBalloonTip('Title', 'Message here', 'Info', 5000);
     <value>sp.RunProgram('notepad', '', 'open', 'normal', true, false, false);</value>
   </data>
   <data name="ScriptHelpDescriptionText" xml:space="preserve">
-    <value>Description</value>
+    <value>説明</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunStoreApp.Example.Simple" xml:space="preserve">
     <value>sp.RunStoreApp('Microsoft.WindowsCalculator'); //Or just 'Calculator' if there are no other similarly named apps installed.</value>
@@ -9553,7 +9553,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>アクティブ</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TypeBuilder.Create.Returns" xml:space="preserve">
-    <value>Type</value>
+    <value>型</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegions.Description" xml:space="preserve">
     <value>Returns an array of RectRegion based on the rectangle passed in along with the number of columns and rows specified. This could be used to have a action perform different logic based on the area of the screen or application window, for example.</value>
@@ -9568,7 +9568,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>IEnumerable.OrderBy</value>
   </data>
   <data name="ScriptHelpCategoryNameInternal" xml:space="preserve">
-    <value>StrokesPlus.net制御</value>
+    <value>StrokesPlus.netの制御</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCaptureMixer.Returns" xml:space="preserve">
     <value>CoreAudioDevice</value>
