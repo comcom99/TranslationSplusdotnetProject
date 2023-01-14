@@ -166,7 +166,7 @@ var items = new List(PopupListItem);
 
 items.Add(new PopupListItem("Item 1", "sp.SendString('Item 1');"));
 items.Add(new PopupListItem("Item 2", "sp.SendString('Item 2');"));
-//items.Add(new PopupListItem("???????????????", ""));
+//items.Add(new PopupListItem("―――――――――――――――", ""));
 items.Add(new PopupListItem("Item 3", "sp.SendString('Item 3');"));
 
 var subItems1 = new List(PopupListItem);
@@ -233,7 +233,7 @@ sp.PopupList(items,
     <value>Gets or sets the top most status of the control or window.</value>
   </data>
   <data name="ActionStepMethods.EmptyRecycleBins.DisplayName" xml:space="preserve">
-    <value>空のごみ箱</value>
+    <value>ごみ箱を空にする</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendVKey.Example.Simple" xml:space="preserve">
     <value>sp.SendVKey(vk.CONTROL);</value>
@@ -317,7 +317,7 @@ sp.MessageBox(str, 'Items(s)');</value>
     <value>sp.Run('notepad');</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseWheel.Parameters.delta.Name" xml:space="preserve">
-    <value>delta</value>
+    <value>delta</value> 
   </data>
   <data name="ScriptHelp.ActionMethod.MouseWheel.Parameters.delta.Type" xml:space="preserve">
     <value>object (casted to short)</value>
@@ -566,7 +566,7 @@ if(str.length == 0) str = '(no files selected)';
 sp.MessageBox(str, 'Selected File(s)');</value>
   </data>
   <data name="ActionStepMethods.ToggleSecondaryFloaters.DisplayName" xml:space="preserve">
-    <value>二次フローターを切り替え</value>
+    <value>第二フローターを切り替え</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendKeyUp.Returns" xml:space="preserve">
     <value>void</value>
@@ -978,7 +978,7 @@ clip.SetText(s);</value>
     <value>名前</value>
   </data>
   <data name="tabPreferencesSynapticsTwo" xml:space="preserve">
-    <value>2本の指</value>
+    <value>2本指ジェスチャー</value>
   </data>
   <data name="ActionStepMethods.ToggleTrayIcon.HelpTip" xml:space="preserve">
     <value>トレイアイコンの表示を切り替え。</value>
@@ -1668,7 +1668,7 @@ sp.PlayTemporaryMacro();</value>
     <value>.Rectangle</value>
   </data>
   <data name="tabPreferencesHintShowGestureHintsLabel" xml:space="preserve">
-    <value>ヒントを表示</value>
+    <value>ナビゲーションヒントを表示</value>
   </data>
   <data name="TouchFloaterMenuChangeSize328" xml:space="preserve">
     <value>328px</value>
@@ -2362,7 +2362,7 @@ StrokesPlus.netは終了します。</value>
     <value>void</value>
   </data>
   <data name="LoadingSettingsAbout" xml:space="preserve">
-    <value>アバウト セクションを初期化しています...</value>
+    <value>セクションを初期化しています...</value>
   </data>
   <data name="FindReplaceMenuNamedGroup" xml:space="preserve">
     <value>$(名前)名前付きグループ</value>
@@ -2666,7 +2666,7 @@ VCRUNTIME140.dll
     <value>外部ファイルからのスクリプトの読み込みに失敗しました。ファイルにエラーがないか確認してください。</value>
   </data>
   <data name="NoMatchScriptTab" xml:space="preserve">
-    <value>No Match</value>
+    <value>マッチしなかった時</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisplayTextUpdate.Description" xml:space="preserve">
     <value>Updates the current popup created by sp.DisplayText. This is far more efficient than closing and displaying a new popup.</value>
@@ -2756,7 +2756,7 @@ VCRUNTIME140.dll
     <value>Synapticsインターフェースをクリアしています...</value>
   </data>
   <data name="tabPreferencesTouchFloaterMinAlpha" xml:space="preserve">
-    <value>フローター最小透明度(1-255)</value>
+    <value>フローター最小透明度(α: 1-255)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredPoint.Parameters.name.Description" xml:space="preserve">
     <value>Name used to store the point.</value>
@@ -3078,7 +3078,7 @@ typesTB.DefineNestedStruct("RECT",
     <value>トークン</value>
   </data>
   <data name="CustomFloaterPress" xml:space="preserve">
-    <value>押す</value>
+    <value>押したとき</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Confirm.Parameters.message.Type" xml:space="preserve">
     <value>object (casted to string)</value>
@@ -3096,7 +3096,7 @@ typesTB.DefineNestedStruct("RECT",
     <value>プラグインは、StrokesPlus.netが実行されているPlug-Insフォルダーに存在するDLL形式のパブリックアクセス可能な.NETクラスライブラリ、または[検索場所]タブで指定されたカスタムの場所にすることができます。</value>
   </data>
   <data name="CustomFloaterRight" xml:space="preserve">
-    <value>右</value>
+    <value>右発動以後</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterShow.Example.Simple" xml:space="preserve">
     <value>sp.TouchFloaterShow();</value>
@@ -3123,19 +3123,19 @@ typesTB.DefineNestedStruct("RECT",
     <value>See this post: https://forum.strokesplus.net/posts/m12998-Finding-image-on-screen</value>
   </data>
   <data name="CustomFloaterEnter" xml:space="preserve">
-    <value>入る</value>
+    <value>侵入時</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCurrentCulture.Description" xml:space="preserve">
     <value>Returns the current culture code, e.g. en-US, pl-PL.</value>
   </data>
   <data name="FindReplaceFindNext" xml:space="preserve">
-    <value>次を検索</value>
+    <value>FindReplaceFindNext</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryReadNumber.Returns" xml:space="preserve">
     <value>int</value>
   </data>
   <data name="CustomFloaterHover" xml:space="preserve">
-    <value>ホバー</value>
+    <value>ホバーしているとき</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.AllDescendantWindows.Name" xml:space="preserve">
     <value>AllDescendantWindows</value>
@@ -3159,7 +3159,7 @@ typesTB.DefineNestedStruct("RECT",
     <value>Minimizes the window.</value>
   </data>
   <data name="CustomFloaterLeave" xml:space="preserve">
-    <value>離れる</value>
+    <value>ホバーから離脱時</value>
   </data>
   <data name="PlugInDeleteFailedMessage" xml:space="preserve">
     <value>プラグインの削除に失敗しました。</value>
@@ -3186,7 +3186,7 @@ typesTB.DefineNestedStruct("RECT",
     <value>右</value>
   </data>
   <data name="LoadingStoppingWinEventHook" xml:space="preserve">
-    <value>勝利イベントフックを停止しています...</value>
+    <value>WinEventフックを停止しています...</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindowExecuteScriptAsync.Example.Full" xml:space="preserve">
     <value>// Assumes you are using the Example from HTMLWindow
@@ -3700,7 +3700,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>フォント...</value>
   </data>
   <data name="DevicesChangedScriptTab" xml:space="preserve">
-    <value>デバイスチェンジ</value>
+    <value>ハードウェア変更検知時</value>
   </data>
   <data name="ExportMacro" xml:space="preserve">
     <value>エクスポート...</value>
@@ -4395,7 +4395,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>次のアプリケーションに切り替える</value>
   </data>
   <data name="LoadingWinEventHook" xml:space="preserve">
-    <value>勝利イベントフックを読み込んでいます...</value>
+    <value>WinEventフックを読み込んでいます...</value>
   </data>
   <data name="tabPreferencesStrokeButtonX1" xml:space="preserve">
     <value>X1</value>
@@ -4591,7 +4591,7 @@ Error: '{0}'</value>
     <value>void</value>
   </data>
   <data name="TrayMenuSynapticFourFingers" xml:space="preserve">
-    <value>シナプティクス: 4本の指</value>
+    <value>シナプティクス: 4本指ジェスチャー</value>
   </data>
   <data name="ActionStepMethods.ShowMessageBox.HelpTip" xml:space="preserve">
     <value>タイトルとメッセージを含む簡単なメッセージボックスを表示します。</value>
@@ -5082,7 +5082,7 @@ if(res != null) {
     <value>var commMixer = sp.GetCommunicationsMixer();</value>
   </data>
   <data name="tabPreferencesRockerSupportLabel" xml:space="preserve">
-    <value>ロッカー サポート</value>
+    <value>ロッカージェスチャー使用</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.AllChildWindows.Example.Simple" xml:space="preserve">
     <value>.AllChildWindows</value>
@@ -5683,7 +5683,7 @@ if(res != null) {
     <value>Returns True if the specified mouse button is currently pressed (down).</value>
   </data>
   <data name="tabPreferencesTabHint" xml:space="preserve">
-    <value>ヒント</value>
+    <value>ナビゲーションヒント</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleWarning.Parameters.message.Type" xml:space="preserve">
     <value>string</value>
@@ -5703,7 +5703,7 @@ if(res != null) {
     <value>スリープ乗数(低い=より速い再生)</value>
   </data>
   <data name="TrayMenuSecondaryStrokeButton" xml:space="preserve">
-    <value>二次ストロークボタン</value>
+    <value>第二ストロークボタン</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Rectangle.Type" xml:space="preserve">
     <value>Rectangle</value>
@@ -5983,7 +5983,7 @@ if(res != null) {
     <value>.ClientPointToScreenPoint(new Point(0,0));</value>
   </data>
   <data name="CustomFloaterRelease" xml:space="preserve">
-    <value>リリース</value>
+    <value>リリース時</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ModuleBuilder.DefineEnum.Returns" xml:space="preserve">
     <value>EnumBuilder</value>
@@ -6216,7 +6216,7 @@ function PopupMenuCallback(id) {
     <value>Delete All Stored Handles</value>
   </data>
   <data name="OnReleaseTab" xml:space="preserve">
-    <value>リリース</value>
+    <value>リリース時</value>
   </data>
   <data name="TrayCaptionDefinedAppsOnly" xml:space="preserve">
     <value>定義済みアプリケーションのみ</value>
@@ -6616,7 +6616,7 @@ for (var i = 0, len = matches.Length; i &lt; len; i++) {
     <value>void</value>
   </data>
   <data name="CustomFloaterUp" xml:space="preserve">
-    <value>上</value>
+    <value>上発動以後</value>
   </data>
   <data name="TouchFloaterMenuCloseMenu" xml:space="preserve">
     <value>メニューを閉じる</value>
@@ -7291,7 +7291,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>最大スクリプトロック試行</value>
   </data>
   <data name="TrayMenuSynapticThreeFingers" xml:space="preserve">
-    <value>シナプティクス: 3本の指</value>
+    <value>シナプティクス: 3本指ジェスチャー</value>
   </data>
   <data name="ScriptHelp.ActionMethod.IsKeyDown.Returns" xml:space="preserve">
     <value>void</value>
@@ -7330,10 +7330,10 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>サイズ</value>
   </data>
   <data name="CustomFloaterDown" xml:space="preserve">
-    <value>下</value>
+    <value>下発動以後</value>
   </data>
   <data name="CustomFloaterLeft" xml:space="preserve">
-    <value>左</value>
+    <value>左発動以後</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisableCapture.Description" xml:space="preserve">
     <value>Disables the mouse and keyboard hooks.</value>
@@ -7819,7 +7819,7 @@ clip.SetText(apps);
     <value>プラグインを追加する</value>
   </data>
   <data name="tabPreferencesDrawGestureLabel" xml:space="preserve">
-    <value>ジェスチャーを描く</value>
+    <value>ジェスチャー描画</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.ExecutablePath.Description" xml:space="preserve">
     <value>Returns the folder to the executable which owns the window; use ExecutableName to get the actual file name.</value>
@@ -8446,7 +8446,7 @@ See this post for more details: https://forum.strokesplus.net/posts/m11783-Examp
     <value>Name of the key within the subkey to read the value from.</value>
   </data>
   <data name="ExclusionZonePrimaryStrokeEvents" xml:space="preserve">
-    <value>一次ストロークボタンのクリック</value>
+    <value>メインストロークボタンのクリック</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Reload.Description" xml:space="preserve">
     <value>Stops all scripts, timers, and reloads StrokesPlus.net.</value>
@@ -8470,7 +8470,7 @@ See this post for more details: https://forum.strokesplus.net/posts/m11783-Examp
     <value>ストアアプリケーションを実行する</value>
   </data>
   <data name="TrainingModeGestureLengthTitle" xml:space="preserve">
-    <value>ジェスチャーが短すぎる</value>
+    <value>描画距離が短すぎます</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunProgram.Parameters.style.Name" xml:space="preserve">
     <value>style</value>
@@ -8813,7 +8813,7 @@ var newType = new NativeModules.MyType();</value>
     }</value>
   </data>
   <data name="tabPreferencesSecondaryPenColorLabel" xml:space="preserve">
-    <value>二次ストロークカラー</value>
+    <value>第二ストロークカラー</value>
   </data>
   <data name="SettingsApplyCancelTitle" xml:space="preserve">
     <value>変更を破棄しますか？</value>
@@ -8979,7 +8979,7 @@ sp.PlayTemporaryMacro();</value>
     <value>メインフローターが表示されていますか</value>
   </data>
   <data name="tabPreferencesSecondaryStrokeButtonGroupText" xml:space="preserve">
-    <value>二次ストロークボタン</value>
+    <value>第二ストロークボタン</value>
   </data>
   <data name="frmSelectGestureNoGestureButton" xml:space="preserve">
     <value>ジェスチャーなし</value>
@@ -9544,7 +9544,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>The size of the control or window, excluding window borders.</value>
   </data>
   <data name="tabPreferencesTouchFloaterMaxAlpha" xml:space="preserve">
-    <value>フローター最大透明度(1-255)</value>
+    <value>フローター最大透明度(α:1-255)</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.Minimize.Returns" xml:space="preserve">
     <value>void</value>
@@ -10502,7 +10502,7 @@ Plus-in DLL: '{2}' </value>
     <value>.ScreenPointToClientPoint(new Point(0,0));</value>
   </data>
   <data name="tabPreferencesSynapticsThree" xml:space="preserve">
-    <value>3本の指</value>
+    <value>3本指ジェスチャー</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendShiftDown.Name" xml:space="preserve">
     <value>SendShiftDown</value>
