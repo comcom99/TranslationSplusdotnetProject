@@ -5,7 +5,7 @@
 
 0.本サイトからResources.ja-JP.resources をダウンロードします。
 
-1.インストールフォルダにHTML,Plug-Ins,Resouces,runtimesと4つのフォルダがあるので、Resourcesのフォルダを選択して開きます。
+1.インストールフォルダにHTML,Plug-Ins,Resources,runtimesと4つのフォルダがあるので、Resourcesのフォルダを選択して開きます。
 
 2.**Resources.ja-JP.resources のファイルを上書き**して書き換えます（終わり）。
 
