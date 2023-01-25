@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ActionActiveLabel" xml:space="preserve">
-    <value>有効化</value>
+    <value>有効化(&amp;E)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunOrActivate.Name" xml:space="preserve">
     <value>RunOrActivate</value>
@@ -548,10 +548,10 @@ sp.MessageBox(str, 'Items(s)');</value>
     <value>ヘルプ</value>
   </data>
   <data name="TrayMenuOpen" xml:space="preserve">
-    <value>設定を開く</value>
+    <value>設定を開く(&amp;O)</value>
   </data>
   <data name="TrayMenuExit" xml:space="preserve">
-    <value>終了</value>
+    <value>終了(&amp;E)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetSelectedFilesInExplorer.Example.Full" xml:space="preserve">
     <value>var files = sp.GetSelectedFilesInExplorer(action.Window.HWnd);
@@ -691,7 +691,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>object</value>
   </data>
   <data name="AddReference" xml:space="preserve">
-    <value>Add References</value>
+    <value>参照に追加</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StoreHandle.Name" xml:space="preserve">
     <value>StoreHandle</value>
@@ -888,7 +888,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>マウス制限有効化</value>
   </data>
   <data name="tabPreferencesScriptReplHeaderLabel" xml:space="preserve">
-    <value>これらはショートカットでTokenを入力してドット/ピリオドを押すと、TokenがValueに置き換わってオートコンプリート入力が発動します。For example, you could have sp as a token and StrokesPlus as the value.</value>
+    <value>Tokenを入力してピリオド(.)を押すと、TokenはValueに置き換わり、オートコンプリート入力の発動の契機になるショートカットになります。例：TokenにspをValueにStrokesPlusを当てるなどすることによって。</value>
   </data>
   <data name="tabPreferencesIgnoreKeyControl" xml:space="preserve">
     <value>Control</value>
@@ -1007,7 +1007,7 @@ clip.SetText(s);</value>
   <data name="FindReplaceFind" xml:space="preserve">
     <value>検索</value>
   </data>
-  <data name="AltKey" xml:space="preserve">
+  <data name="AltKey" xml:space="preserve">redo
     <value>Alt</value>
   </data>
   <data name="FindReplaceWrap" xml:space="preserve">
@@ -1259,7 +1259,7 @@ sp.PlayTemporaryMacro();</value>
     <value>文字列を取得</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>削除</value>
+    <value>削除(&amp;D)</value>
   </data>
   <data name="tabGesturesDrawGestureNow" xml:space="preserve">
     <value>今すぐジェスチャーを描画...</value>
@@ -1536,7 +1536,7 @@ sp.PlayTemporaryMacro();</value>
     <value>TypeBuilder.Create</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>キャンセル</value>
+    <value>キャンセル(&amp;C)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TypeBuilder.DefineNestedEnum.Parameters.enumName.Type" xml:space="preserve">
     <value>string</value>
@@ -1760,7 +1760,7 @@ sp.PlayTemporaryMacro();</value>
     <value>Set Foreground Color</value>
   </data>
   <data name="TrayMenuResetFloaters" xml:space="preserve">
-    <value>フローターのリセット</value>
+    <value>フローターのリセット(&amp;R)</value>
   </data>
   <data name="ScriptHelpClassClickName" xml:space="preserve">
     <value>Click</value>
@@ -1968,7 +1968,7 @@ sp.ShowPopupMenuEx(popupMenuInfoEx);</value>
     <value>.MoveToPreviousScreen()</value>
   </data>
   <data name="FloaterLayoutsMenu" xml:space="preserve">
-    <value>レイアウト</value>
+    <value>レイアウト(&amp;L)</value>
   </data>
   <data name="ActionEngineMethodNotFoundMessage" xml:space="preserve">
     <value>アセンブリでメソッドが見つかりません:
@@ -2098,21 +2098,21 @@ sp.DisplayText(info);</value>
     <value>string</value>
   </data>
   <data name="PlugInTabReferences" xml:space="preserve">
-    <value>追加参照</value>
+    <value>参照に追加</value>
   </data>
   <data name="ScriptHelpCategoryTextExposedObjects" xml:space="preserve">
     <value>これらのオブジェクトはすべてのスクリプトで使用でき、.NET Framework やスクリプトエンジンのホスト関数 (ClearScript) にアクセスできます。
  
-clr = mscorlib, System, System.Core
+clr     = mscorlib, System, System.Core
 drawing = System.Drawing
-forms = System.Windows.Forms
+forms   = System.Windows.Forms
 windows = System.Windows
-net = System.Net
-http = System.Net.Http
-host = ExtendedHostFunctions (see ClearScript help)
-clip = System.Windows.Forms.Clipboard
+net     = System.Net
+http    = System.Net.Http
+host    = ExtendedHostFunctions (see ClearScript help)
+clip    = System.Windows.Forms.Clipboard
 sysinfo = SystemInformation
-speech = System.Speech</value>
+speech  = System.Speech</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetMethods.Name" xml:space="preserve">
     <value>GetMethods</value>
@@ -2301,7 +2301,7 @@ var region = sp.GetRegionFromPoint(action.Window.Rectangle, action.Start, column
     <value>Name of the macro.</value>
   </data>
   <data name="PlugInRemoveLocation" xml:space="preserve">
-    <value>フォルダを削除</value>
+    <value>フォルダを削除(&amp;D)</value>
   </data>
   <data name="tabPreferencesTouchFloaterTapInterval" xml:space="preserve">
     <value>フローターメニュータップタイムアウト(ミリ秒)</value>
@@ -2383,7 +2383,7 @@ StrokesPlus.netは終了します。</value>
     <value>Set Warning Default Color</value>
   </data>
   <data name="tabGesturesDeleteGestureConfirmTitle" xml:space="preserve">
-    <value>ジェスチャーの削除</value>
+    <value>ジェスチャーの削除(&amp;D)</value>
   </data>
   <data name="ActionStepMethods.GetWindowRectangle.HelpTip" xml:space="preserve">
     <value>境界線を除いてウィンドウの(SystemWindow型として渡される)矩形を返します。フレーム/境界線を含めたいときは、ウィンドウの矩形をフルで所得を使用します。</value>
@@ -2561,7 +2561,7 @@ sp.DisplayTextUpdate(info);
     <value>object (casts to int then IntPtr)</value>
   </data>
   <data name="TouchFloaterMenuChangeSize" xml:space="preserve">
-    <value>サイズ変更</value>
+    <value>サイズ変更(&amp;S)</value>
   </data>
   <data name="PlugInTabExcluded" xml:space="preserve">
     <value>除外</value>
@@ -2943,7 +2943,7 @@ user32TB.Create();</value>
     <value>記録</value>
   </data>
   <data name="Rename" xml:space="preserve">
-    <value>名前を変更する</value>
+    <value>名前を変更する(&amp;R)</value>
   </data>
   <data name="ScriptHelpScriptObjectsPopupMenuInfoText" xml:space="preserve">
     <value>Used when calling sp.ShowPopupMenu()
@@ -3129,7 +3129,7 @@ typesTB.DefineNestedStruct("RECT",
     <value>現在の言語の文字を返します。例 en-US, pl-PL.</value>
   </data>
   <data name="FindReplaceFindNext" xml:space="preserve">
-    <value>FindReplaceFindNext</value>
+    <value>次を検索(&amp;N)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryReadNumber.Returns" xml:space="preserve">
     <value>int</value>
@@ -3144,7 +3144,7 @@ typesTB.DefineNestedStruct("RECT",
     <value>SystemWindow[]</value>
   </data>
   <data name="ActionDelete" xml:space="preserve">
-    <value>削除</value>
+    <value>削除(&amp;D)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteAllStoredObjects.Example.Simple" xml:space="preserve">
     <value>sp.DeleteAllStoredObjects();</value>
@@ -3298,7 +3298,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>有効</value>
   </data>
   <data name="RemoveReference" xml:space="preserve">
-    <value>Remove References</value>
+    <value>参照から外す</value>
   </data>
   <data name="ExportFileFilterName" xml:space="preserve">
     <value>StrokesPlus.netエクスポート ファイル|*.spexport</value>
@@ -3829,7 +3829,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>コマンド</value>
   </data>
   <data name="Comment" xml:space="preserve">
-    <value>コメント</value>
+    <value>コメント(&amp;C)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterSetCustomFloaterLocation.Name" xml:space="preserve">
     <value>TouchFloaterSetCustomFloaterLocation</value>
@@ -4113,7 +4113,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>画面上の指定されたX、Y座標から移動可能な最初の親ウィンドウを返します。これは、メインウィンドウまたは検索ダイアログのようなツールウィンドウである可能性があります。</value>
   </data>
   <data name="InsertStep" xml:space="preserve">
-    <value>ステップを挿入</value>
+    <value>ステップを挿入(&amp;I)</value>
   </data>
   <data name="TextExpansionTypeTextDescription" xml:space="preserve">
     <value>シミュレートされたキーストロークを使用してテキストを送信します。この方法は互換性が高いですが、大量のテキストの場合は遅くなる可能性があります。</value>
@@ -4209,7 +4209,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>スタック内の次のウィンドウをアクティブにします。</value>
   </data>
   <data name="TextExpansionTypeScriptDescription" xml:space="preserve">
-    <value>アクションとは異なったステップとスクリプトを実行します。 実行されて以降は、追加オブジェクトが通らないことに注意してください（例えば、action.Windowは発動しているときは取れません）。 そのため、スクリプトが適切な関数を使用して、使用するオブジェクトを取得していることを確認してください。</value>
+    <value>アクションとは仕様が違ったステップとスクリプトを実行します。 実行されて以降は、追加オブジェクトが通らないことに注意してください（例えば、action.Windowは発動しているときは取れません）。 そのため、スクリプトが適切な関数を使用して、使用するオブジェクトを取得していることを確認してください。</value>
   </data>
   <data name="InsertParameter" xml:space="preserve">
     <value>パラメータの挿入</value>
@@ -4476,7 +4476,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>ジェスチャー パターン</value>
   </data>
   <data name="tabPreferencesStrokeButtonNone" xml:space="preserve">
-    <value>無し</value>
+    <value>不使用</value>
   </data>
   <data name="tabPreferencesStrokeButtonLeft" xml:space="preserve">
     <value>左</value>
@@ -4875,7 +4875,7 @@ if(res != null) {
     <value>参照...</value>
   </data>
   <data name="TouchFloaterMenuCloseFloater" xml:space="preserve">
-    <value>フローターを閉じる</value>
+    <value>フローターを閉じる(&amp;C)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleClearAll.Example.Simple" xml:space="preserve">
     <value>sp.ConsoleClearAll();</value>
@@ -5136,7 +5136,7 @@ if(res != null) {
     <value>実行を停止しています...</value>
   </data>
   <data name="InsertHotkey" xml:space="preserve">
-    <value>ホットキーを挿入</value>
+    <value>ホットキーを挿入(&amp;I)</value>
   </data>
   <data name="tabGlobalLoadUnloadTabName" xml:space="preserve">
     <value>起動・終了時</value>
@@ -5247,7 +5247,7 @@ if(res != null) {
     <value>Returns true if the windows is flagged as Unicode.</value>
   </data>
   <data name="HotkeyActiveLabel" xml:space="preserve">
-    <value>有効化</value>
+    <value>有効化(&amp;E)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryReadMultiString.Returns" xml:space="preserve">
     <value>string[]</value>
@@ -5289,7 +5289,7 @@ if(res != null) {
     <value>string</value>
   </data>
   <data name="Enabled" xml:space="preserve">
-    <value>有効化</value>
+    <value>有効化(&amp;E)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunProgram.Parameters.arguments.Name" xml:space="preserve">
     <value>arguments</value>
@@ -5352,7 +5352,7 @@ if(res != null) {
     <value>マウスボタン: 左</value>
   </data>
   <data name="TrayMenuUseNone" xml:space="preserve">
-    <value>None</value>
+    <value>不使用</value>
   </data>
   <data name="ActionStepMethods.MouseWheel.DisplayName" xml:space="preserve">
     <value>マウスホイール</value>
@@ -5736,7 +5736,7 @@ if(res != null) {
     <value>Any</value>
   </data>
   <data name="Cut" xml:space="preserve">
-    <value>切り取り</value>
+    <value>切り取り(&amp;C)</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Yes</value>
@@ -5775,7 +5775,7 @@ if(res != null) {
     <value>Token</value>
   </data>
   <data name="Apply" xml:space="preserve">
-    <value>適用</value>
+    <value>適用(&amp;A)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StopAllActionSteps.Example.Simple" xml:space="preserve">
     <value>sp.StopAllActionSteps();</value>
@@ -5878,7 +5878,7 @@ if(res != null) {
     <value>エクスプローラーでアイテムを取得</value>
   </data>
   <data name="Paste" xml:space="preserve">
-    <value>貼り付け</value>
+    <value>貼り付け(&amp;V)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PlaySound.Returns" xml:space="preserve">
     <value>void</value>
@@ -5932,7 +5932,7 @@ if(res != null) {
     <value>ConsoleClearUser</value>
   </data>
   <data name="Uncomment" xml:space="preserve">
-    <value>コメントを外す</value>
+    <value>コメントを外す(&amp;U)</value>
   </data>
   <data name="ScriptHelpCategoryNameInputAndDisplay" xml:space="preserve">
     <value>Input and Display (入力と表示)</value>
@@ -5962,7 +5962,7 @@ if(res != null) {
     <value>StoreNumberを使用して以前に格納した数値を削除します。</value>
   </data>
   <data name="AppDefinitionActive" xml:space="preserve">
-    <value>有効化</value>
+    <value>有効化(&amp;E)</value>
   </data>
   <data name="ActionStepMethods.Evaluate.HelpTip" xml:space="preserve">
     <value>評価された式の結果を返します。{stackTake}"と"{stackLeave}"を使用して、スタック上の値を使用し、それぞれ(左から右に)プルオフまたは終了します。"</value>
@@ -6093,7 +6093,7 @@ function PopupMenuCallback(id) {
     <value>プラグインを削除します</value>
   </data>
   <data name="SelectAll" xml:space="preserve">
-    <value>すべて選択</value>
+    <value>すべて選択(&amp;S)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendCharacter.Name" xml:space="preserve">
     <value>SendCharacter</value>
@@ -6619,7 +6619,7 @@ for (var i = 0, len = matches.Length; i &lt; len; i++) {
     <value>上発動以後</value>
   </data>
   <data name="TouchFloaterMenuCloseMenu" xml:space="preserve">
-    <value>メニューを閉じる</value>
+    <value>メニューを閉じる(&amp;X)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindow.Parameters.HTML.Name" xml:space="preserve">
     <value>HTML</value>
@@ -6793,7 +6793,7 @@ typesTB.DefineNestedEnum("NestedEnum",
     <value>var files = sp.GetSelectedFilesInExplorer(action.Window.HWnd);</value>
   </data>
   <data name="TrayMenuToggleFloater" xml:space="preserve">
-    <value>フローターの切り替え表示非表示</value>
+    <value>フローターの切り替え表示非表示(&amp;T)</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.Center.Description" xml:space="preserve">
     <value>Centers the window on the screen where the window resides.</value>
@@ -7037,7 +7037,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>ラストフォーカスコントロールを取得</value>
   </data>
   <data name="TrayMenuReload" xml:space="preserve">
-    <value>再読み込み</value>
+    <value>再読み込み(&amp;R)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StoreString.Parameters.value.Description" xml:space="preserve">
     <value>Value of the string to store.</value>
@@ -7096,7 +7096,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>(ボタンダウンのみ、リリースを使用してボタンアップを処理します)</value>
   </data>
   <data name="FindReplaceClearButton" xml:space="preserve">
-    <value>クリア</value>
+    <value>クリア(&amp;C)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryReadString.Parameters.baseKey.Description" xml:space="preserve">
     <value>RegistryKey representing the registry key where the keyName exists.</value>
@@ -7141,7 +7141,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>カーソル</value>
   </data>
   <data name="TouchFloaterMenuLoadCustomFloater" xml:space="preserve">
-    <value>フローターの読み込み</value>
+    <value>フローターの読み込み(&amp;L)</value>
   </data>
   <data name="SettingsActionConflictMessage" xml:space="preserve">
     <value>Potential conflict with action {0} &amp;gt; {1}.</value>
@@ -7398,7 +7398,7 @@ sp.MessageBox(path, 'Current Path');</value>
     <value>ウィンドウを常に上に設定</value>
   </data>
   <data name="HotkeyNotGlobalLabel" xml:space="preserve">
-    <value>未登録</value>
+    <value>既に登録されているグローバルホットキーの上書きを可能する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetSelectedFilesOnDesktop.Name" xml:space="preserve">
     <value>GetSelectedFilesOnDesktop</value>
@@ -7582,7 +7582,7 @@ clip.SetText(apps);
     <value>Name of the custom floater to move.</value>
   </data>
   <data name="ImportExportSelectAllLabel" xml:space="preserve">
-    <value>すべて選択</value>
+    <value>すべて選択(&amp;S)</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.IsUnicode.Example.Simple" xml:space="preserve">
     <value>.IsUnicode</value>
@@ -7936,7 +7936,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>Store Decimal</value>
   </data>
   <data name="TouchFloaterMenuMove" xml:space="preserve">
-    <value>移動</value>
+    <value>移動(&amp;M)</value>
   </data>
   <data name="ActionStepMethods.GetWindowFromClassOrTitle.DisplayName" xml:space="preserve">
     <value>クラスまたはタイトルからウィンドウを取得</value>
@@ -8026,7 +8026,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>前を検索</value>
   </data>
   <data name="tabPreferencesFireOnRelease" xml:space="preserve">
-    <value>有効化</value>
+    <value>有効化(&amp;E)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteStoredDecimal.Returns" xml:space="preserve">
     <value>void</value>
@@ -8457,7 +8457,7 @@ These methods allow you to build dynamic modules, types, and methods via System.
     <value>string</value>
   </data>
   <data name="ReferenceFooterText" xml:space="preserve">
-    <value>Additional references are .NET Framework libraries that will be loaded into the Script Engine the same way System.Drawing.dll is, for example.</value>
+    <value>.NET Frameworkライブラリを参照に追加することができます。追加した参照先は、例えばSystem.Drawing.dllがスクリプトエンジンに読み込まれる方法と同等に読み込まれることとなります。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.CommandLine.Name" xml:space="preserve">
     <value>CommandLine</value>
@@ -9795,7 +9795,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>Screen</value>
   </data>
   <data name="ExclusionZoneFixed" xml:space="preserve">
-    <value>修繕</value>
+    <value>固定</value>
   </data>
   <data name="ActionStepMethods.GetColorFromRGB.HelpTip" xml:space="preserve">
     <value>指定された赤、緑、青の値から新しい色変数を返します。</value>
@@ -9909,7 +9909,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>.AllDescendantWindows</value>
   </data>
   <data name="FloaterToggleSecondaryMenu" xml:space="preserve">
-    <value>第二フローター</value>
+    <value>第二フローター(&amp;2)</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.ClipToScreen.Returns" xml:space="preserve">
     <value>void</value>
@@ -10377,7 +10377,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>vk</value>
   </data>
   <data name="PlugInTabLocations" xml:space="preserve">
-    <value>場所を検索</value>
+    <value>読み込み先フォルダー</value>
   </data>
   <data name="ScriptHelpClassActionVarsName" xml:space="preserve">
     <value>ActionVars</value>
@@ -10401,7 +10401,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>names</value>
   </data>
   <data name="Copy" xml:space="preserve">
-    <value>コピー</value>
+    <value>コピー(&amp;C)</value>
   </data>
   <data name="Info" xml:space="preserve">
     <value>情報</value>
@@ -10413,7 +10413,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>Name</value>
   </data>
   <data name="Undo" xml:space="preserve">
-    <value>やり直し</value>
+    <value>やり直し(&amp;U)</value>
   </data>
   <data name="Hide" xml:space="preserve">
     <value>隠す</value>
@@ -10432,13 +10432,13 @@ Full Name: '{1}'
 Plus-in DLL: '{2}' </value>
   </data>
   <data name="Redo" xml:space="preserve">
-    <value>やり直し</value>
+    <value>リドゥ(&amp;R)</value>
   </data>
   <data name="Stop" xml:space="preserve">
     <value>Stop</value>
   </data>
   <data name="Save" xml:space="preserve">
-    <value>保存</value>
+    <value>保存(&amp;S)</value>
   </data>
   <data name="Play" xml:space="preserve">
     <value>再生</value>
@@ -10474,7 +10474,7 @@ Plus-in DLL: '{2}' </value>
     <value>string[]</value>
   </data>
   <data name="CustomFloaterAdd" xml:space="preserve">
-    <value>フローターを追加</value>
+    <value>フローターを追加(&amp;A)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleEnableTimestamps.Returns" xml:space="preserve">
     <value>void</value>
