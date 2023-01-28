@@ -8653,7 +8653,6 @@ var apiModBuilder = sp.NativeModule("WinAPI");</value>
     <value>アクションステップ パラメータエラー</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindow.Parameters.ProfileName.Description" xml:space="preserve">
-      <value>Name of the user data sub-folder to use for this WebView2 session; will create new or reuse previously created folder. This is helpful for using different browsing sessions.</value>
     <value>WebView2セッションで使用するデータサブフォルダの名前; 新規作成または以前作成したフォルダを再利用します。異なるブラウジングセッションを用いるときにの便利です。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredObject.Example.Simple" xml:space="preserve">
@@ -8877,10 +8876,9 @@ var newType = new NativeModules.MyType();</value>
     <value>常に上にサーフェスを描画します</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PlayTemporaryMacro.Example.Full" xml:space="preserve">
-    <value>//以下の用意されたControl+Win+Aのホットキーがあるとします。 すべてのコンビネーションキーにアップイベントを送ります、 どのキーも押した状態にしないために
-    どのキーもDownの状態ではじめてハマることを避けるために、私はCtrl+Win+Aのホットキーの例を用意しました。それで、すべてのコンビネーションキーへUpイベントを送信します。
-    第一に、Downキーが押された状態ではじまることで往生することがないよう、ホットキーを作りました。
-    
+    <value>//キーがDown状態になってはまることがないよう、Ctrl+Win+Aでのホットキーを用意しました。最初に全てのコンビネーションキーに対してUpイベントを送っています。
+//Here I have a hotkey which is Control+Win+A, so I will send the up event for all combinations of the keys first to make sure none of them get stuck in the down state.
+
 sp.SendVKeyUp(vk.LCONTROL);
 sp.SendVKeyUp(vk.RCONTROL);
 sp.SendVKeyUp(vk.CONTROL);
