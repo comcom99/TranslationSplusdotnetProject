@@ -127,7 +127,7 @@
     <value>メインフローターの場所を所得</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseClick.Description" xml:space="preserve">
-    <value>Simulates pressing and/or releasing a mouse button at a specific location.</value>
+    <value>マウスのボタンを特定の場所で押すか離すのをシミュレートします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendVKeyUp.Returns" xml:space="preserve">
     <value>void</value>
@@ -230,7 +230,7 @@ sp.PopupList(items,
 */</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.TopMost.Description" xml:space="preserve">
-    <value>Gets or sets the top most status of the control or window.</value>
+    <value>コントロールまたはウィンドウの最上部のステータスを取得または設定する</value>
   </data>
   <data name="ActionStepMethods.EmptyRecycleBins.DisplayName" xml:space="preserve">
     <value>ごみ箱を空にする</value>
@@ -269,16 +269,16 @@ sp.MessageBox(str, 'Items(s)');</value>
     <value>ウィンドウサイズを設定する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunProgram.Parameters.verb.Description" xml:space="preserve">
-    <value>The ShellExecute verb to use, if applicable.</value>
+    <value>シェル実行に使用するverb（もし該当する場合があれば）</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.MoveToScreen.Parameters.number.Description" xml:space="preserve">
-    <value>The index of the screen to send the window to. See AllScreens to get all screen which can be used to determine the screen indexes.</value>
+    <value>ウィンドウを送信するスクリーンのインデックス。スクリーンインデックスを決定するために使用できるすべてのスクリーンを取得するには、AllScreensを参照。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunProgram.Parameters.fileName.Description" xml:space="preserve">
-    <value>The file name of the item to execute or open.</value>
+    <value>実行または開く項目のファイル名</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetMacroScript.Description" xml:space="preserve">
-    <value>Returns the full script for the specified macro.</value>
+    <value>指定されたマクロのスクリプトの文字列を全てそのまま返します</value>
   </data>
   <data name="ActionStepMethods.ToggleCommunicationsMute.HelpTip" xml:space="preserve">
     <value>既定の通信ミキサー/デバイスでミュートを切り替え。</value>
@@ -386,22 +386,22 @@ sp.MessageBox(str, 'Items(s)');</value>
     <value>ウィンドウクラス名を取得する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PlaySound.Parameters.filePath.Description" xml:space="preserve">
-    <value>The full file path of the .wav file to play.</value>
+    <value>再生するwavファイルのフルパス</value>
   </data>
   <data name="tabPreferencesFireOnX1Click" xml:space="preserve">
     <value>有効</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowBalloonTip.Parameters.timeout.Description" xml:space="preserve">
-    <value>How long to display the balloon/toast popup.</value>
+    <value>バルーン/トーストのポップアップを表示する時間</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ExpandEnvironmentVariables.Parameters.value.Description" xml:space="preserve">
-    <value>String containing the environment variables to be expanded.</value>
+    <value>展開される環境変数が入った文字列</value>
   </data>
   <data name="ActionStepMethods.ContainsRegex.DisplayName" xml:space="preserve">
     <value>正規表現が含まれています</value>
   </data>
   <data name="StrokesPlusAlreadyRunningTitle" xml:space="preserve">
-    <value>ミューテックスの取得に失敗しました</value>
+    <value>Mutexの取得に失敗しました</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TypeBuilder.DefineNestedStruct.Description" xml:space="preserve">
     <value>Alias for TypeBuilder.DefineNestedType to simplify obtaining an instantiated System.Reflection.Emit.TypeBuilder object.</value>
@@ -422,7 +422,7 @@ sp.MessageBox(str, 'Items(s)');</value>
     <value>sp.DeleteAllStoredRectangles();</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.FirstMoveableParent.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object for first parent window which is moveable; a window which has a system menu. If the window itself is moveable, it returns itself. If no matching parent is found, returns null.</value>
+    <value>移動可能な最初の親ウィンドウ(システムメニューを持つウィンドウ)の SystemWindow オブジェクトを返します。ウィンドウ自体が移動可能な場合、それ自身を返します。一致する親が見つからない場合は、null を返します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.ClassName.Type" xml:space="preserve">
     <value>string</value>
@@ -446,7 +446,7 @@ sp.MessageBox(str, 'Items(s)');</value>
     <value>string</value>
   </data>
   <data name="ScriptHelp.ActionMethod.FindImageWithinImage.Parameters.needle.Description" xml:space="preserve">
-    <value>The source image to look for within the haystack image.</value>
+    <value>haystack画像から探す元画像</value>
   </data>
   <data name="GesturePatternConfirmDeleteMessage" xml:space="preserve">
     <value>{0}ジェスチャパターンを削除してもよろしいですか？</value>
@@ -473,7 +473,7 @@ sp.MessageBox(str, 'Items(s)');</value>
     <value>StrokesPlus.netを終了します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterToggleOthers.Description" xml:space="preserve">
-    <value>Toggles the visibility of the non-primary floaters.</value>
+    <value>カスタムフローターの表示/非表示を切り替えます。</value>
   </data>
   <data name="TouchFloaterMenuDisableFloater" xml:space="preserve">
     <value>無効にする</value>
@@ -497,7 +497,7 @@ sp.MessageBox(str, 'Items(s)');</value>
     <value>Color</value>
   </data>
   <data name="ActionStepMethods.GetStoredNumber.DisplayName" xml:space="preserve">
-    <value>保存番号を取得する</value>
+    <value>保存された数字を取得する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteAllStoredValues.Returns" xml:space="preserve">
     <value>void</value>
@@ -506,7 +506,7 @@ sp.MessageBox(str, 'Items(s)');</value>
     <value>指定されたプロパティまたはフィールドの値を、オブジェクトからTrueTypeで返します。ディープネーム(PropertyA.FieldB.PropertyC)をサポートします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterIsShown.Description" xml:space="preserve">
-    <value>Returns true if the main floater is shown.</value>
+    <value>メインフローターが表示されていればtrueを返します。</value>
   </data>
   <data name="tabPreferencesNoMatchSoundFileButton" xml:space="preserve">
     <value>参照...</value>
@@ -521,7 +521,7 @@ sp.MessageBox(str, 'Items(s)');</value>
     <value>入力ボックス</value>
   </data>
   <data name="ScriptHelp.ActionMethod.IsButtonDown.Description" xml:space="preserve">
-    <value>Returns true if the specified mouse button is currently pressed (down).</value>
+    <value>指定されたマウスボタンが現在押されている（ダウンしている）場合、true を返す。</value>
   </data>
   <data name="ActionStepMethods.ToggleWindowAlwaysOnTop.HelpTip" xml:space="preserve">
     <value>指定されたウィンドウの常に最上位のフラグを切り替え(SystemWindow型として渡されます)。</value>
@@ -533,7 +533,7 @@ sp.MessageBox(str, 'Items(s)');</value>
     <value>seconds</value>
   </data>
   <data name="ActionStepMethods.SendControlDown.HelpTip" xml:space="preserve">
-    <value>左のControlキーを押すことをシミュレートします。</value>
+    <value>左Controlキーを押すことをシミュレートします。</value>
   </data>
   <data name="ActionStepMethods.LoadFloaterLayout.DisplayName" xml:space="preserve">
     <value>フローターレイアウトの読み込み</value>
@@ -623,7 +623,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>クリップボードを介したリッチテキスト(RTF)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowFromPoint.Parameters.topLevelOnly.Description" xml:space="preserve">
-    <value>Pass true to only return the top level window (the main application), false returns the window or control directly below the point.</value>
+    <value>トップレベルのウィンドウ（メインアプリケーション）のみを返す場合はtrueを、ポイントの直下にあるウィンドウまたはコントロールを返す場合はfalseを渡します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StorePoint.Parameters.name.Description" xml:space="preserve">
     <value>Name used to store the point.</value>
@@ -632,7 +632,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>sp.StopAllScripts();</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.PostMessageObj.Parameters.wParam.Description" xml:space="preserve">
-    <value>The wParam value to post, casted to IntPtr.</value>
+    <value>IntPtrにキャストされたwParamに投げる値。</value>
   </data>
   <data name="Engine" xml:space="preserve">
     <value>Engine</value>
@@ -647,7 +647,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>rows</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetKeyState.Description" xml:space="preserve">
-    <value>Returns a short (number) containing the key state data for the specified key. See the GetKeyState Microsoft documentation for key state data details.</value>
+    <value>指定されたキーの状態データを含む short (数値) を返します。キーの状態データの詳細については、 GetKeyState Microsoft のドキュメントを参照してください。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegions.Parameters.rows.Type" xml:space="preserve">
     <value>int</value>
@@ -712,7 +712,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>\0 空文字</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegions.Parameters.rect.Description" xml:space="preserve">
-    <value>The rectangle representing the area which will be divided into regions and returned.</value>
+    <value>領域に分割して返される領域を表す矩形</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowFromPoint.Example.Simple" xml:space="preserve">
     <value>sp.WindowFromPoint(action.Start, true).Center();</value>
@@ -745,13 +745,13 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>SystemWindow</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SetMouseCursor.Parameters.cursorType.Description" xml:space="preserve">
-    <value>One of the following values: Arrow, IBeam, WaitCursor, Cross, UpArrow, SizeNWSE, SizeNESW, SizeWE, SizeNS, SizeAll, No, Hand, AppStarting, Help</value>
+    <value>以下の値のいずれか。: Arrow, IBeam, WaitCursor, Cross, UpArrow, SizeNWSE, SizeNESW, SizeWE, SizeNS, SizeAll, No, Hand, AppStarting, Help</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterLoadCustomFloater.Parameters.name.Type" xml:space="preserve">
     <value>string</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleWarning.Description" xml:space="preserve">
-    <value>Logs a warning event to the User log in the console window.</value>
+    <value>コンソールウィンドウで、ユーザーログの警告イベントを出力します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterLoadCustomFloater.Parameters.name.Name" xml:space="preserve">
     <value>name</value>
@@ -787,10 +787,10 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>現在のマウスポイントを取得する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleError.Description" xml:space="preserve">
-    <value>Logs an error event to the User log in the console window.</value>
+    <value>コンソールウィンドウのユーザーログにエラーイベントを出力します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseClick.Parameters.down.Description" xml:space="preserve">
-    <value>Simulate pressing the specified mouse button down. Pass down and up as true to simulate a full click.</value>
+    <value>指定されたマウスのボタンを押し下げることをシミュレートします。downとupをtrueとして渡すと、フルクリックをシミュレートすることができます。</value>
   </data>
   <data name="ScriptHelpCategoryTextExtensions" xml:space="preserve">
     <value>これらは、既存の.NET型をStrokesPlus.netに特化した形で拡張したものです。</value>
@@ -799,7 +799,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>Returns a decimal previously stored using sp.StoreNumber.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RelayGesture.Description" xml:space="preserve">
-    <value>Relays the mouse down, mouse movements, and mouse release based on the points and button specified.</value>
+    <value>場所やボタンにもとにマウスの押し下げ・動き・リリースを再現する。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteAllStoredRectangles.Name" xml:space="preserve">
     <value>DeleteAllStoredRectangles</value>
@@ -814,7 +814,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>最大ドローポイント</value>
   </data>
   <data name="ScriptHelp.ActionMethod.IsKeyDown.Parameters.vk.Description" xml:space="preserve">
-    <value>The VirtualKeyCode (vk.XX) value to check.</value>
+    <value>押されているかチェックさせる仮想キー(vk.XX) の値</value>
   </data>
   <data name="frmInsertHotkeyHeaderText" xml:space="preserve">
     <value>下のボックスを使用して目的のキーの組み合わせを押し、[OK]をクリックします。
@@ -834,25 +834,25 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>ポイントを取得</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendMessageObj.Description" xml:space="preserve">
-    <value>Sends a message to the control or window.</value>
+    <value>コントロールまたはウィンドウにSendメッセージを送信します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.ScreenFromPoint.Description" xml:space="preserve">
-    <value>Returns a screen based on a location.</value>
+    <value>位置情報をもとにしたScreenオブジェクトを返します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendMessageObj.Parameters.lParam.Description" xml:space="preserve">
-    <value>The lParam value to post, casted to IntPtr.</value>
+    <value>IntPtrにキャストされたlParamに投げる値。</value>
   </data>
   <data name="ActionStepMethods.TogglePlaybackMute.HelpTip" xml:space="preserve">
     <value>既定の再生ミキサー/デバイスでミュートを切り替え。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Thread.Description" xml:space="preserve">
-    <value>Returns the ProcessThread object for the control or window.</value>
+    <value>コントロールまたはウィンドウのProcessThreadオブジェクトを返します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.Activate.Returns" xml:space="preserve">
     <value>void</value>
   </data>
   <data name="ScriptHelp.ActionMethod.AllWindows.Description" xml:space="preserve">
-    <value>Returns an array of SystemWindow objects for all controls and windows. See also sp.AllApplications().</value>
+    <value>すべてのコントロールとウィンドウのSystemWindowオブジェクトの配列を返します。sp.AllApplications()も参照してください。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredHandle.Example.Simple" xml:space="preserve">
     <value>var storedhandle = sp.GetStoredHandle('test');</value>
@@ -936,7 +936,7 @@ clip.SetText(s);</value>
     <value>.Title</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.MoveToPreviousScreen.Description" xml:space="preserve">
-    <value>Moves the window to the previous screen as defined in Windows, returns the new Screen.</value>
+    <value>ウィンドウをWindowsによって定義された前の画面に移動し、新しい画面を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowPopupMenu.Returns" xml:space="preserve">
     <value>void</value>
@@ -957,7 +957,7 @@ clip.SetText(s);</value>
     <value>bool</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetFileVersionInfo.Description" xml:space="preserve">
-    <value>Returns a string representing the file's version number, in the format of x.x.x.x</value>
+    <value>version x.x.x.xの様式のようなファイルのバージョン番号の文字列を返します。</value>
   </data>
   <data name="MacroOptionsMinSleepDelayLabel" xml:space="preserve">
     <value>最小スリープ時間</value>
@@ -990,7 +990,7 @@ clip.SetText(s);</value>
     <value>色から赤の値を得る</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowPopupMenu.Parameters.info.Description" xml:space="preserve">
-    <value>The PopupMenuInfo object containing the info used when displaying the popup menu.</value>
+    <value>ポップアップメニューを表示する際に使用する情報を含むPopupMenuInfoオブジェクト</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseClick.Parameters.btn.Type" xml:space="preserve">
     <value>MouseButtons</value>
@@ -1007,7 +1007,7 @@ clip.SetText(s);</value>
   <data name="FindReplaceFind" xml:space="preserve">
     <value>検索</value>
   </data>
-  <data name="AltKey" xml:space="preserve">redo
+  <data name="AltKey" xml:space="preserve">
     <value>Alt</value>
   </data>
   <data name="FindReplaceWrap" xml:space="preserve">
@@ -1094,7 +1094,7 @@ clip.SetText(s);</value>
     <value>.EnsureVisible()</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseRestrictActive.Description" xml:space="preserve">
-    <value>Returns true or false, indicating whether the mouse is being restricted via sp.MouseRestrictToRectangle.</value>
+    <value>sp.MouseRestrictToRectangleによってマウスが制限されているかどうかを示すtrueまたはfalseを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCommunicationsMixer.Returns" xml:space="preserve">
     <value>CoreAudioDevice</value>
@@ -1118,16 +1118,16 @@ clip.SetText(s);</value>
     <value>StrokesPlus.net終了時に実行するスクリプトの有効化</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StopAllScripts.Description" xml:space="preserve">
-    <value>Stops all currently executing scripts.</value>
+    <value>実行中のスクリプトをすべて止めます。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PopupList.Parameters.Items.Description" xml:space="preserve">
-    <value>The list of items to show in the popup.</value>
+    <value>ポップアップに表示する項目の一覧です</value>
   </data>
   <data name="frmLicenseTitle" xml:space="preserve">
     <value>ライセンスと帰属</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PlayTemporaryMacro.Example.Simple" xml:space="preserve">
-    <value>//IMPORTANT: If calling this from a hotkey, make sure to add a sp.Sleep(1000); before calling this function to ensure you release the hotkeys before the macro starts or the keys could be stuck in the down state, or send the key up events for the keys used in the hotkey as shown in the full example.
+    <value>//重要: ホットキーから呼び出す場合は、sp.Sleep(1000)など追加することを強く勧めます; この関数を呼び出す前に、マクロが始まるまえにホットキーを離すか、ホットキーを用いるなど(Full Example参照)してキーアップイベントを送信するよう確認してください。
 sp.PlayTemporaryMacro();</value>
   </data>
   <data name="LoadingInitializingHotkeys" xml:space="preserve">
@@ -1146,7 +1146,7 @@ sp.PlayTemporaryMacro();</value>
     <value>現在のパスワード</value>
   </data>
   <data name="ScriptHelp.ActionMethod.CreateTimer.Parameters.interval.Description" xml:space="preserve">
-    <value>Number of millseconds between each timer script execution.</value>
+    <value>タイマーによるスクリプトを繰り返し実行するの間の時間（ミリ秒）</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleShowOnSystemError.Returns" xml:space="preserve">
     <value>void</value>
@@ -1158,13 +1158,13 @@ sp.PlayTemporaryMacro();</value>
     <value>DisplayTextClose</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.ScreenFromPoint.Parameters.pt.Description" xml:space="preserve">
-    <value>The screen coordinates to use for locating the screen.</value>
+    <value>画面確定に使うスクリーン上の座標</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowPopupMenuEx.Name" xml:space="preserve">
     <value>ShowPopupMenuEx</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseRestrictToRectangle.Parameters.rect.Description" xml:space="preserve">
-    <value>The rectangle (screen coordinates) inside which the mouse cannot leave.</value>
+    <value>マウスが離れることができないようにする矩形（スクリーン座標）</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryReadNumber.Parameters.baseKey.Name" xml:space="preserve">
     <value>baseKey</value>
@@ -1182,7 +1182,7 @@ sp.PlayTemporaryMacro();</value>
     <value>sp.EnableCapture();</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ExecutePreviousScript.Parameters.index.Description" xml:space="preserve">
-    <value>Index of the previous script to execute.</value>
+    <value>過去に実行されたスクリプトのインデックス番号</value>
   </data>
   <data name="ScriptHelpCategoryNameSystemWindow" xml:space="preserve">
     <value>SystemWindow (システムウィンドウ)</value>
@@ -1235,7 +1235,7 @@ sp.PlayTemporaryMacro();</value>
     <value>name</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowsFromTitleRegex.Parameters.regexTitle.Description" xml:space="preserve">
-    <value>Regular expression pattern</value>
+    <value>正規表現パターン</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteStoredPoint.Parameters.name.Type" xml:space="preserve">
     <value>string</value>
@@ -1265,7 +1265,7 @@ sp.PlayTemporaryMacro();</value>
     <value>今すぐジェスチャーを描画...</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunProgram.Parameters.style.Description" xml:space="preserve">
-    <value>State of the window when started, valid values: hidden, normal, minimized, maximized.</value>
+   <value>起動時のウィンドウの状態、有効な値：hidden, normal, minimized, maximized</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MessageBox.Example.Simple" xml:space="preserve">
     <value>sp.MessageBox('Message', 'Title');</value>
@@ -1283,7 +1283,7 @@ sp.PlayTemporaryMacro();</value>
     <value>16進数から色を取得</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendToBottom.Description" xml:space="preserve">
-    <value>Sends the window to the bottom of the window stack/z-index.</value>
+    <value>ウィンドウをウィンドウスタック/z-indexの最下位に送る</value>
   </data>
   <data name="ActionStepMethods.SendShiftDown.DisplayName" xml:space="preserve">
     <value>Shift押下を送信</value>
@@ -1304,7 +1304,7 @@ sp.PlayTemporaryMacro();</value>
     <value>(int)SystemMetric</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Process.Description" xml:space="preserve">
-    <value>Returns the Process object for the control or window.</value>
+    <value>コントロールまたはウィンドウのプロセスオブジェクトを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetSystemMetricsByIndex.Parameters.index.Name" xml:space="preserve">
     <value>index</value>
@@ -1331,10 +1331,10 @@ sp.PlayTemporaryMacro();</value>
     <value>画面上の指定されたポイントから移動可能な最初の親ウィンドウを返します。これは、メインウィンドウまたは検索ダイアログのようなツールウィンドウである可能性があります。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowFromHandle.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object of a window or control from an existing handle</value>
+    <value>既存のハンドルからウィンドウまたはコントロールのSystemWindowオブジェクトを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindowExecuteScriptAsync.Parameters.Handle.Description" xml:space="preserve">
-    <value>Handle of the window.</value>
+    <value>ウィンドウのハンドル</value>
   </data>
   <data name="ActionStepMethods.Break.HelpTip" xml:space="preserve">
     <value>Loopブロック内のステップの処理をただちに停止し、EndLoopステップに続いて実行を続行します。</value>
@@ -1358,10 +1358,10 @@ sp.PlayTemporaryMacro();</value>
     <value>上に移動</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.Maximize.Description" xml:space="preserve">
-    <value>Maximizes the window.</value>
+    <value>ウィンドウを最大化します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetPixelColorFromPoint.Parameters.pt.Description" xml:space="preserve">
-    <value>Location on the screen to find the pixel's color.</value>
+    <value>スクリーン上でピクセルの色を探索する場所</value>
   </data>
   <data name="ActionStepMethods.IsWindowMinimized.HelpTip" xml:space="preserve">
     <value>指定されたウィンドウが最小化されている場合(SystemWindow型として渡された場合)はtrueを返します。</value>
@@ -1403,13 +1403,13 @@ sp.PlayTemporaryMacro();</value>
     <value>全画面の場合は無視</value>
   </data>
   <data name="ScriptHelp.ActionMethod.NextApplication.Description" xml:space="preserve">
-    <value>Actives the next window in the stack</value>
+    <value>次のウィンドウをアクティブにします。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Process.Example.Simple" xml:space="preserve">
     <value>.Process</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendKeys.Parameters.str.Description" xml:space="preserve">
-    <value>The SendKeys compatible sequence of keystrokes to send.</value>
+    <value>送信するキーストロークの列。SendKeys互換。</value>
   </data>
   <data name="tabPreferencesTextExpansionTriggersGroup" xml:space="preserve">
     <value>トリガー</value>
@@ -1427,11 +1427,11 @@ sp.PlayTemporaryMacro();</value>
     <value>sp.TouchFloaterLoadLayout('LayoutName');</value>
   </data>
   <data name="ScriptHelpScriptObjectsPopupMenuItemText" xml:space="preserve">
-    <value>Used when constructing an instance of PopupMenuInfoEx
+    <value>PopupMenuInfoExのインスタンスを生成する際に使用する
 
     public class PopupMenuItem
     {
-        public Point Text { get; set; } //Use "-" for separator
+        public Point Text { get; set; } //Use "-" for separator "-"をセパレータとして使ってください
         public string Script { get; set; }
         public List&amp;lt;PopupMenuItem&amp;gt; SubMenuItems { get; set; }
     }</value>
@@ -1464,7 +1464,7 @@ sp.PlayTemporaryMacro();</value>
     <value>If / ElseIfブロックの終わりを定義します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.ClientRectangle.Description" xml:space="preserve">
-    <value>Returns a Rectangle object for the client position of the control or window on the screen. ClientRectangle always starts with the top left of 0,0.</value>
+    <value>画面上のコントロールまたはウィンドウのクライアント位置を表すRectangleオブジェクトを返します。ClientRectangleは常に左上0,0から始まります。</value>
   </data>
   <data name="ActionStepMethods.ContainsRegex.HelpTip" xml:space="preserve">
     <value>指定された正規表現を使用してsourceTextに1つ以上の一致がある場合、trueを返します。</value>
@@ -1482,7 +1482,7 @@ sp.PlayTemporaryMacro();</value>
     <value>showErrors</value>
   </data>
   <data name="ScriptHelp.ActionMethod.LastActiveWindow.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object for the last active primary window.</value>
+    <value>最後にアクティブになっていたメインウィンドウのSystemWindowオブジェクトを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ForegroundWindow.Example.Simple" xml:space="preserve">
     <value>sp.ForegroundWindow().Center();</value>
@@ -1499,8 +1499,8 @@ sp.PlayTemporaryMacro();</value>
   <data name="X1Mouse" xml:space="preserve">
     <value>X1ボタン</value>
   </data>
-  <data name="ActionStepMethods.MoveWindowToNextScreen.HelpTip" xml:space="preserve">
-    <value>ウィンドウを次の画面に移動し、移動先のScreenオブジェクトを返します。画面の順序はウィンドウによって決定されます。</value>
+  <data name="ActionStepMethods.MoveWindowToNextScreen.HelpTip" xml:space="preserve">  
+    <value>ウィンドウを次の画面に移動し、移動先の Screen オブジェクトを返します。画面の順番は Windows によって決定されます。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StoreBool.Parameters.name.Name" xml:space="preserve">
     <value>name</value>
@@ -1509,10 +1509,10 @@ sp.PlayTemporaryMacro();</value>
     <value>シナプティク スタッチパッド</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisableNext.Description" xml:space="preserve">
-    <value>Disables the next stroke or secondary stroke button press from capturing.</value>
+    <value>次のストロークまたはセカンダリストロークボタンを押したときのキャプチャを無効にします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendModifiedVKeys.Description" xml:space="preserve">
-    <value>Simulates pressing a key combination, like Ctrl+S, Win+E, etc. The modifiers are held down, the keys are sent, then the modifiers are released.</value>
+    <value>Ctrl+S, Win+E, etc. のような複数のキー組み合わせの上げ下げをシミュレートします。修飾キーは押し下げられ、キーは押され、最後に修飾キーはリリースされます。</value>
   </data>
   <data name="ActionStepMethods.StopAllScripts.DisplayName" xml:space="preserve">
     <value>すべてのスクリプトを停止する</value>
@@ -1632,7 +1632,7 @@ sp.PlayTemporaryMacro();</value>
     <value>object (casts to int then IntPtr)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCommunicationsVolume.Description" xml:space="preserve">
-    <value>Returns the current volume level of the default communications mixer/device. (0 - 100)</value>
+    <value>デフォルトの通信用ミキサー／デバイスの現在の音量レベルを返します。(0 - 100)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Enable.Description" xml:space="preserve">
     <value>StrokesPlus.netを有効化します。ただし、sp.CreateTimerタイマーを通して呼び出された場合のみ実行できることに注意してください。 Note: The only way to execute this would be via timer created by sp.CreateTimer.</value>
@@ -1682,7 +1682,7 @@ sp.PlayTemporaryMacro();</value>
 [新しいパスワード]フィールドを空のままにして、パスワードをクリアし、設定ファイルを復号化します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.ClientPointToScreenPoint.Description" xml:space="preserve">
-    <value>Returns a Point translated from client coordinates to screen coordinates relative to the upper-left corner of the screen.</value>
+    <value>画面の左上隅を基準としてクライアント座標から画面座標に変換されたPointを返します。</value>
   </data>
   <data name="FindReplaceFindAllButton" xml:space="preserve">
     <value>すべて検索</value>
@@ -1823,7 +1823,7 @@ sp.PlayTemporaryMacro();</value>
     <value>Delete All Stored Points</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetFileProductVersionInfo.Description" xml:space="preserve">
-    <value>Returns a string represnting the file's product version, as returned by FileVersionInfo.ProductVersion.</value>
+    <value>FileVersionInfo.ProductVersionから返ってきたファイルの製品バージョンの文字列を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindow.Example.Full" xml:space="preserve">
     <value>// This function is called when the HTML window is created, passing the ID and window Handle
@@ -1891,7 +1891,7 @@ sp.HTMLWindow("Window Title",
                  // false will not include any additional HTML beyond what is passed in from above</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.IsImmersive.Description" xml:space="preserve">
-    <value>Returns true if the window is flagged as immersive, which is generally a Windows 8 Metro/Store type app.</value>
+    <value>ウィンドウが没入型としてフラグが立っている場合、一般的にWindows 8 Metro/Storeタイプのアプリである場合にtrueを返します。</value>
   </data>
   <data name="ActionStepMethods.GetForegroundWindow.DisplayName" xml:space="preserve">
     <value>フォアグラウンドウィンドウを取得</value>
@@ -1900,7 +1900,7 @@ sp.HTMLWindow("Window Title",
     <value>メインフローターが表示されている場合はtrueを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendWinUp.Description" xml:space="preserve">
-    <value>Simulates releasing the left Win key.</value>
+    <value>左Winキーの押し上げをシミュレートします。</value>
   </data>
   <data name="TouchFloaterMenuResetFloater" xml:space="preserve">
     <value>フローターのリセット</value>
@@ -1912,7 +1912,7 @@ sp.HTMLWindow("Window Title",
     <value>Set Log Default Color</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisplayImage.Parameters.image.Description" xml:space="preserve">
-    <value>The .NET Image object to be displayed in the popup window.</value>
+    <value>ポップアップウィンドウに表示する.NET Imageオブジェクト</value>
   </data>
   <data name="ActionStepMethods.OpenURL.DisplayName" xml:space="preserve">
     <value>URLを開く</value>
@@ -1925,6 +1925,7 @@ sp.HTMLWindow("Window Title",
   </data>
   <data name="ScriptHelp.ActionMethod.ShowPopupMenuEx.Example.Simple" xml:space="preserve">
     <value>//For script is running in an action, otherwise use a Point instead of action.End
+//スクリプトがアクション内で実行されているとき、action.EndのPointは上書きされます
 var popupMenuInfoEx = new PopupMenuInfoEx(action.End);
 popupMenuInfoEx.MenuItems.Add(new PopupMenuItem("Test", `sp.MessageBox("Test", "Test");`));
 popupMenuInfoEx.MenuItems.Add(new PopupMenuItem("-"));
@@ -2005,7 +2006,7 @@ sp.DisplayText(info);</value>
     <value>SetPlaybackVolume</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HideMouseCursor.Description" xml:space="preserve">
-    <value>Hides the mouse cursor. NOTE: This basically makes all cursors transparent and are restored via sp.ShowMouseCursor(). However, this simply resets the mouse cursors to the default icon set, so any custom cursors you have selected will be reverted.</value>
+    <value>マウスカーソルを非表示にします。注意: これは基本的にすべてのカーソルを透明にし、sp.ShowMouseCursor() によって復元されます。しかし、これは単にマウスカーソルをデフォルトのアイコンセットにリセットするだけなので、選択したカスタムカーソルは元に戻ってしまいます。</value>
   </data>
   <data name="AddTextExpansion" xml:space="preserve">
     <value>テキスト拡張を追加</value>
@@ -2035,10 +2036,10 @@ sp.DisplayText(info);</value>
     <value>マウスフックを読み込んでいます...</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendVKeyUp.Parameters.vk.Description" xml:space="preserve">
-    <value>The VirtualKeyCode (vk.XX) value to send.</value>
+    <value>送信する仮想キーコード(vk.XX）値</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SetMouseCursor.Description" xml:space="preserve">
-    <value>Sets the specified system cursor to the cursor loaded from the specified file. This cursor is not saved, reloading Windows or calling sp.ShowMouseCursor() will revert to cursor defined in Control Panel.</value>
+    <value>指定されたシステムカーソルを、指定されたファイルから読み込まれたカーソルに設定します。このカーソルは保存されず、Windowsのリロードやsp.ShowMouseCursor()の呼び出しにより、コントロールパネルで定義されたカーソルに戻されます。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendCharacter.Example.Simple" xml:space="preserve">
     <value>sp.SendCharacter('a');</value>
@@ -2050,19 +2051,19 @@ sp.DisplayText(info);</value>
     <value>ウィンドウの場所Xを取得する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendUnicodeString.Description" xml:space="preserve">
-    <value>Simulates sending a sequence of Unicode characters. Not sure if this function is required, I wanted to provide multiple methods for international users.</value>
+    <value>Unicode 文字のシーケンスを送信することをシミュレートします。この機能が求められているかどうかわかりませんが、私は海外のユーザーのために複数の方法を提供を望みました。</value>
   </data>
   <data name="ScriptHelpCategoryNameExposedObjects" xml:space="preserve">
     <value>.NET and ClearScript</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendShiftUp.Description" xml:space="preserve">
-    <value>Simulates releasing the left Shift key.</value>
+    <value>左Shiftキーを離すのをシミュレートします。</value>
   </data>
   <data name="ActionStepMethods.IsCustomFloaterLoaded.HelpTip" xml:space="preserve">
     <value>名前に一致するフローターが現在読み込まれている場合はtrueを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendModifiedVKeys.Parameters.Modifiers.Description" xml:space="preserve">
-    <value>Single (vk.XX) or array ([vk.XX, vk.XX]) of VirtualKeyCode modifier value(s). Modifiers are Control, Alt, Shift, and Win keys.</value>
+    <value>単体 (vk.XX) あるいは配列([vk.XX, vk.XX])による仮想キーコードの修飾キーの値。修飾キーとはControl, Alt, Shift, Winキーのこと。</value>
   </data>
   <data name="LoadingThreadPriority" xml:space="preserve">
     <value>スレッドの優先順位を設定しています...</value>
@@ -2071,7 +2072,7 @@ sp.DisplayText(info);</value>
     <value>使用言語/文字を所得・変更するための関数</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.PostMessageObj.Parameters.message.Description" xml:space="preserve">
-    <value>The message value to post, casted to uint.</value>
+    <value>uintにキャストされたmessageに投げる値。</value>
   </data>
   <data name="ActionStepMethodCategories.Keyboard.DisplayName" xml:space="preserve">
     <value>キーボード</value>
@@ -2118,19 +2119,19 @@ speech  = System.Speech</value>
     <value>GetMethods</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.IsDescendantOf.Description" xml:space="preserve">
-    <value>Returns true if this object is a child of the ancestor object.</value>
+    <value>このオブジェクトが祖先オブジェクトの子である場合、true を返します。</value>
   </data>
   <data name="AppDefinitionInvalidRegexMessage" xml:space="preserve">
     <value>このパターンは、有効な正規表現パターンではありません。このエントリの正規表現はオフになっています。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloatersReset.Description" xml:space="preserve">
-    <value>Resets the main floaters to their default positions.</value>
+    <value>メインフローターの場所を規定位置にリセットします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisableNext.Name" xml:space="preserve">
     <value>DisableNext</value>
   </data>
   <data name="ScriptHelp.ActionMethod.InputBox.Description" xml:space="preserve">
-    <value>Displays a window which can be used to collect user input. See InputBoxInfo for more details.</value>
+    <value>ユーザー入力を収集するために使用できるウィンドウを表示します。詳細は InputBoxInfo を参照してください。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.VisibilityFlag.Example.Simple" xml:space="preserve">
     <value>.VisibilityFlag</value>
@@ -2160,13 +2161,13 @@ speech  = System.Speech</value>
     <value>フローター</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseWheel.Parameters.delta.Description" xml:space="preserve">
-    <value>The positive or negative delta (change) to send indicating how far the wheel was scrolled. The standard is in increments of 120 and is recommended, e.g. 120 or -120.</value>
+    <value>ホイールがどの程度スクロールされたかを示す、正または負のデルタ（変化量）を送信する。標準は120刻みで、120または-120のようにすることが推奨される。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleError.Name" xml:space="preserve">
     <value>ConsoleError</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindow.Parameters.NoFrame.Description" xml:space="preserve">
-    <value>If true, the HTML window will be created without a title bar or window border.</value>
+    <value>trueの場合、HTMLウィンドウはタイトルバーやウィンドウのボーダーなしで作成</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryReadNumber.Description" xml:space="preserve">
     <value>Reads the specified registry key and return the number.</value>
@@ -2187,7 +2188,7 @@ speech  = System.Speech</value>
     <value>ポイントX、Yからコントロールを取得</value>
   </data>
   <data name="ScriptHelp.ActionMethod.FindImageWithinImage.Parameters.haystack.Description" xml:space="preserve">
-    <value>The target image to search for the needle image.</value>
+    <value>needle画像を検索する対象画像</value>
   </data>
   <data name="ItemAlreadyExistsMessage" xml:space="preserve">
     <value>同じ名前のアイテムがすでに存在します。</value>
@@ -2232,7 +2233,7 @@ var region = sp.GetRegionFromPoint(action.Window.Rectangle, action.Start, column
     <value>インポート...</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendShiftDown.Description" xml:space="preserve">
-    <value>Simulates pressing the left Shift key down.</value>
+    <value>左Shiftキーを押すのをシミュレートします。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.FirstMoveableParent.Example.Simple" xml:space="preserve">
     <value>.FirstMoveableParent</value>
@@ -2298,7 +2299,7 @@ var region = sp.GetRegionFromPoint(action.Window.Rectangle, action.Start, column
     <value>If</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetMacroScript.Parameters.name.Description" xml:space="preserve">
-    <value>Name of the macro.</value>
+    <value>マクロの名前</value>
   </data>
   <data name="PlugInRemoveLocation" xml:space="preserve">
     <value>フォルダを削除(&amp;D)</value>
@@ -2338,7 +2339,7 @@ StrokesPlus.netは終了します。</value>
     <value>void</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.Refresh.Description" xml:space="preserve">
-    <value>If supported, invalidates the client area of the window and forces a redraw.</value>
+    <value>サポートされている場合、ウィンドウのクライアント領域を無効にし、再描画を強制する。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryWrite.Parameters.keyName.Description" xml:space="preserve">
     <value>Name of the subkey within the baseKey to store the value in.</value>
@@ -2368,13 +2369,13 @@ StrokesPlus.netは終了します。</value>
     <value>$(名前)名前付きグループ</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetSelectedFilesInExplorer.Parameters.hWnd.Description" xml:space="preserve">
-    <value>Handle to the Explorer window.</value>
+    <value>エクスプローラーウィンドウへのハンドル</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredDecimal.Parameters.name.Name" xml:space="preserve">
     <value>name</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Disable.Description" xml:space="preserve">
-    <value>Disable StrokesPlus.net.</value>
+    <value>StrokesPlus.netを無効にします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredDecimal.Parameters.name.Type" xml:space="preserve">
     <value>string</value>
@@ -2395,7 +2396,7 @@ StrokesPlus.netは終了します。</value>
     <value>隠し</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.AllScreens.Description" xml:space="preserve">
-    <value>Returns an array of Screen objects containing all screens as defined by Windows.</value>
+    <value>Windows で定義されたすべてのスクリーンを含む Screen オブジェクトの配列を返す。</value>
   </data>
   <data name="Height" xml:space="preserve">
     <value>高さ</value>
@@ -2407,7 +2408,7 @@ StrokesPlus.netは終了します。</value>
     <value>void</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisplayTextUpdate.Parameters.info.Description" xml:space="preserve">
-    <value>The DisplayTextInfo object containing the information used to display the popup.</value>
+    <value>ポップアップを表示するために使用される情報を含む DisplayTextInfo オブジェクト。</value>
   </data>
   <data name="MacroRecordLoseScriptMessage" xml:space="preserve">
     <value>このスクリプトをクリアして、新しいスクリプトを記録してもよろしいですか？</value>
@@ -2422,7 +2423,7 @@ StrokesPlus.netは終了します。</value>
     <value>文字列の長さを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegionFromPoint.Parameters.rect.Description" xml:space="preserve">
-    <value>The rectangle representing the area which will be divided into regions and returned.</value>
+    <value>領域に分割して返される領域を表す矩形</value>
   </data>
   <data name="tabPreferencesHintLocationBottomLeft" xml:space="preserve">
     <value>左下</value>
@@ -2492,7 +2493,7 @@ sp.DisplayTextUpdate(info);
     <value>定義済みのアプリケーションのみを許可する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetTimerScript.Description" xml:space="preserve">
-    <value>Returns the script from the previouly created timer via sp.CreateTimer.</value>
+    <value>CreateTimerで作られたスクリプトの文字列を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RefreshNativeModules.Example.Simple" xml:space="preserve">
     <value>sp.RefreshNativeModules();</value>
@@ -2504,10 +2505,10 @@ sp.DisplayTextUpdate(info);
     <value>var filteredList = myList.Where(i =&gt; i.Property == "value");</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetPixelColorFromPoint.Description" xml:space="preserve">
-    <value>Returns a Color struct for the pixel at the location of the point passed in.</value>
+    <value>渡された場所に位置するピクセルの色情報を構造体で返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleShowOnSystemError.Description" xml:space="preserve">
-    <value>Enables or disables if the console window is displayed on error.</value>
+    <value>エラー時にコンソールウィンドウを表示するかどうかを設定します。</value>
   </data>
   <data name="tabPreferencesHintLocationTopRight" xml:space="preserve">
     <value>右上</value>
@@ -2534,7 +2535,7 @@ sp.DisplayTextUpdate(info);
     <value>EnableCapture</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterLoadLayout.Description" xml:space="preserve">
-    <value>Load a floater layout by name. Only works if floaters are currently shown.</value>
+    <value>名前でフローターレイアウトを呼び出します。フローターが表示されているときのみ、動作します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterLoadCustomFloater.Returns" xml:space="preserve">
     <value>bool</value>
@@ -2621,7 +2622,7 @@ VCRUNTIME140.dll
     <value>void</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindow.Parameters.BrowserOptions.Description" xml:space="preserve">
-    <value>One or more browser command line options supported by WebView2.</value>
+    <value>WebView2 がサポートする 1 つ以上のブラウザコマンドラインオプション</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.ClipToScreen.Name" xml:space="preserve">
     <value>ClipToScreen</value>
@@ -2636,13 +2637,13 @@ VCRUNTIME140.dll
     <value>Writes a key/value to the registry.</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.WindowState.Description" xml:space="preserve">
-    <value>Returns the window state of the window.</value>
+    <value>ウィンドウの状態を返します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Visible.Example.Simple" xml:space="preserve">
     <value>.Visible</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.ExecutableName.Description" xml:space="preserve">
-    <value>Returns the file name of the executable which owns the window; use ExecutablePath to get the folder.</value>
+    <value>ウィンドウを所有する実行ファイルのファイル名を返します。フォルダを取得するには ExecutablePath を使用してください。</value>
   </data>
   <data name="ActionStepMethods.HideFloaters.HelpTip" xml:space="preserve">
     <value>フローターを非表示にします。</value>
@@ -2651,7 +2652,7 @@ VCRUNTIME140.dll
     <value>ウィンドウの幅を取得</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendMessageSetTextObj.Parameters.message.Description" xml:space="preserve">
-    <value>The message value to post, casted to uint.</value>
+    <value>uintにキャストされたmessageに投げる値。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Parent.Example.Simple" xml:space="preserve">
     <value>.Parent</value>
@@ -2669,7 +2670,7 @@ VCRUNTIME140.dll
     <value>マッチしなかった時</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisplayTextUpdate.Description" xml:space="preserve">
-    <value>Updates the current popup created by sp.DisplayText. This is far more efficient than closing and displaying a new popup.</value>
+    <value>sp.DisplayText によって作成された現在のポップアップを更新します。これは、新しいポップアップを閉じて表示するよりもはるかに効率的です。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.MoveToNextScreen.Example.Simple" xml:space="preserve">
     <value>.MoveToNextScreen()</value>
@@ -2678,7 +2679,7 @@ VCRUNTIME140.dll
     <value>void</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PopupList.Parameters.TextColor.Description" xml:space="preserve">
-    <value>Text color to use for the popup, or null to use system Menu Text color.</value>
+    <value>ポップアップに使用するテキスト色、システムメニューのテキスト色を使用する場合はnull</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetItemsInExplorer.Parameters.hWnd.Name" xml:space="preserve">
     <value>hWnd</value>
@@ -2723,7 +2724,7 @@ VCRUNTIME140.dll
     <value>現在のエクスプローラーパスを取得する</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.AllChildWindows.Description" xml:space="preserve">
-    <value>Returns as array of SystemWindow objects for direct child controls or window.</value>
+    <value>直接の子コントロールまたはウィンドウのSystemWindowオブジェクトの配列として返されます。</value>
   </data>
   <data name="SettingsToolbarOnlineRepo" xml:space="preserve">
     <value>オンライン リポジトリ</value>
@@ -2741,13 +2742,13 @@ VCRUNTIME140.dll
     <value>学習モード</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegionFromPoint.Parameters.columns.Description" xml:space="preserve">
-    <value>The number of columns to divide the rectangle into.</value>
+    <value>矩形を分割する列の数</value>
   </data>
   <data name="AboutOpenConfigLocation" xml:space="preserve">
     <value>設定フォルダを開く</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SetCommunicationsVolume.Description" xml:space="preserve">
-    <value>Sets the volume level of the default communications mixer/device. (0 - 100)</value>
+    <value>デフォルトの通信用ミキサー／デバイスの音量レベルを設定します。(0 - 100)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleShow.Returns" xml:space="preserve">
     <value>void</value>
@@ -2783,10 +2784,10 @@ VCRUNTIME140.dll
     <value>ModuleBuilder.CreateType</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PopupList.Parameters.HighlightColor.Description" xml:space="preserve">
-    <value>Item highlight color to use for the popup, or null to use system Menu Highlight color.</value>
+    <value>ポップアップに使用する項目のハイライト色、システムメニューハイライト色を使用する場合はnull</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SetPlaybackVolume.Description" xml:space="preserve">
-    <value>Sets the volume level of the default playback mixer/device. (0 - 100)</value>
+    <value>デフォルトの再生用ミキサー／デバイスの音量レベルを設定します。(0 - 100)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCommunicationsVolume.Name" xml:space="preserve">
     <value>GetCommunicationsVolume</value>
@@ -2828,7 +2829,7 @@ VCRUNTIME140.dll
     <value>指定されたキーストロークをフォアグラウンドウィンドウに送信します。特殊文字やControl / Alt / Shiftなどの修飾キーの使用などの使用法の詳細については、MicrosoftSystem.Windows.Forms.SendKeysクラスのドキュメントを参照してください。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowFromHandle.Parameters.hWnd.Description" xml:space="preserve">
-    <value>Handle to the control or window</value>
+    <value>コントロールまたはウィンドウへのハンドル</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredNumber.Returns" xml:space="preserve">
     <value>int</value>
@@ -2869,7 +2870,7 @@ if(devices.Where(d =&gt; d.Name == "Rob's Galaxy Note10").Count() &gt; 0) {
     <value>Type</value>
   </data>
   <data name="ActionStepMethods.PlaySound.DisplayName" xml:space="preserve">
-    <value>音を再生</value>
+    <value>wavファイルを再生</value>
   </data>
   <data name="ActionStepMethods.GetObjectFieldByName.DisplayName" xml:space="preserve">
     <value>名前でオブジェクトフィールドを取得</value>
@@ -2946,7 +2947,7 @@ user32TB.Create();</value>
     <value>名前を変更する(&amp;R)</value>
   </data>
   <data name="ScriptHelpScriptObjectsPopupMenuInfoText" xml:space="preserve">
-    <value>Used when calling sp.ShowPopupMenu()
+    <value>sp.ShowPopupMenu()呼び出し時に使用
 
     public class PopupMenuInfo
     {
@@ -2987,7 +2988,7 @@ user32TB.Create();</value>
     <value>利用可能な設定</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Minimized.Description" xml:space="preserve">
-    <value>Returns true if the window in minimized.</value>
+    <value>ウィンドウが最小化していればTrueを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StorePoint.Parameters.value.Type" xml:space="preserve">
     <value>Point</value>
@@ -2996,13 +2997,13 @@ user32TB.Create();</value>
     <value>value</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetItemsInExplorer.Parameters.hWnd.Description" xml:space="preserve">
-    <value>Handle to the Explorer window.</value>
+    <value>エクスプローラーウィンドウへのハンドル</value>
   </data>
   <data name="ScriptHelp.ActionMethod.LastApplication.Returns" xml:space="preserve">
     <value>void</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.RealParent.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object for the parent control or window, using a different set of rules to determine parent.</value>
+    <value>親コントロールまたはウィンドウの SystemWindow オブジェクトを、 親を決定するための異なるルールを使用して返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredObject.Parameters.name.Type" xml:space="preserve">
     <value>string</value>
@@ -3014,7 +3015,7 @@ user32TB.Create();</value>
     <value>マウスとキーボードのフックを無効にします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleClearUser.Description" xml:space="preserve">
-    <value>Clears the User log in the console window.</value>
+    <value>コンソールウィンドウのユーザーログを消去する</value>
   </data>
   <data name="LoadSettingsErrorMessage" xml:space="preserve">
     <value>設定の読み込み中にエラーが発生しました。デフォルト設定を作成しますか？
@@ -3105,10 +3106,10 @@ typesTB.DefineNestedStruct("RECT",
     <value>object</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetHistoryScript.Parameters.index.Description" xml:space="preserve">
-    <value>Index of the history script to retrieve.</value>
+    <value>取得する履歴スクリプトのインデックス</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowsFromTitlePartial.Parameters.partialTitle.Description" xml:space="preserve">
-    <value>Partial search string. This is an exact partial match not a wildcard or regular expression match.</value>
+    <value>検索文字列の部分一致。これは、ワイルドカードや正規表現によるマッチではなく、完全な部分マッチ。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteStoredHandle.Parameters.name.Description" xml:space="preserve">
     <value>Name used to store the handle.</value>
@@ -3156,7 +3157,7 @@ typesTB.DefineNestedStruct("RECT",
     <value>string</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.Minimize.Description" xml:space="preserve">
-    <value>Minimizes the window.</value>
+    <value>ウィンドウを最小化します。</value>
   </data>
   <data name="CustomFloaterLeave" xml:space="preserve">
     <value>ホバーから離脱時</value>
@@ -3171,7 +3172,7 @@ typesTB.DefineNestedStruct("RECT",
     <value>スクリプトヘルプ</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.ClientPointToScreenPoint.Parameters.clientPoint.Description" xml:space="preserve">
-    <value>The client Point to translate to a screen Point.</value>
+    <value>画面Pointに変換するクライアントPoint。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TypeBuilder.NewMethod.Parameters.returnType.Description" xml:space="preserve">
     <value>(optional) .NET type for the method, null for void</value>
@@ -3180,7 +3181,7 @@ typesTB.DefineNestedStruct("RECT",
     <value>パディング(px)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ExecutePreviousScript.Description" xml:space="preserve">
-    <value>Executes one of the previous 5 scripts that were executed. The last 5 scripts are stored in history and the index specifies which one to retrieve. The index is zero based, so 0 is the most recent script, 4 is the oldest script in history.</value>
+    <value>過去に実行された5つのスクリプトのうち一つを実行します。 5つのスクリプトは履歴に保存されていて、インデックスはどれを取得するか指定します。インデックスは0に基づいています。つまり、 0 は最も新しく、 4 は履歴の中で最も古いスクリプトです。</value>
   </data>
   <data name="tabPreferencesHintLocationRight" xml:space="preserve">
     <value>右</value>
@@ -3217,13 +3218,13 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>仮想キー押下を送信する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendString.Parameters.str.Description" xml:space="preserve">
-    <value>Sequence of characters to send.</value>
+    <value>送信する文字列</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteStoredString.Name" xml:space="preserve">
     <value>DeleteStoredString</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PopupList.Description" xml:space="preserve">
-    <value>Shows a popup list, like a menu, which can execute scripts and supports nested items.</value>
+    <value>メニューのようなポップアップリストを表示し、スクリプトを実行でき、項目の入れ子(Nested)もサポートします。</value>
   </data>
   <data name="tabPreferencesMaxScriptEnginePoolSize" xml:space="preserve">
     <value>スクリプトプールの最大サイズ</value>
@@ -3268,7 +3269,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>queryString</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindow.Parameters.OnDocumentCreatedScript.Description" xml:space="preserve">
-    <value>JavaScript to execute in the HTML window once the document is created.</value>
+    <value>ドキュメントが作成された後、HTMLウィンドウで実行されるJavaScript</value>
   </data>
   <data name="ScriptHelp.ActionMethod.NativeDelegateList.Parameters.delegateList.Description" xml:space="preserve">
     <value>Array of parameters which match the NativeDelegate function. For example: [["EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT],["EnumWindowsProcA", [IntPtrT, IntPtrT], BooleanT]]</value>
@@ -3283,7 +3284,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>ヒント ウィンドウを初期化しています...</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Enabled.Description" xml:space="preserve">
-    <value>Gets or sets the enabled state of the control or window.</value>
+    <value>コントロールまたはウィンドウの有効状態を取得または設定します。</value>
   </data>
   <data name="ScriptHelpMethodText" xml:space="preserve">
     <value>Method</value>
@@ -3343,10 +3344,10 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>新しい無視されたウィンドウ</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleError.Parameters.message.Description" xml:space="preserve">
-    <value>Message to log.</value>
+    <value>出力されるメッセージ</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Location.Description" xml:space="preserve">
-    <value>The location of the control or window inside its parent or on the screen, does not include window borders.</value>
+    <value>コントロールまたはウィンドウの親内または画面上の位置で、ウィンドウの境界は含まれない。</value>
   </data>
   <data name="FindReplaceMenuLineFeed" xml:space="preserve">
     <value>\n 改行</value>
@@ -3415,7 +3416,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>.RECT</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendModifiedVKeys.Parameters.Keys.Description" xml:space="preserve">
-    <value>Single (vk.XX) or array ([vk.XX, vk.XX]) of VirtualKeyCode values to send after the modifiers have been pressed down.</value>
+    <value>修飾キーが押されたあとに送信されることになる単一（vk.XX）または配列（[vk.XX, vk.XX]）のキーコードの値。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteAllStoredBools.Name" xml:space="preserve">
     <value>DeleteAllStoredBools</value>
@@ -3499,7 +3500,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>保存された変数をクリアしています...</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Movable.Description" xml:space="preserve">
-    <value>Returns true if the window has the WS_SYSMENU flag.</value>
+    <value>ウィンドウに WS_SYSMENU フラグが設定されている場合、true を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredString.Example.Simple" xml:space="preserve">
     <value>var stringval = sp.GetStoredString('test');</value>
@@ -3511,7 +3512,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>value</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetMethod.Parameters.name.Description" xml:space="preserve">
-    <value>Name of the sp.(Function), e.g. 'GetMethod'.</value>
+    <value>sp.(Function)の名前。例: 'GetMethod'</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StoreObject.Parameters.value.Type" xml:space="preserve">
     <value>int</value>
@@ -3541,7 +3542,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>マウスボタン: X1</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.Highlight.Description" xml:space="preserve">
-    <value>Highlights the window with a red border. Not very consistent or reliable.</value>
+    <value>ウィンドウの境界線を赤くハイライトします。ただし、ほとんど一貫しない、もしくは信頼できない（メソッドです）。Not very consistent or reliable.</value>
   </data>
   <data name="frmAppBeforeAfterTab" xml:space="preserve">
     <value>自動化の前後</value>
@@ -3553,7 +3554,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>string</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.FitToScreen.Description" xml:space="preserve">
-    <value>Fits the window on the screen where the window resides.</value>
+    <value>どこにウィンドウがいてもウィンドウをスクリーンにフィットさせます。</value>
   </data>
   <data name="AppDefinitionOwnerClass" xml:space="preserve">
     <value>オーナークラス名:</value>
@@ -3571,7 +3572,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>Name used to store the string.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.IsKeyDown.Description" xml:space="preserve">
-    <value>Returns true if the specified key is currently pressed (down).</value>
+    <value>特定のキーが押し下げられているときTrueを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterShow.Returns" xml:space="preserve">
     <value>void</value>
@@ -3580,13 +3581,13 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>ロードオートメーションの処理に失敗しました。ロードオートメーションでエラーを確認します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowsFromTitleRegex.Description" xml:space="preserve">
-    <value>Returns an array of SystemWindow objects for controls or windows based on a regular expression title match.</value>
+    <value>正規表現のタイトルマッチに基づくコントロールまたはウィンドウのSystemWindowオブジェクトの配列を返します。</value>
   </data>
   <data name="WordForTab" xml:space="preserve">
     <value>Tab</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunProgram.Parameters.arguments.Description" xml:space="preserve">
-    <value>Command line arguments to pass to the program.</value>
+    <value>プログラムに渡すコマンドライン引数</value>
   </data>
   <data name="tabPreferencesDrawWindowToBottom" xml:space="preserve">
     <value>ドローサーフェスを下に送信</value>
@@ -3685,7 +3686,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>number</value>
   </data>
   <data name="ScriptHelp.ActionMethod.EnableCapture.Description" xml:space="preserve">
-    <value>Enables the mouse and keyboard hooks.</value>
+    <value>マウスとキーボードのフックを有効にします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleLog.Parameters.color.Name" xml:space="preserve">
     <value>color</value>
@@ -3706,7 +3707,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>エクスポート...</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Region.Description" xml:space="preserve">
-    <value>Gets (if defined) or sets the region of the control or window.</value>
+    <value>コントロールまたはウィンドウの領域を取得（定義されている場合）または設定します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredNumber.Description" xml:space="preserve">
     <value>Returns a number previously stored using sp.StoreNumber.</value>
@@ -3757,10 +3758,10 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>ToggleTrayIcon</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetItemsInExplorer.Parameters.onlyNames.Description" xml:space="preserve">
-    <value>If true, only return names, not the full path and name.</value>
+    <value>trueの場合、フルパスと名前ではなく、名前のみを返します</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Maximized.Description" xml:space="preserve">
-    <value>Returns true if the window is maximized.</value>
+    <value>ウィンドウが最大化されていればTrueを返します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendToBottom.Example.Simple" xml:space="preserve">
     <value>.SendToBottom()</value>
@@ -3772,7 +3773,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>ConsoleIsVisible</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCaretLocation.Description" xml:space="preserve">
-    <value>Returns the location of the caret on the screen. If the location cannot be determined, returns null.</value>
+    <value>画面にあるキャレットの座標を返します。場所が不明なときはnullを返します。</value>
   </data>
   <data name="ActionStepMethods.GetWindowFromClassOrTitle.HelpTip" xml:space="preserve">
     <value>クラス名やタイトルに基づいて、コントロールまたはウィンドウのSystemWindowオブジェクトを返します。</value>
@@ -3793,7 +3794,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>void</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Resizable.Description" xml:space="preserve">
-    <value>Returns true if the window has the WS_THICKFRAME flag.</value>
+    <value>ウィンドウに WS_THICKFRAME フラグが設定されている場合、true を返します。</value>
   </data>
   <data name="FindReplaceFindAllHighlightMatches" xml:space="preserve">
     <value>一致を強調表示</value>
@@ -3802,13 +3803,13 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>メインフローターを表示</value>
   </data>
   <data name="ScriptHelp.ActionMethod.IsButtonDown.Parameters.button.Description" xml:space="preserve">
-    <value>The mouse button to use for the event(s).</value>
+    <value>押し下げイベントに使っているマウスのボタン</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterHide.Example.Simple" xml:space="preserve">
     <value>sp.TouchFloaterHide();</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetHistoryScript.Description" xml:space="preserve">
-    <value>Returns a history script of the specified index. The last 5 scripts are stored in history and the index specifies which one to retrieve. The index is zero based, so 0 is the most recent script, 4 is the oldest script in history.</value>
+    <value>履歴スクリプトの指定された番号を返します。履歴には過去 5 回のスクリプトが保存されていて、インデックスはどれを取得するか指定します。インデックスは0に基づいてます。つまり、0最も新しく、4が履歴の中で最も古いスクリプトです。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendClose.Example.Simple" xml:space="preserve">
     <value>.SendClose()</value>
@@ -3835,7 +3836,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>TouchFloaterSetCustomFloaterLocation</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SupportsSelection.Description" xml:space="preserve">
-    <value>Returns true if the control supports selections via messaging (DLGC_HASSETSEL)</value>
+    <value>コントロールがメッセージングによる選択をサポートしている場合は true を返します 。(DLGC_HASSETSEL)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryReadString.Parameters.showErrors.Description" xml:space="preserve">
     <value>Displays an error message box, if the action was not successful.</value>
@@ -3859,7 +3860,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>sp.CreateTimer('test', 1000, -1, String.raw`sp.MessageBox('Test', 'Timer');sp.DeleteTimer('test');`);</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunStoreApp.Description" xml:space="preserve">
-    <value>Takes a full or partial Store app package name and activates or runs it. If more than one match is found, the first match will be used. Note there is a slight delay due to enumerating all installed Store apps.</value>
+    <value>完全一致または部分一致のStoreアプリパッケージ名を受け取り、そのアプリを起動または実行します。複数マッチした場合は、最初にマッチしたものが使用されます。インストールされているすべてのストアアプリを列挙するため、若干の遅延が発生することに注意してください。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ModuleBuilder.DefineType.Parameters.typeAttributes.Description" xml:space="preserve">
     <value>Comma-separated list of TypeAttributes to apply to the type.</value>
@@ -3889,7 +3890,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>すべてのパターンを削除することはできません。このジェスチャを削除する場合は、このウィンドウを閉じてジェスチャを削除してください。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterCloseCustomFloater.Description" xml:space="preserve">
-    <value>Close a custom floater by name. Only works if floaters are currently shown.</value>
+    <value>カスタムフローターを名前で閉じます。フローターが現在表示されている場合のみ動作します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryDeleteSubKey.Parameters.subKey.Description" xml:space="preserve">
     <value>Name of the subkey within the baseKey to delete.</value>
@@ -3916,7 +3917,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>bool</value>
   </data>
   <data name="ScriptHelp.ActionMethod.IsKeyToggled.Parameters.name.Description" xml:space="preserve">
-    <value>The VirtualKeyCode (vk.XX) value to check.</value>
+    <value>押されているか確認する仮想キー(vk.XX) の値</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetActiveExplorerPath.Returns" xml:space="preserve">
     <value>string[]</value>
@@ -3957,13 +3958,13 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>既定の再生ミキサー/デバイスの現在の音量レベルを返します。 (0 - 100)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowPopupMenuEx.Description" xml:space="preserve">
-    <value>Displays a context menu from which the user can select an item. This is an extended version of ShowPopupMenu that allows for more a complex menu structure and doesn't require a callback.</value>
+    <value>ユーザーが項目を選択できるコンテキスト メニューを表示します。これは、ShowPopupMenu の拡張バージョンで、より複雑なメニュー構造を可能にし、コールバックを必要としない。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.CreateTimer.Parameters.startdelay.Description" xml:space="preserve">
-    <value>Number of milliseconds until the timer starts.</value>
+    <value>タイマーによるスクリプトが始まるまでの時間（ミリ秒）</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.WindowBelow.Description" xml:space="preserve">
-    <value>Gets the SystemWindow object for the window below.</value>
+    <value>下のウィンドウに対応する SystemWindow オブジェクトを取得します。</value>
   </data>
   <data name="ActionStepMethods.StoreObject.DisplayName" xml:space="preserve">
     <value>オブジェクトを格納する</value>
@@ -3984,7 +3985,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>Rectangle</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendVKeyUp.Description" xml:space="preserve">
-    <value>Simulates releasing the specified VirtualKeyCode.</value>
+    <value>特定の仮想キーを離すのをシミュレートします。</value>
   </data>
   <data name="ScriptHelpCategoryNameOperatingSystem" xml:space="preserve">
     <value>OS (オペレーティングシステム)</value>
@@ -4005,7 +4006,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>Color構造体から青(B)の値を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RelayGesture.Parameters.button.Description" xml:space="preserve">
-    <value>The mouse button to be pressed down at the start of points and released at the end.</value>
+    <value>スタート地点で押されたマウスのボタンと終了地点で離されたマウスのボタン</value>
   </data>
   <data name="FindReplaceOptionsMatchCase" xml:space="preserve">
     <value>マッチケース</value>
@@ -4017,13 +4018,13 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>グローバルアクションなし</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.CommandLine.Description" xml:space="preserve">
-    <value>Gets the command line for the process via WMI.</value>
+    <value>WMI経由でプロセスのコマンドラインを取得します。</value>
   </data>
   <data name="ActionStepMethods.AppendText.DisplayName" xml:space="preserve">
     <value>テキストを追加</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterShow.Description" xml:space="preserve">
-    <value>Shows the main floater.</value>
+    <value>メインフローターを表示します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StorePoint.Description" xml:space="preserve">
     <value>Stores a point using the specified name. Value can be retrieved via sp.GetStoredPoint.</value>
@@ -4035,7 +4036,8 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>すべてのアクションステップを停止する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindow.Description" xml:space="preserve">
-    <value>Displays a window which hosts a WebView2 control to display and make interactive HTML windows.</value>
+    <value>WebView2 コントロールをホストとするウィンドウを表示し、対話的なHTMLウィンドウを作成します。
+Displays a window which hosts a WebView2 control to display and make interactive HTML windows.</value>
   </data>
   <data name="TextExpansionTypeLabel" xml:space="preserve">
     <value>メソッド</value>
@@ -4053,7 +4055,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>.Refresh()</value>
   </data>
   <data name="ScriptHelpScriptObjectsFloaterVarsText" xml:space="preserve">
-    <value>Passed into floater events, variable name in script: floater
+    <value>floater：フローターイベントに渡される、スクリプト内の変数名
 
     public class FloaterVars
     {
@@ -4070,7 +4072,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     }</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetTimerScript.Parameters.name.Description" xml:space="preserve">
-    <value>Name of the timer.</value>
+    <value>タイマーの名前</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleLog.Parameters.color.Description" xml:space="preserve">
     <value>コンソールのテキストに特定の色を設定します。そうでない場合はデフォルトの色を使用します。</value>
@@ -4098,7 +4100,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>新しいアプリケーション</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.MoveToScreen.Description" xml:space="preserve">
-    <value>Moves the window to the specified screen number (index) as defined in Windows, returns the new Screen.</value>
+    <value>ウィンドウを Windows で定義された指定画面番号（インデックス）に移動し、新しい画面を返します。</value>
   </data>
   <data name="tabPreferencesFireOnWindowFocus" xml:space="preserve">
     <value>有効</value>
@@ -4143,7 +4145,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>bool</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunOrActivate.Parameters.exeName.Description" xml:space="preserve">
-    <value>The full path and file name of the program to activate or open.</value>
+    <value>起動または開くプログラムのフルパスとファイル名</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StoreDecimal.Returns" xml:space="preserve">
     <value>void</value>
@@ -4161,7 +4163,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>var isZKeyDown = sp.IsKeyDown(vk.VK_Z);</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ReloadScriptEnginePool.Description" xml:space="preserve">
-    <value>Stops all scripts and reloads the script engine pool.</value>
+    <value>すべてのスクリプトを止めて、スクリプトエンジンプールをリロードしなおします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetMethod.Example.Simple" xml:space="preserve">
     <value>sp.GetMethod('GetMethod');</value>
@@ -4197,10 +4199,10 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>LastFocusControl</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetItemsInExplorer.Parameters.includeFolders.Description" xml:space="preserve">
-    <value>If true, also include folders.</value>
+    <value>trueの場合、フォルダも含める</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisplayTextClose.Description" xml:space="preserve">
-    <value>Closes a popup previously displayed via sp.DisplayText.</value>
+    <value>sp.Displaytextによって表示されていたポップアップを閉じます。</value>
   </data>
   <data name="tabPreferencesScriptReplSectionLabel" xml:space="preserve">
     <value>トークンの置き換え</value>
@@ -4215,7 +4217,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>パラメータの挿入</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.ColorKey.Description" xml:space="preserve">
-    <value>Gets or sets the color key (transparent color) of the window, use Color.Transparent to remove the color key. Some applications behave erratically and cannot be clicked.</value>
+    <value>ウィンドウのカラーキー（透明色）を取得または設定します。カラーキーを削除するには、Color.Transparentを使用してください。アプリケーションによっては、挙動がおかしくなり、クリックできなくなることがあります。</value>
   </data>
   <data name="AddHotkey" xml:space="preserve">
     <value>ホットキーを追加</value>
@@ -4233,7 +4235,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>エクスプローラー</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendMessageSetTextObj.Parameters.lParam.Description" xml:space="preserve">
-    <value>The lParam value to post, casted to IntPtr.</value>
+    <value>IntPtrにキャストされたlParamに投げる値。</value>
   </data>
   <data name="tabPreferencesDisableUpdateCheck" xml:space="preserve">
     <value>更新チェックを無効にする</value>
@@ -4242,7 +4244,8 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>underlyingType</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Rectangle.Description" xml:space="preserve">
-    <value>Returns a Rectangle object for the position of the control or window on the screen, does not include window frame borders. Use .Position for relative location of controls and AbsoluteRectangle for full rectangle.</value>
+    <value>スクリーン上のコントロールまたはウィンドウの位置のRectangleオブジェクトを返します。コントロールの相対的な位置には.Positionを、完全な矩形にはAbsoluteRectangleを使用します。
+</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TypeBuilder.DefineNestedEnum.Parameters.underlyingType.Type" xml:space="preserve">
     <value>Type</value>
@@ -4251,7 +4254,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>void</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.RectangleF.Description" xml:space="preserve">
-    <value>Returns a RectangleF (float) object for the position of the control or window on the screen, does not include window frame borders.</value>
+    <value>スクリーン上のコントロールまたはウィンドウの位置をRectangleF（float）オブジェクトで返します（ウィンドウフレームの境界は含まれません）。</value>
   </data>
   <data name="ActionStepMethods.BreakIfExpression.DisplayName" xml:space="preserve">
     <value>Break If Expression</value>
@@ -4278,7 +4281,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>Deletes a previously saved string using Save String, sp.SaveString, or StrokesPlus.SavedStrings.Set.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ToggleTrayIcon.Description" xml:space="preserve">
-    <value>Toggles the visibility of the StrokesPlus.net tray icon.</value>
+    <value>トレイアイコンでのStrokesPlus.netのアイコンの表示を切り替えます。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Maximized.Example.Simple" xml:space="preserve">
     <value>.Maximized</value>
@@ -4305,10 +4308,10 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>Stores a decimal using the specified name. Value can be retrieved via GetStoredDecimal.</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.HWnd.Description" xml:space="preserve">
-    <value>Returns the handle to the control or window.</value>
+    <value>コントロールまたはウィンドウへのハンドルを返します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.ClipToScreen.Description" xml:space="preserve">
-    <value>Clips the window to the screen where the window resides.</value>
+    <value>ウィンドウをウィンドウが存在するスクリーンにクリップします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredRectangle.Example.Simple" xml:space="preserve">
     <value>var storedrect = sp.GetStoredRectangle('test');</value>
@@ -4380,7 +4383,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>レイアウトの新しい名前を入力します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.PostMessageObj.Parameters.lParam.Description" xml:space="preserve">
-    <value>The lParam value to post, casted to IntPtr.</value>
+    <value>IntPtrにキャストされたlParamに投げる値。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetTimerScript.Parameters.name.Type" xml:space="preserve">
     <value>string</value>
@@ -4413,7 +4416,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>GetStoredRectangle</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendUnicodeString.Parameters.str.Description" xml:space="preserve">
-    <value>Sequence of characters to send.</value>
+    <value>送信するユニコードの文字列</value>
   </data>
   <data name="ActionStepMethods.GetWindowHeight.HelpTip" xml:space="preserve">
     <value>指定されたウィンドウの高さを返します(SystemWindow型として渡されます)</value>
@@ -4455,7 +4458,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>sp.DisplayImage(clip.GetImage(), true); //Assumes an image is on the clipboard, enables mouse wheel scroll zooming</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterCloseCustomFloater.Parameters.name.Description" xml:space="preserve">
-    <value>Name of the custom floater to close.</value>
+    <value>閉じるカスタムフローターの名前</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisplayText.Name" xml:space="preserve">
     <value>DisplayText</value>
@@ -4512,7 +4515,7 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
     <value>name</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunStoreApp.Parameters.packageName.Description" xml:space="preserve">
-    <value>The full or partial package name of the Store app.</value>
+    <value>ストアアプリのフルパッケージ名または部分パッケージ名</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredPoint.Parameters.name.Type" xml:space="preserve">
     <value>string</value>
@@ -4534,16 +4537,16 @@ sp.HTMLWindowExecuteScriptAsync(sp.GetStoredHandle("testWindowHandle"), "alert('
 Error: '{0}'</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Image.Description" xml:space="preserve">
-    <value>Returns an image object of the window, similar to Alt+Print Screen.</value>
+    <value>ウィンドウのimageオブジェクトを返します。Alt+Print Screenに似ています。</value>
   </data>
   <data name="ActionStepMethods.SendShiftUp.HelpTip" xml:space="preserve">
-    <value>左のShiftキーを離すのをシミュレートします。</value>
+    <value>左Shiftキーを離すのをシミュレートします。</value>
   </data>
   <data name="LoadingSettingsImportExport" xml:space="preserve">
     <value>インポート/エクスポート セクションを初期化しています...</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Screen.Description" xml:space="preserve">
-    <value>Gets the Screen object for the screen where the window currently resides.</value>
+    <value>ウィンドウが現在存在するスクリーンのためのスクリーンオブジェクトを取得します。</value>
   </data>
   <data name="tabGlobalActionsTabName" xml:space="preserve">
     <value>アクションリスト</value>
@@ -4655,9 +4658,9 @@ Error: '{0}'</value>
 行った変更を失ってもよろしいですか？ </value>
   </data>
   <data name="ActionStepMethods.SetMouseCursor.HelpTip" xml:space="preserve">
-    <value>Sets the specified system cursor to the cursor loaded from the specified file. This cursor is not saved, reloading Windows or calling sp.ShowMouseCursor() will revert to cursor defined in Control Panel.
-cursorType must be one of the following values: Arrow, IBeam, WaitCursor, Cross, UpArrow, SizeNWSE, SizeNESW, SizeWE, SizeNS, SizeAll, No, Hand, AppStarting, Help. 
-fileName must be .CUR or .ANI file type.</value>
+    <value>指定されたシステムカーソルを、指定されたファイルから読み込まれたカーソルに設定します。このカーソルは保存されず、Windowsのリロードやsp.ShowMouseCursor()の呼び出しにより、コントロールパネルで定義されたカーソルに戻されます。
+cursorTypeは次のいずれかの値でなければなりません。Arrow, IBeam, WaitCursor, Cross, UpArrow, SizeNWSE, SizeNESW, SizeWE, SizeNS, SizeAll, No, Hand, AppStarting, Helpのいずれかを指定します。
+fileNameは.CURまたは.ANIファイルタイプである必要があります。</value>
   </data>
   <data name="MacroOptionsMinMouseDeltaLabel" xml:space="preserve">
     <value>マウスポイントのキャプチャ距離</value>
@@ -4678,10 +4681,10 @@ fileName must be .CUR or .ANI file type.</value>
     <value>void</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.PostMessageObj.Description" xml:space="preserve">
-    <value>Posts a message to the control or window.</value>
+    <value>コントロールまたはウィンドウにPostメッセージを送信します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PlayTemporaryMacro.Description" xml:space="preserve">
-    <value>Plays the last temporary macro. If you use this in a hotkey, you should add a sp.Sleep(1000); before calling this function to ensure you release the hotkeys before the macro starts or the keys could be stuck in the down state, or send the key up events for the keys used in the hotkey as shown in the full example.</value>
+    <value>最後の一時的なマクロを再生します。これをホットキーで使用する場合は、マクロが始まる前にホットキーを解放しないとキーがダウン状態で動かなくなる可能性があるので、この関数を呼び出す前に sp.Sleep(1000); を追加するか、完全な例に示すようにホットキーで使用されているキーのキーアップイベントを送信する必要があります。Returns a SystemWindow object for the Desktop ListView window, which is where the desktop icons reside.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.CreateTimer.Parameters.script.Name" xml:space="preserve">
     <value>script</value>
@@ -4699,7 +4702,7 @@ fileName must be .CUR or .ANI file type.</value>
     <value>Registry (レジストリ)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseWheel.Parameters.horizontal.Description" xml:space="preserve">
-    <value>If true, the wheel event is sent as a horizontal scroll, otherwise vertical is used.</value>
+    <value>trueの場合、ホイールイベントは水平スクロールとして送信され、そうでない場合は垂直スクロールが使用される</value>
   </data>
   <data name="ActionStepMethods.InvokeObjectMethodByName.HelpTip" xml:space="preserve">
     <value>オブジェクトの指定されたメソッドを呼び出し、提供されたパラメータのリストを渡します。</value>
@@ -4740,7 +4743,7 @@ if(res != null) {
     <value>structName</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetTimer.Description" xml:space="preserve">
-    <value>Returns a timer previously created via sp.CreateTimer.</value>
+    <value>sp.CreateTimerで以前作られたタイマーのスクリプトの文字列を返します。</value>
   </data>
   <data name="ActionStepMethods.MouseClickXY.DisplayName" xml:space="preserve">
     <value>マウスクリックX、Y</value>
@@ -4755,7 +4758,7 @@ if(res != null) {
     <value>string</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterLoadLayout.Parameters.name.Description" xml:space="preserve">
-    <value>Name of the floater layout to load.</value>
+    <value>呼び出されるフローターレイアウトの名前</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PopupList.Parameters.BackgroundColor.Type" xml:space="preserve">
     <value>Color</value>
@@ -4764,7 +4767,7 @@ if(res != null) {
     <value>BackgroundColor</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowFromPoint.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object of a control or window (based on topLevelOnly parameter) from a point (coordinate) on the screen</value>
+    <value>画面上のある点（座標）からコントロールまたはウィンドウ（topLevelOnlyパラメータに基づく）のSystemWindowオブジェクトを返します。</value>
   </data>
   <data name="TrayMenuDrawGestures" xml:space="preserve">
     <value>ジェスチャーの描画</value>
@@ -4773,10 +4776,10 @@ if(res != null) {
     <value>キーボードフックを停止しています...</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.CheckState.Description" xml:space="preserve">
-    <value>Whether this control, which is a check box or radio button, is checked.</value>
+    <value>チェックボックスまたはラジオボタンであるこのコントロールがチェックされているかどうか。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowBalloonTip.Parameters.title.Description" xml:space="preserve">
-    <value>Title of the balloon/toast popup.</value>
+    <value>バルーン/トーストポップアップのタイトル</value>
   </data>
   <data name="TrayMenuSyncSettings" xml:space="preserve">
     <value>同期の設定...</value>
@@ -4794,13 +4797,13 @@ if(res != null) {
     <value>.LegacyModuleName</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.IsDescendantOf.Parameters.ancestor.Description" xml:space="preserve">
-    <value>The SystemWindow object to search through children.</value>
+    <value>子ウィンドウを検索するための SystemWindow オブジェクトです。</value>
   </data>
   <data name="tabPreferencesHintActionFontNameLabel" xml:space="preserve">
     <value>アクションフォント</value>
   </data>
   <data name="ScriptHelp.ActionMethod.LastApplication.Description" xml:space="preserve">
-    <value>Activates the last active window, similar to Alt+Tab</value>
+    <value>最後にアクティブになっていたウィンドウをアクティブにします。Alt+Tabに似ています。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindowExecuteScriptAsync.Parameters.Script.Name" xml:space="preserve">
     <value>Script</value>
@@ -4830,13 +4833,13 @@ if(res != null) {
     <value>Highlight</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendString.Description" xml:space="preserve">
-    <value>Simulates sending a sequence of characters.</value>
+    <value>文字列の送信をシミュレートします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TypeBuilder.DefineNestedStruct.Parameters.structLayout.Description" xml:space="preserve">
     <value>(optional) Custom string array to combine TypeAttribute and StructLayoutAttribute values (either set can be omitted). Example: ["Explicit,Unicode","Size=8,Pack=4"]</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetItemsInExplorer.Parameters.includeLinks.Description" xml:space="preserve">
-    <value>If true, also include link items.</value>
+    <value>trueの場合、リンク項目も含める。 </value>
   </data>
   <data name="ScriptHelp.ActionMethod.TypeBuilder.DefineNestedEnum.Parameters.typeAttributes.Type" xml:space="preserve">
     <value>string</value>
@@ -4845,7 +4848,7 @@ if(res != null) {
     <value>typeAttributes</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterLoadCustomFloater.Parameters.name.Description" xml:space="preserve">
-    <value>Name of the custom floater to load.</value>
+    <value>呼び出すカスタムフローターの名前</value>
   </data>
   <data name="TextExpansionDescription" xml:space="preserve">
     <value>トークンを入力して[オプション]で定義されたトリガーキーを押すと、トークンはバックスペースされ、選択した方法で置き換えられます。</value>
@@ -4896,7 +4899,7 @@ if(res != null) {
     <value>bool</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetTimer.Parameters.name.Description" xml:space="preserve">
-    <value>Name of the timer.</value>
+    <value>タイマーの名前</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.TopMost.Name" xml:space="preserve">
     <value>TopMost</value>
@@ -4929,10 +4932,10 @@ if(res != null) {
     <value>vk</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteAllTimers.Description" xml:space="preserve">
-    <value>Stops and deletes all timers created via sp.CreateTimer.</value>
+    <value>sp.CreateTimerを通して生成されたすべてのタイマーを停止して削除します。</value>
   </data>
   <data name="ActionStepMethods.PlaySound.HelpTip" xml:space="preserve">
-    <value>.wavファイルを再生します。他のサウンドフォーマットはサポートしていません。</value>
+    <value>wavファイルを再生します。他のサウンドフォーマットはサポートしていません。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetKeyState.Example.Simple" xml:space="preserve">
     <value>var isShiftDown = sp.GetKeyState(vk.SHIFT) &amp; 0x8000</value>
@@ -4995,10 +4998,10 @@ if(res != null) {
     <value>ウィンドウの場所を設定する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PopupList.Parameters.MultiSelect.Description" xml:space="preserve">
-    <value>If true, allows multiple selections using space bar or mouse clicks.</value>
+    <value>trueの場合、スペースバーやマウスクリックによる複数選択が可能になる</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowBalloonTip.Parameters.text.Description" xml:space="preserve">
-    <value>Message of the balloon/toast popup.</value>
+    <value>バルーン/トーストのポップアップのメッセージ</value>
   </data>
   <data name="FindReplaceSpecialCharToolTip" xml:space="preserve">
     <value>拡張文字のリストを表示する</value>
@@ -5049,13 +5052,13 @@ if(res != null) {
     <value>fileName</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsumePhysicalInput.Parameters.bVal.Description" xml:space="preserve">
-    <value>True to consume all input, false to allow input.</value>
+    <value>trueですべての入力を消費する、falseで入力を許可</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteAllStoredBools.Description" xml:space="preserve">
     <value>Deletes all stored booleans.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendAltUp.Description" xml:space="preserve">
-    <value>Simulates releasing the left Alt key.</value>
+    <value>左のAltキーを離すことをシミュレートします。</value>
   </data>
   <data name="ActionStepMethods.MouseRestrictToRectangle.DisplayName" xml:space="preserve">
     <value>マウス移動を矩形内に制限</value>
@@ -5094,7 +5097,7 @@ if(res != null) {
     <value>Color struct (.NET, optional)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseClick.Parameters.up.Description" xml:space="preserve">
-    <value>Simulate releasing the specified mouse button. Pass down and up as true to simulate a full click.</value>
+    <value>特定のマウスのボタンを離すことをシミュレートします。 Pass down and up as true to simulate a full click.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendModifiedVKeys.Parameters.Keys.Name" xml:space="preserve">
     <value>Keys</value>
@@ -5166,7 +5169,7 @@ if(res != null) {
     <value>キーストロークを送るための関数</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegionFromPoint.Parameters.point.Description" xml:space="preserve">
-    <value>The point to use when determining the region in which the point exists within the rectangle.</value>
+    <value>矩形内の点の存在する領域を決定するときに使用する点</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryReadMultiString.Parameters.baseKey.Description" xml:space="preserve">
     <value>RegistryKey representing the registry key where the keyName exists.</value>
@@ -5244,7 +5247,7 @@ if(res != null) {
     <value>無効</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.IsUnicode.Description" xml:space="preserve">
-    <value>Returns true if the windows is flagged as Unicode.</value>
+    <value>ウィンドウがUnicodeとしてフラグされている場合、trueを返します。</value>
   </data>
   <data name="HotkeyActiveLabel" xml:space="preserve">
     <value>有効化(&amp;E)</value>
@@ -5262,7 +5265,7 @@ if(res != null) {
     <value>.IsImmersive</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetKeyState.Parameters.name.Description" xml:space="preserve">
-    <value>The VirtualKeyCode (vk.XX) value to get the state for.</value>
+    <value>状態を取得するための仮想キー (vk.XX) の値</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Confirm.Parameters.title.Type" xml:space="preserve">
     <value>object (casted to string)</value>
@@ -5295,13 +5298,13 @@ if(res != null) {
     <value>arguments</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetMethods.Description" xml:space="preserve">
-    <value>Returns an array of MethodInfo for all sp functions.</value>
+    <value>すべての sp 関数の MethodInfo の配列を返します。</value>
   </data>
   <data name="ScriptHelpCategoryNameExtensions" xml:space="preserve">
     <value>Extensions</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetActiveExplorerPath.Description" xml:space="preserve">
-    <value>Returns a string containing path of the specified Explorer window.</value>
+    <value>指定されたエクスプローラウィンドウのパスを含む文字列を返します。</value>
   </data>
   <data name="No" xml:space="preserve">
     <value>No</value>
@@ -5415,7 +5418,7 @@ if(res != null) {
     <value>DeleteStoredPoint</value>
   </data>
   <data name="ScriptHelp.ActionMethod.EmptyRecycleBins.Description" xml:space="preserve">
-    <value>Empties ALL recycle bins.</value>
+    <value>ごみ箱を空にする</value>
   </data>
   <data name="ActionStepMethods.GetWindowMainModuleFilePath.HelpTip" xml:space="preserve">
     <value>ウィンドウの(SystemWindow型として渡される)メインモジュール名(通常は.EXEファイル)を含む文字列を、フルパスを含めて返します。</value>
@@ -5451,7 +5454,7 @@ if(res != null) {
     <value>RelayGesture</value>
   </data>
   <data name="ScriptHelpScriptObjectsActionVarsText" xml:space="preserve">
-    <value>Passed into normal actions, variable name in script: action
+    <value>action: 通常のアクションに渡される、スクリプト内の変数名
 
     public class ActionVars
     {
@@ -5494,7 +5497,7 @@ if(res != null) {
     <value>object (casts to uint)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DesktopWindow.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object for the Desktop window. This is the actual desktop window, not necessarily the window which contains the desktop icons. See also sp.DesktopWindowListView().</value>
+    <value>DesktopウィンドウのSystemWindowオブジェクトを返します。これは実際のデスクトップウィンドウであり、必ずしもデスクトップアイコンを含むウィンドウである必要はありません。sp.DesktopWindowListView() も参照してください。</value>
   </data>
   <data name="ImportConfirmMessage" xml:space="preserve">
     <value>上記で選択したアイテムをインポートしてもよろしいですか？
@@ -5531,7 +5534,7 @@ if(res != null) {
     <value>確認</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Confirm.Parameters.message.Description" xml:space="preserve">
-    <value>Title of the message box window.</value>
+    <value>メッセージボックスのタイトル</value>
   </data>
   <data name="UpdateCheckRunErrorMessage" xml:space="preserve">
     <value>更新を開始できませんでした。手動でダウンロードしてください。</value>
@@ -5552,7 +5555,7 @@ if(res != null) {
     <value>NativeModule</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCaptureMixer.Description" xml:space="preserve">
-    <value>Returns a AudioSwitcher.AudioApi.CoreAudio.CoreAudioDevice object which allows controlling the default capture (record) mixer/device.</value>
+    <value>デフォルトのキャプチャ（録音）用ミキサー／デバイスを制御するための AudioSwitcher.AudioApi.CoreAudio.CoreAudioDevice オブジェクトを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TypeBuilder.NewMethod.Name" xml:space="preserve">
     <value>TypeBuilder.NewMethod</value>
@@ -5567,7 +5570,7 @@ if(res != null) {
     <value>デスクトップで選択したファイルを取得する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleEnableTimestamps.Description" xml:space="preserve">
-    <value>Enables or disables timestamps being added to console logging entries.</value>
+    <value>コンソールログのエントリーに追加されるタイムスタンプを有効もしくは無効にする。</value>
   </data>
   <data name="ScriptHelpCategoryNameMedia" xml:space="preserve">
     <value>Media (サウンド)</value>
@@ -5579,7 +5582,7 @@ if(res != null) {
     <value>GetCurrentCulture</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Title.Description" xml:space="preserve">
-    <value>Gets or sets the title/text of the control or window.</value>
+    <value>コントロールまたはウィンドウのタイトル/テキストを取得または設定します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.ColorKey.Type" xml:space="preserve">
     <value>Color</value>
@@ -5623,7 +5626,7 @@ if(res != null) {
     <value>テキストを表示する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegionFromPoint.Description" xml:space="preserve">
-    <value>Returns a RectRegion based on the location of the point within the rectangle passed in, which is divided into regions based on the number of columns and rows specified. This could be used to have a action perform different logic based on the location of a point within the area of the screen or application window, for example.</value>
+    <value>渡された矩形内の点の位置に基づいて、指定された列と行の数に基づいて領域に分割されたRectRegionを返します。これは、例えば画面やアプリケーションウィンドウの領域内の点の位置に基づいて、アクションに異なるロジックを実行させるために使用することができます。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.CreateTimer.Returns" xml:space="preserve">
     <value>System.Threading.Timer</value>
@@ -5632,13 +5635,13 @@ if(res != null) {
     <value>Files (ファイル)</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.BringToFront.Description" xml:space="preserve">
-    <value>Sets the window as the foregroup window.</value>
+    <value>最前面にウィンドウをセットします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowBalloonTip.Description" xml:space="preserve">
-    <value>Displays a balloon tool window or a toast style notification popup depending on the version of Windows. NOTE: This functionality can be overridden or prevented based on Windows settings and rules that govern notifications.</value>
+    <value>バルーンツールウィンドウまたはトーストスタイルの通知ポップアップをWindowsのバージョンに応じて表示します。注意：この機能は、Windowsの設定や通知に関するルールによって上書きされたり防止されたりすることがあります。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseMove.Parameters..Description" xml:space="preserve">
-    <value>The location to move the mouse cursor to. Can be an existing point like 'action.Start' or a custom one using 'new Point(x, y).</value>
+    <value>マウスカーソルを移動させる場所。既存の 'action.Start'のような点か、 'new Point(x, y)'を用いた任意の点にすることができる。</value>
   </data>
   <data name="ActionStepMethods.GetStoredObject.HelpTip" xml:space="preserve">
     <value>StoreObjectを使用して以前に保存されたオブジェクトを返します</value>
@@ -5662,7 +5665,7 @@ if(res != null) {
     <value>Exit</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.GetRootOwnerWindow.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object for the root owner control or window.</value>
+    <value>ルートオーナーコントロールまたはウィンドウのSystemWindowオブジェクトを返します。</value>
   </data>
   <data name="UpdateCheckPromptTitle" xml:space="preserve">
     <value>利用可能なアップデート</value>
@@ -5680,7 +5683,7 @@ if(res != null) {
     <value>AllDevices</value>
   </data>
   <data name="ActionStepMethods.IsButtonDown.HelpTip" xml:space="preserve">
-    <value>Returns True if the specified mouse button is currently pressed (down).</value>
+    <value>指定されたマウスボタンが現在押されている（ダウンしている）場合、true を返す。</value>
   </data>
   <data name="tabPreferencesTabHint" xml:space="preserve">
     <value>ナビゲーションヒント</value>
@@ -5829,7 +5832,7 @@ if(res != null) {
     <value>ExecutePreviousScript</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RelayGesture.Parameters.points.Description" xml:space="preserve">
-    <value>Array of Points used to relay the gesture.</value>
+    <value>ジェスチャーの中継に使用されるポイントの配列。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StorePoint.Name" xml:space="preserve">
     <value>StorePoint</value>
@@ -5847,7 +5850,7 @@ if(res != null) {
     <value>左上</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MessageBox.Parameters.title.Description" xml:space="preserve">
-    <value>Message of the message box window.</value>
+    <value>メッセージボックスのメッセージ</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowFromPoint.Returns" xml:space="preserve">
     <value>SystemWindow</value>
@@ -5862,7 +5865,7 @@ if(res != null) {
     <value>コンソールウィンドウが表示されているとき、trueを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisplayImage.Description" xml:space="preserve">
-    <value>Displays a popup on the screen containing the image passed in. Click and drag to move the window, press Escape or double-click the window to close.</value>
+    <value>画像をポップアップで画面上に表示します。クリック＆ドラッグで移動、Escapeキーを押すかダブルクリックで閉じます。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetFileVersionInfo.Example.Simple" xml:space="preserve">
     <value>var version = sp.GetFileVersionInfo('C:\\Windows\\Notepad.exe');</value>
@@ -5896,7 +5899,7 @@ if(res != null) {
 内部例外:{2} </value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCurrentMousePoint.Description" xml:space="preserve">
-    <value>Returns a point containing the coordinates of the current mouse position.</value>
+    <value>現在のマウス位置の座標を含む点を返します。</value>
   </data>
   <data name="ActionStepMethods.StorePoint.DisplayName" xml:space="preserve">
     <value>ポイントを格納する</value>
@@ -5908,10 +5911,10 @@ if(res != null) {
     <value>Process</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Confirm.Parameters.title.Description" xml:space="preserve">
-    <value>Message of the message box window.</value>
+    <value>メッセージボックスのメッセージ</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendKeyDown.Parameters.ch.Description" xml:space="preserve">
-    <value>Value of the character to send.</value>
+    <value>送信する文字</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteStoredString.Parameters.name.Description" xml:space="preserve">
     <value>Name used to store the string.</value>
@@ -6105,7 +6108,7 @@ function PopupMenuCallback(id) {
     <value>ヘルプ</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetFileProductVersionInfo.Parameters.filePath.Description" xml:space="preserve">
-    <value>The full path and name to the file.</value>
+    <value>ファイルへのフルパスとファイル名</value>
   </data>
   <data name="ActionStepMethods.GetLastActiveWindow.HelpTip" xml:space="preserve">
     <value>最後にアクティブなプライマリウィンドウのSystemWindowオブジェクトを返します。</value>
@@ -6135,7 +6138,7 @@ function PopupMenuCallback(id) {
     <value>通信ミキサ音量を取得する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisplayImage.Parameters.image.Type" xml:space="preserve">
-    <value>画像</value>
+    <value>Image</value>
   </data>
   <data name="PlugInTabLoaded" xml:space="preserve">
     <value>読み込み済み</value>
@@ -6258,13 +6261,13 @@ function PopupMenuCallback(id) {
     <value>pt</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Exit.Description" xml:space="preserve">
-    <value>すべてのタイマーとスクリプトを中止します。設定を保存します。そしてStrokesPlus.netを終了します。Stops all timers and scripts, saves settings, and closes StrokesPlus.net.</value>
+    <value>すべてのタイマーとスクリプトを中止します。設定を保存します。そしてStrokesPlus.netを終了します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.IEnumerable.OrderBy.Example.Full" xml:space="preserve">
     <value />
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Visible.Description" xml:space="preserve">
-    <value>Gets the visible status of the control or window.</value>
+    <value>コントロールまたはウィンドウの可視状態を取得します。</value>
   </data>
   <data name="ActionStepMethods.SaveString.DisplayName" xml:space="preserve">
     <value>Save String</value>
@@ -6331,10 +6334,10 @@ var result = newType.MyMethod("Test");
 sp.MessageBox(`Result: ${result}`, "Success!")</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisplayImage.Parameters.allowScrollZooming.Description" xml:space="preserve">
-    <value>If true, enables mouse wheel scrolling to zoom image in or out.</value>
+    <value>true の場合、マウスホイールのスクロールによる画像の拡大・縮小が可能となる</value>
   </data>
   <data name="ScriptHelp.ActionMethod.IsKeyToggled.Description" xml:space="preserve">
-    <value>Returns true if the specified key is toggled on. This is intended for the Caps, Num, and Scroll lock keys.</value>
+    <value>指定されたキーがトグルされている場合、true を返す。Caps、Num、Scrollの各ロックキーが対象です。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCurrentMouseCursor.Returns" xml:space="preserve">
     <value>string</value>
@@ -6349,7 +6352,7 @@ sp.MessageBox(`Result: ${result}`, "Success!")</value>
     <value>void</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetSelectedFilesInExplorer.Description" xml:space="preserve">
-    <value>Returns a array of strings containing each file selected in the specified Explorer window.</value>
+    <value>指定されたエクスプローラウィンドウで選択された各ファイルを含む文字列の配列を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryDelete.Parameters.baseKey.Description" xml:space="preserve">
     <value>RegistryKey representing the registry key where the keyName exists.</value>
@@ -6470,13 +6473,13 @@ for (var i = 0, len = matches.Length; i &lt; len; i++) {
     <value>RefreshNativeModules</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendKeys.Description" xml:space="preserve">
-    <value>Simulates sending a sequence of keystrokes using the Microsoft SendKeys.SendWait() method. Search the internet for 'SendKeys Class' to find specific rules and keywords when using this action.</value>
+    <value>一連のキーストロークを送るのをシミュレートします。 Microsoft SendKeys.SendWait() メソッドで実現しているの用いるときは、ルールやキーワードを把握するためにインターネットで'SendKeys Class'を検索してください。 </value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterToggle.Example.Simple" xml:space="preserve">
     <value>sp.TouchFloaterToggle();</value>
   </data>
   <data name="ScriptHelp.ActionMethod.FindImageWithinImage.Description" xml:space="preserve">
-    <value>Attempts to find a image within another image. If needle is found within haystack, a Point value is returned, otherwise null is returned. Important! The two images being compared should be PNG or Bitmap with no compression, full 24 or 32-bit images without transparency.</value>
+    <value>他の画像の中にある画像の探索を試みます。haystackの中からneedleが見つかった場合は Point 値が返され、そうでない場合は null が返されます。重要! 比較する 2 つの画像は、圧縮されていない PNG またはビットマップで、透過性のない完全な 24 ビットまたは 32 ビットの画像である必要があります。</value>
   </data>
   <data name="ActionStepMethods.GetDesktopWindow.DisplayName" xml:space="preserve">
     <value>デスクトップウィンドウを取得</value>
@@ -6500,7 +6503,7 @@ for (var i = 0, len = matches.Length; i &lt; len; i++) {
     <value>キーを無視する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ExecuteStoredScript.Description" xml:space="preserve">
-    <value>Executes a script previously stored via sp.StoreHistoryScript.</value>
+    <value>sp.StoreHistoryScriptによってあらかじめ保存されているスクリプトを実行します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteStoredObject.Example.Simple" xml:space="preserve">
     <value>sp.DeleteStoredObject('test');</value>
@@ -6509,7 +6512,7 @@ for (var i = 0, len = matches.Length; i &lt; len; i++) {
     <value>void</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PopupList.Parameters.BackgroundColor.Description" xml:space="preserve">
-    <value>Background color to use for the popup, or null to use system Menu color. Does NOT support alpha channel!</value>
+    <value>ポップアップに使用する背景色、またはシステムメニューの色を使用する場合はnull。alphaチャンネルをサポートしていません</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Reload.Name" xml:space="preserve">
     <value>Reload</value>
@@ -6556,10 +6559,10 @@ for (var i = 0, len = matches.Length; i &lt; len; i++) {
     <value>IntPtr</value>
   </data>
   <data name="ValidateAccountConnectErrorMessage" xml:space="preserve">
-    <value>StrokesPlus.netWebサイトへの接続中にエラーが発生しました。 StrokesPlus.netは通常どおり使用でき、オンラインベースのアクティビティのみが使用できなくなります。</value>
+    <value>StrokesPlus.net Webサイトへの接続中にエラーが発生しました。 StrokesPlus.netは通常どおり使用でき、オンラインベースのアクティビティのみが使用できなくなります。</value>
   </data>
   <data name="ScriptHelpScriptObjectsWheelTickText" xml:space="preserve">
-    <value>Passed into Global Actions &gt; Mouse Events &gt; Mouse Wheel scripts, variable name in script: wheel
+    <value>wheel: Global Actions &gt; Mouse Events &gt; Mouse Wheel イベントからスクリプトに渡される、スクリプト内の変数名 
 
     public class WheelTick
     {
@@ -6661,7 +6664,7 @@ for (var i = 0, len = matches.Length; i &lt; len; i++) {
     <value>name</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TogglePlaybackMute.Description" xml:space="preserve">
-    <value>Toggles mute on the default playback mixer/device.</value>
+    <value>デフォルトの再生用ミキサー／デバイスのミュートをトグルします。</value>
   </data>
   <data name="tabPreferencesEnableKeyboardHookSubscription" xml:space="preserve">
     <value>キーボードフックイベントサブスクリプションを有効にする</value>
@@ -6679,7 +6682,7 @@ for (var i = 0, len = matches.Length; i &lt; len; i++) {
     <value>fieldOffsets</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendVKey.Description" xml:space="preserve">
-    <value>Simulates pressing and releasing the specified VirtualKeyCode.</value>
+    <value>特定の仮想キーコードの押し下げと離すことをシミュレートします。</value>
   </data>
   <data name="TouchFloaterMenuChangeSize64" xml:space="preserve">
     <value>64px</value>
@@ -6712,7 +6715,7 @@ for (var i = 0, len = matches.Length; i &lt; len; i++) {
     <value>ExecutablePath</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SetPlaybackVolume.Parameters.newVolumeLevel.Description" xml:space="preserve">
-    <value>The new volume level.</value>
+    <value>音量レベルの数値</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.ExecutablePath.Type" xml:space="preserve">
     <value>string</value>
@@ -6796,7 +6799,7 @@ typesTB.DefineNestedEnum("NestedEnum",
     <value>フローターの切り替え表示非表示(&amp;T)</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.Center.Description" xml:space="preserve">
-    <value>Centers the window on the screen where the window resides.</value>
+    <value>ウィンドウを、どこに存在しても、真ん中に配置します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteStoredRectangle.Name" xml:space="preserve">
     <value>DeleteStoredRectangle</value>
@@ -6805,10 +6808,10 @@ typesTB.DefineNestedEnum("NestedEnum",
     <value>EnumBuilder.Create</value>
   </data>
   <data name="ScriptHelp.ActionMethod.NativeDelegate.Parameters.functionName.Description" xml:space="preserve">
-    <value>Name of the JavaScript function for which this delegate will reference and invoke.</value>
+    <value>このデリゲートが参照し、呼び出すJavaScript関数の名前。Name of the JavaScript function for which this delegate will reference and invoke.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendCharacter.Description" xml:space="preserve">
-    <value>Simulates pressing and releasing the specified character.</value>
+    <value>特定の文字の押し下げと離すことをシミュレートします。</value>
   </data>
   <data name="ActionStepMethods.OpenSettings.HelpTip" xml:space="preserve">
     <value>設定ウィンドウを開きます。</value>
@@ -6862,10 +6865,10 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>再生</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowsFromTitlePartial.Description" xml:space="preserve">
-    <value>Returns an array of SystemWindow objects for controls or windows based on a partial title match.</value>
+    <value>タイトルの部分一致に基づくコントロールまたはウィンドウのSystemWindowオブジェクトの配列を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StopAllActionSteps.Description" xml:space="preserve">
-    <value>Stops all action step execution.</value>
+    <value>すべてのステップの実行を止めます。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetMacroScript.Name" xml:space="preserve">
     <value>GetMacroScript</value>
@@ -6932,7 +6935,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>bool</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.VisibilityFlag.Description" xml:space="preserve">
-    <value>Gets or sets the visibility status of the control or window.</value>
+    <value>コントロールまたはウィンドウの可視性ステータスを取得または設定します。</value>
   </data>
   <data name="ActionStepMethods.SendShiftUp.DisplayName" xml:space="preserve">
     <value>Shift押上を送信</value>
@@ -6968,7 +6971,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>ホットキーを登録できません</value>
   </data>
   <data name="ScriptHelpScriptObjectsInputBoxInfoText" xml:space="preserve">
-    <value>Used when calling sp.InputBox()
+    <value>sp.InputBox()呼び出し時に使用
 
     public class InputBoxInfo
     {
@@ -7010,10 +7013,10 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>コンソールウィンドウを非表示にします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowFromClassOrTitle.Parameters.className.Description" xml:space="preserve">
-    <value>Exact name of the control or window class.</value>
+    <value>コントロールまたはウィンドウクラスの正確な名前</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetActiveExplorerPath.Parameters.hWnd.Description" xml:space="preserve">
-    <value>Handle to the Explorer window.</value>
+    <value>エクスプローラーウィンドウへのハンドル</value>
   </data>
   <data name="ActionStepMethods.GetArrayItemByIndex.DisplayName" xml:space="preserve">
     <value>インデックスで配列アイテムを取得</value>
@@ -7189,7 +7192,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>string</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PopupList.Parameters.Font.Description" xml:space="preserve">
-    <value>Font to use for the popup, or null to use default S+ font.</value>
+    <value>ポップアップに使用するフォント、デフォルトのStrokesPlus.netフォントを使用する場合はnullを指定します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.IsDescendantOf.Example.Simple" xml:space="preserve">
     <value>.IsDescendantOf(window)</value>
@@ -7198,7 +7201,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>無効なユーザー名またはパスワード。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsumePhysicalInput.Description" xml:space="preserve">
-    <value>Consumes ALL physical mouse and keyboard input. NOTE: Be very careful when using this function, if you call it with true and either forget to call it again with false (or the script runs into an error), you may be stuck unable to use the computer!</value>
+    <value>すべての物理的なマウスとキーボードの入力を消費します。注:この関数を使用するときは十分に注意してください。trueで1回呼び出し、falseでもう一度呼び出すのを忘れる(もしくはスクリプトがエラーを引き起こすと)と、はまってしまいコンピューターを使用できなくなる可能性があります！</value>
   </data>
   <data name="TrainingFormNoMatch" xml:space="preserve">
     <value>これは新しいジェスチャーのようです！
@@ -7232,7 +7235,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>除外ゾーン</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseRestrictClear.Description" xml:space="preserve">
-    <value>Removes the mouse movement restriction previously set via sp.MouseRestrictToRectangle.</value>
+    <value>sp.MouseRestrictToRectangleにより設定されていたマウス移動制限を解除します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.IEnumerable.forEach.Parameters.name.Type" xml:space="preserve">
     <value>object (script function)</value>
@@ -7265,7 +7268,7 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>右ボタン</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetSystemMetricsByIndex.Description" xml:space="preserve">
-    <value>Returns an int value of the specified SystemMetric.</value>
+    <value>指定された SystemMetric の int 値を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DesktopWindowListView.Returns" xml:space="preserve">
     <value>SystemWindow</value>
@@ -7277,10 +7280,10 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>SendControlUp</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleError.Parameters.label.Description" xml:space="preserve">
-    <value>Label for the log entry, e.g. [label] message.</value>
+    <value>出力されるログへのエントリーのラベル名。例 [label] message.</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.LegacyModuleName.Description" xml:space="preserve">
-    <value>Returns the module name for this control or window's process using a direct WinAPI call.</value>
+    <value>direct WinAPIコールを使用して、このコントロールまたはウィンドウのプロセスのモジュール名を返します。</value>
   </data>
   <data name="tabGlobalSettingsCancelDelayLabel" xml:space="preserve">
     <value>カスタム キャンセル遅延 (ms):</value>
@@ -7337,10 +7340,10 @@ sp.MessageBox(str, 'Selected File(s)');</value>
     <value>左発動以後</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisableCapture.Description" xml:space="preserve">
-    <value>Disables the mouse and keyboard hooks.</value>
+    <value>マウスとキーボードのフックを無効にします。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Parent.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object for the parent control or window.</value>
+    <value>親コントロールまたは親ウィンドウの SystemWindow オブジェクトを返します。</value>
   </data>
   <data name="AppDefinitionOwnerText" xml:space="preserve">
     <value>オーナータイトル/テキスト:</value>
@@ -7374,7 +7377,7 @@ sp.MessageBox(path, 'Current Path');</value>
     <value>ストロークボタン</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendMessageSetTextObj.Parameters.length.Description" xml:space="preserve">
-    <value>The length of text to retrieve, casted to int.</value>
+    <value>intにキャストされた、取得するテキストの長さ</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegionFromPoint.Parameters.rect.Type" xml:space="preserve">
     <value>Rectangle</value>
@@ -7383,16 +7386,16 @@ sp.MessageBox(path, 'Current Path');</value>
     <value>rect</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.ScreenPointToClientPoint.Description" xml:space="preserve">
-    <value>Returns a Point translated from screen coordinates to client coordinates relative to the upper-left corner of the window's client area.</value>
+    <value>ウィンドウのクライアント領域の左上隅を基準として、スクリーン座標からクライアント座標に変換されたPointを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindow.Parameters.ScriptCallback.Description" xml:space="preserve">
-    <value>Name of the callback to function to invoke when window.chrome.webview.postMessage is called from within the HTML window's JavaScript.</value>
+    <value>HTMLウィンドウのJavaScript内からwindow.chrome.webview.postMessageが呼び出されたときに呼び出されるコールバック関数の名前</value>
   </data>
   <data name="ClearScriptNoEngineAvailableMessage" xml:space="preserve">
     <value>スクリプトエンジンは利用できません。スクリプトを破棄します。再試行。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindowExecuteScriptAsync.Description" xml:space="preserve">
-    <value>Executes JavaScript inside the specified HTML window.</value>
+    <value>指定されたHTMLウィンドウの中でJavaScriptを実行します。</value>
   </data>
   <data name="ActionStepMethods.SetWindowAlwaysOnTop.DisplayName" xml:space="preserve">
     <value>ウィンドウを常に上に設定</value>
@@ -7407,7 +7410,7 @@ sp.MessageBox(path, 'Current Path');</value>
     <value>ModuleBuilder</value>
   </data>
   <data name="ScriptHelpScriptObjectsPopupMenuInfoExText" xml:space="preserve">
-    <value>Used when calling sp.ShowPopupMenuEx()
+    <value>sp.ShowPopupMenuEx()呼び出し時に使用
 
     public class PopupMenuInfoEx
     {
@@ -7416,7 +7419,7 @@ sp.MessageBox(path, 'Current Path');</value>
     }</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetMacroScript.Parameters.category.Description" xml:space="preserve">
-    <value>Name of the category to whih the macro belongs.</value>
+    <value>マクロが属しているカテゴリの名前</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StoreDecimal.Parameters.value.Description" xml:space="preserve">
     <value>Value of the decimal to store.</value>
@@ -7434,14 +7437,14 @@ sp.MessageBox(path, 'Current Path');</value>
     <value>指定されたウィンドウが常に一番上にある場合(SystemWindow型として渡される)、trueを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RecordTemporaryMacro.Example.Simple" xml:space="preserve">
-    <value>//Note: If calling this from a hotkey, you should add a sp.Sleep(1000); before the calling this function, to ensure when you release the hotkey that those aren't recorded.
-sp.RecordTemporaryMacro();</value>
+    <value>sp.RecordTemporaryMacro();
+//注意: ホットキーによって呼び出す場合、sp.Sleep(1000)などを加えるべきです。この関数を呼び出す前に、ホットキーを離したときにそれらが記録されないようにするためです。</value>
   </data>
   <data name="ScriptHelpPropertyText" xml:space="preserve">
     <value>Property</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowBalloonTip.Parameters.icon.Description" xml:space="preserve">
-    <value>The icon to be used in the ballon/toast popup. Valid values: info, error, or warning.</value>
+    <value>バルーン/トーストポップアップで使用されるアイコン。有効な値：Info、Error、Warning</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StoreDecimal.Example.Simple" xml:space="preserve">
     <value>sp.StoreDecimal('test', 123.0);</value>
@@ -7462,7 +7465,7 @@ sp.RecordTemporaryMacro();</value>
     <value>Else If Expression</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegionFromPoint.Parameters.rows.Description" xml:space="preserve">
-    <value>The number of row to divide the rectangle into.</value>
+    <value>矩形を分割する行数</value>
   </data>
   <data name="ActionStepMethods.ElseIf.HelpTip" xml:space="preserve">
     <value>value1とvalue2を比較します。等しい場合は、ElseIfに続くステップが実行されます。等しくない場合は、Ifブロック内の後続のElseIfステップが評価され、必要に応じて実行されます。それ以外の場合、Elseブロック内のステップは次のようになります。存在する場合は実行されます</value>
@@ -7474,7 +7477,7 @@ sp.RecordTemporaryMacro();</value>
     <value>GetCaretLocation</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseClick.Parameters.pt.Description" xml:space="preserve">
-    <value>The location to perform the mouse event(s). Can be an existing point like 'action.Start' or a custom one using 'new Point(x, y).</value>
+    <value>マウスイベントを実行する場所です。'action.Start' のような既存のポイント、または 'new Point(x, y)' を使用したカスタムのポイントにすることができます。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCaptureMixer.Example.Simple" xml:space="preserve">
     <value>var captureMixer = sp.GetCaptureMixer();</value>
@@ -7486,7 +7489,7 @@ sp.RecordTemporaryMacro();</value>
     <value>画面座標のY軸に沿ったウィンドウの(SystemWindow型として渡された)位置を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseWheel.Parameters.pt.Description" xml:space="preserve">
-    <value>The location to perform the mouse event(s). Can be an existing point like 'action.Start' or a custom one using 'new Point(x, y).</value>
+    <value>マウスイベントを実行する場所です。'action.Start' のような既存のポイント、または 'new Point(x, y)' を使用したカスタムのポイントにすることができます。</value>
   </data>
   <data name="tabPreferencesLogErrorsToConsoleOnly" xml:space="preserve">
     <value>Log Script Engine Errors to Console Only</value>
@@ -7495,7 +7498,7 @@ sp.RecordTemporaryMacro();</value>
     <value>無し</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Position.Description" xml:space="preserve">
-    <value>Returns a RECT object for the control or window position inside its parent or in workspace coordinates. Use Rectangle for screen coordinates without borders, and AbsoluteRectangle for full rectangle.</value>
+    <value>コントロールまたはウィンドウの位置を、その親の内部またはワークスペース座標でRECTオブジェクトを返します。境界線のない画面座標にはRectangleを、完全な矩形にはAbsoluteRectangleを使用します。</value>
   </data>
   <data name="ActionStepMethods.SendKeys.DisplayName" xml:space="preserve">
     <value>キーを送信</value>
@@ -7528,10 +7531,10 @@ clip.SetText(apps);
 </value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.WindowAbove.Description" xml:space="preserve">
-    <value>Gets the SystemWindow object for the window above.</value>
+    <value>上のウィンドウのSystemWindowオブジェクトを取得します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MessageBox.Description" xml:space="preserve">
-    <value>Displays a simple message box with a title and message.</value>
+    <value>タイトルとメッセージを表示するシンプルなメッセージを表示します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendMessageObj.Example.Simple" xml:space="preserve">
     <value>.SendMessageObj(message, wParam, lParam);</value>
@@ -7579,7 +7582,7 @@ clip.SetText(apps);
     <value>すべて置換</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterSetCustomFloaterLocation.Parameters.name.Description" xml:space="preserve">
-    <value>Name of the custom floater to move.</value>
+    <value>動かすカスタムフローターの名前</value>
   </data>
   <data name="ImportExportSelectAllLabel" xml:space="preserve">
     <value>すべて選択(&amp;S)</value>
@@ -7591,13 +7594,13 @@ clip.SetText(apps);
     <value>IEnumerable&lt;T&gt;</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendMessageObj.Parameters.wParam.Description" xml:space="preserve">
-    <value>The wParam value to post, casted to IntPtr.</value>
+    <value>IntPtrにキャストされたwParamに投げる値。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendMessageSetTextObj.Description" xml:space="preserve">
-    <value>Sends a get text message to the control or window and returns a string containing the text.</value>
+    <value>取得したSendメッセージをコントロールまたはウィンドウに送信し、テキストを含む文字列を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowFromClassOrTitle.Parameters.windowTitle.Description" xml:space="preserve">
-    <value>Exact title of the control or window class.</value>
+    <value>コントロールまたはウィンドウクラスの正確なタイトル</value>
   </data>
   <data name="ActionStepMethods.GetStoredPoint.DisplayName" xml:space="preserve">
     <value>保管ポイントを取得</value>
@@ -7621,7 +7624,7 @@ clip.SetText(apps);
     <value>PlayTemporaryMacro</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetSelectedFilesOnDesktop.Description" xml:space="preserve">
-    <value>Returns a array of strings containing each file selected in the Desktop window list view.</value>
+    <value>デスクトップウィンドウのリストビューで選択された各ファイルを含む文字列の配列を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleCopySystem.Name" xml:space="preserve">
     <value>ConsoleCopySystem</value>
@@ -7663,7 +7666,7 @@ clip.SetText(apps);
     <value>Name of the subkey within the baseKey to read the value from.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunProgram.Parameters.useShellExecute.Description" xml:space="preserve">
-    <value>If true, uses the Windows shell to execute the program or open the file. False executes only a program directly.</value>
+    <value>Trueの場合、プログラムの実行またはファイルのオープンにWindowsシェルを使用します。Falseの場合は、プログラムのみを直接実行</value>
   </data>
   <data name="ScriptHelp.ActionMethod.CreateTimer.Name" xml:space="preserve">
     <value>CreateTimer</value>
@@ -7687,10 +7690,10 @@ clip.SetText(apps);
     <value>IPアドレス</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegions.Parameters.rows.Description" xml:space="preserve">
-    <value>The number of row to divide the rectangle into.</value>
+    <value>矩形を分割する行数</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendVKey.Parameters.vk.Description" xml:space="preserve">
-    <value>The VirtualKeyCode (vk.XX) value to send.</value>
+    <value>送信する仮想キーコード（vk.XX）値</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Thread.Example.Simple" xml:space="preserve">
     <value>.Thread</value>
@@ -7699,10 +7702,10 @@ clip.SetText(apps);
     <value>.CheckState</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetItemsInExplorer.Description" xml:space="preserve">
-    <value>Returns a array of strings containing each file selected in the specified Explorer window.</value>
+    <value>指定されたエクスプローラウィンドウで選択された各ファイルを含む文字列の配列を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendVKeyDown.Description" xml:space="preserve">
-    <value>Simulates pressing the specified virtual key down.</value>
+    <value>仮想キーの押し下げをシミュレートします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleWarning.Returns" xml:space="preserve">
     <value>void</value>
@@ -7756,10 +7759,10 @@ clip.SetText(apps);
     <value>Deletes a string previously stored string using sp.StoreString.</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.ParentSymmetric.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object for the parent control or window, but only if the control or window is a descendant of the .Parent.</value>
+    <value>親コントロールまたはウィンドウのSystemWindowオブジェクトを返します。ただし、そのコントロールまたはウィンドウが.Parent.SystemWindowオブジェクトの子孫である場合のみです。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.LastFocusControl.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object for the last active control.</value>
+    <value>最後にアクティブになったコントロールのSystemWindowオブジェクトを返します。</value>
   </data>
   <data name="tabPreferencesRelayGestureOnNoMatch" xml:space="preserve">
     <value>一致しないリレー ジェスチャ</value>
@@ -7823,7 +7826,7 @@ clip.SetText(apps);
     <value>ジェスチャー描画</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.ExecutablePath.Description" xml:space="preserve">
-    <value>Returns the folder to the executable which owns the window; use ExecutableName to get the actual file name.</value>
+    <value>ウィンドウを所有する実行ファイルのフォルダを返します。実際のファイル名を取得するには ExecutableName を使用します。</value>
   </data>
   <data name="ActionStepMethods.MouseClickXY.HelpTip" xml:space="preserve">
     <value>画面上のX、Y座標で、指定されたマウスボタンをクリックします(またはダウン/アップイベントのみを送信します)。</value>
@@ -7844,13 +7847,13 @@ clip.SetText(apps);
     <value>名前でカスタムフローターを読み込みます。フローターが現在表示されている場合にのみ機能します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleLog.Parameters.label.Description" xml:space="preserve">
-    <value>Label for the log entry, e.g. [label] message.</value>
+    <value>出力されるログへのエントリーのラベル名。例 [label] message.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteStoredRectangle.Parameters.name.Description" xml:space="preserve">
     <value>Name used to store the rectangle.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.CloseSettings.Parameters.save.Description" xml:space="preserve">
-    <value>Indicates where to save (true) or discard (false) any changes.</value>
+    <value>保存ならtrue、すべての変更を破棄するならfalseを指定 </value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.Restore.Name" xml:space="preserve">
     <value>Restore</value>
@@ -7859,7 +7862,7 @@ clip.SetText(apps);
     <value>利用可能なエンジンがありません</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PopupList.Parameters.Location.Description" xml:space="preserve">
-    <value>The location to display the popup list. Or use new Point() to let the popup be placed at the caret (if control supports) or the current mouse location.</value>
+    <value>ポップアップリストを表示する場所。または、new Point() でポップアップをキャレット位置 (if control supports) に、または現在のマウスの位置に配置させます。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SaveString.Parameters.value.Description" xml:space="preserve">
     <value>Value of the string to save.</value>
@@ -7881,7 +7884,7 @@ clip.SetText(apps);
 </value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteTimer.Parameters.name.Description" xml:space="preserve">
-    <value>Name of the timer.</value>
+    <value>タイマーの名前</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SetCommunicationsVolume.Example.Simple" xml:space="preserve">
     <value>sp.SetCommunicationsVolume(50);</value>
@@ -7892,8 +7895,11 @@ clip.SetText(apps);
   <data name="ScriptHelpCategoryText" xml:space="preserve">
     <value>Category</value>
   </data>
+  <data name="ScriptHelp.ActionMethod.RunProgram.Parameters.windowStyle.Description" xml:space="preserve">
+    <value>起動時のウィンドウの状態。有効な値：hidden、normal、minimized、maximized</value>
+  </data>
   <data name="ScriptHelp.SystemWindowMethod.ScreenPointToClientPoint.Parameters.screenPoint.Description" xml:space="preserve">
-    <value>The screen Point to translate to a client Point.</value>
+    <value>クライアントポイントに変換する画面の場所</value>
   </data>
   <data name="ScriptHelp.ActionMethod.NativeDelegate.Example.Simple" xml:space="preserve">
     <value>var IntPtrT = host.typeOf(clr.System.IntPtr);
@@ -7918,7 +7924,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>一致するものが見つかりませんでした</value>
   </data>
   <data name="ActionStepMethods.IsKeyDown.HelpTip" xml:space="preserve">
-    <value>Returns True if the specified key is currently pressed (down).</value>
+    <value>特定のキーが押し下げられているときTrueを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.CreateTimer.Parameters.name.Name" xml:space="preserve">
     <value>name</value>
@@ -7948,7 +7954,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>EmptyRecycleBins</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.EnsureVisible.Description" xml:space="preserve">
-    <value>Moves the window to ensure it's displayed as fully as it can be on the current or closest screen.</value>
+    <value>ウィンドウを移動して、現在の画面または最も近い画面で可能な限り完全に表示されるようにします。</value>
   </data>
   <data name="tabPreferencesTouchFloaterTapsForMenu" xml:space="preserve">
     <value>フロータータップでメニューを表示(3つ以上)</value>
@@ -7960,7 +7966,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>物理的な入力を消費する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindowExecuteScriptAsync.Parameters.Script.Description" xml:space="preserve">
-    <value>JavaScript to execute.</value>
+    <value>実行するJavaScript</value>
   </data>
   <data name="ActionStepMethods.GetCurrentMouseCursor.DisplayName" xml:space="preserve">
     <value>現在のマウスカーソルを取得</value>
@@ -7981,7 +7987,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>var desktopSurface = sp.DesktopWindowListView();</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendMessageSetTextObj.Parameters.wParam.Description" xml:space="preserve">
-    <value>The wParam value to post, casted to IntPtr.</value>
+    <value>IntPtrにキャストされたwParamに投げる値。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowsFromTitleRegex.Returns" xml:space="preserve">
     <value>SystemWindow[]</value>
@@ -7993,7 +7999,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>GetCommunicationsMixer</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisplayText.Description" xml:space="preserve">
-    <value>Displays a popup on the screen containing a title and text. Fonts, colors, opacity, duration, among other properties can be controlled. See DisplayTextInfo for more details.</value>
+    <value>タイトルとテキストを含むポップアップを画面上に表示します。フォント、色、不透明度、継続時間などのプロパティを調整することができます。 詳細は、DisplayTextInfoを参照。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SetCommunicationsVolume.Name" xml:space="preserve">
     <value>SetCommunicationsVolume</value>
@@ -8008,7 +8014,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>subKey</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.MoveToNextScreen.Description" xml:space="preserve">
-    <value>Moves the window to the next screen as defined in Windows, returns the new Screen.</value>
+    <value>ウィンドウをWindowsによって定義された次の画面に移動し、新しい画面を返します。</value>
   </data>
   <data name="ExclusionZoneSecondaryStrokeEvents" xml:space="preserve">
     <value>二次ストロークボタンのクリック</value>
@@ -8047,7 +8053,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>StrokesPlus.net起動時に実行するスクリプトの有効化</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.AllDescendantWindows.Description" xml:space="preserve">
-    <value>Returns as array of SystemWindow objects for all descendant controls or window.</value>
+    <value>すべての子孫コントロールまたはウィンドウのSystemWindowオブジェクトの配列として返します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Position.Name" xml:space="preserve">
     <value>Position</value>
@@ -8086,16 +8092,16 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>Point</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendMessageSetTextObj.Parameters.useAnsi.Description" xml:space="preserve">
-    <value>Pass true to specificy ANSI mode, false for Unicode.</value>
+    <value>ANSIモードを指定する場合はtrueを、Unicodeを指定する場合はfalseを渡す。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegionFromPoint.Parameters.point.Name" xml:space="preserve">
     <value>point</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunProgram.Description" xml:space="preserve">
-    <value>Opens a file or runs a program.</value>
+    <value>ファイルを開く、もしくはプログラムを実行します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendMessageObj.Parameters.message.Description" xml:space="preserve">
-    <value>The message value to post, casted to uint.</value>
+    <value>uintにキャストされたmessageに投げる値。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendShiftDown.Returns" xml:space="preserve">
     <value>void</value>
@@ -8110,7 +8116,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>.WindowBelow</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunProgram.Parameters.waitForExit.Description" xml:space="preserve">
-    <value>If true, this method will wait until the program has exited, which returns the exit code from the program.</value>
+    <value>trueの場合、このメソッドはプログラムが終了するまで待機し、プログラムからの終了コードを返します</value>
   </data>
   <data name="ActionStepMethods.ReplaceText.DisplayName" xml:space="preserve">
     <value>テキストを置き換える</value>
@@ -8119,13 +8125,13 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>bool</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetMethod.Description" xml:space="preserve">
-    <value>Returns a MethodInfo object for the specified function.</value>
+    <value>指定された関数の MethodInfo オブジェクトを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.IEnumerable.Where.Returns" xml:space="preserve">
     <value>IEnumerable&lt;T&gt;</value>
   </data>
   <data name="ScriptHelp.ActionMethod.CreateTimer.Parameters.script.Description" xml:space="preserve">
-    <value>The script to execute upon starting and at each interval.</value>
+    <value>開始されるとインターバル毎に実行されるスクリプトとなる文字列</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.ScreenPointToClientPoint.Name" xml:space="preserve">
     <value>ScreenPointToClientPoint</value>
@@ -8164,7 +8170,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>void</value>
   </data>
   <data name="ActionStepMethods.SendWinUp.HelpTip" xml:space="preserve">
-    <value>左のWinキーを押し下げることをシミュレートします。</value>
+    <value>左のWinキーを離すことをシミュレートします。</value>
   </data>
   <data name="ScriptHelpCategoryNameTimers" xml:space="preserve">
     <value>Timer (タイマー)</value>
@@ -8173,7 +8179,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>PlaySound</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCommunicationsMixer.Description" xml:space="preserve">
-    <value>Returns a AudioSwitcher.AudioApi.CoreAudio.CoreAudioDevice object which allows controlling the default communications mixer/device.</value>
+    <value>デフォルトの通信用ミキサー／デバイスを制御するための AudioSwitcher.AudioApi.CoreAudio.CoreAudioDevice オブジェクトを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.NativeDelegateList.Name" xml:space="preserve">
     <value>NativeDelegateList</value>
@@ -8203,7 +8209,7 @@ var delPtr = sp.NativeDelegate("EnumWindowsProc", [IntPtrT, IntPtrT], BooleanT);
     <value>List&lt;PopupListItem&gt; (can be sent as JavaScript array also)</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.RootWindow.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object for the root control or window.</value>
+    <value>ルートコントロールまたはウィンドウの SystemWindow オブジェクトを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleCopyUser.Returns" xml:space="preserve">
     <value>void</value>
@@ -8251,7 +8257,7 @@ var fnptrList = sp.NativeDelegateList([["EnumWindowsProc", [IntPtrT, IntPtrT], B
     <value>メインフローターの場所を設定する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterSetCustomFloaterLocation.Parameters.point.Description" xml:space="preserve">
-    <value>Point representing the new location.</value>
+    <value>新しい場所を示すPoint</value>
   </data>
   <data name="ActionStepMethods.ReloadScriptEnginePool.DisplayName" xml:space="preserve">
     <value>スクリプトエンジンプールを再読み込みする</value>
@@ -8260,7 +8266,7 @@ var fnptrList = sp.NativeDelegateList([["EnumWindowsProc", [IntPtrT, IntPtrT], B
     <value>void</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleWarning.Parameters.message.Description" xml:space="preserve">
-    <value>Message to log.</value>
+    <value>出力されるメッセージ</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetMethods.Example.Simple" xml:space="preserve">
     <value>var spms = sp.GetMethods();</value>
@@ -8299,7 +8305,7 @@ var fnptrList = sp.NativeDelegateList([["EnumWindowsProc", [IntPtrT, IntPtrT], B
     <value>bool</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MessageBox.Parameters.message.Description" xml:space="preserve">
-    <value>Title of the message box window.</value>
+    <value>メッセージボックスのタイトル</value>
   </data>
   <data name="ScriptHelp.ActionMethod.CloseSettings.Parameters.save.Name" xml:space="preserve">
     <value>save</value>
@@ -8314,7 +8320,7 @@ var fnptrList = sp.NativeDelegateList([["EnumWindowsProc", [IntPtrT, IntPtrT], B
     <value>void</value>
   </data>
   <data name="ActionStepMethods.SendVirtualKeyUp.HelpTip" xml:space="preserve">
-    <value>指定されたキーの解放をシミュレートします。</value>
+    <value>指定されたキーを離すのをシミュレートします。</value>
   </data>
   <data name="tabPreferencesEnableV8ScriptDebugging" xml:space="preserve">
     <value>V8スクリプトのデバッグを有効にする*</value>
@@ -8335,7 +8341,7 @@ var fnptrList = sp.NativeDelegateList([["EnumWindowsProc", [IntPtrT, IntPtrT], B
     <value>.HWnd</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Run.Description" xml:space="preserve">
-    <value>Opens a file or runs a program. This is the same as typing something in the Run dialog (Win+R) and pressing Enter. Use sp.RunProgram for more specific execution options.</value>
+    <value>ファイルを開いたり、プログラムを実行したりします。これは、Runダイアログ（Win+R）に何かを入力してEnterを押すのと同じです。より具体的な実行オプションは、sp.RunProgramを使用してください。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.AbsoluteRectangle.Type" xml:space="preserve">
     <value>Rectangle</value>
@@ -8392,7 +8398,8 @@ var fnptrList = sp.NativeDelegateList([["EnumWindowsProc", [IntPtrT, IntPtrT], B
     <value>アクションステップが失敗しました</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RefreshNativeModules.Description" xml:space="preserve">
-    <value>Refreshes the dynamic native modules and delegates within the script engine type list. These would be any types or objects within NativeModules. or NativeDelegates.</value>
+    <value>スクリプト エンジンのタイプ リストにあるダイナミック ネイティブ モジュールとデリゲートをリフレッシュします。これらは、NativeModules.やNativeDelegates.内の任意の型やオブジェクトになります。
+Refreshes the dynamic native modules and delegates within the script engine type list. These would be any types or objects within NativeModules. or NativeDelegates.</value>
   </data>
   <data name="tabPreferencesFireOnLeftClick" xml:space="preserve">
     <value>有効</value>
@@ -8406,7 +8413,7 @@ These methods allow you to build dynamic modules, types, and methods via System.
 より詳細はこちらの投稿を参照してください: https://forum.strokesplus.net/posts/m11783-Example---Test-Code-for-Native-Binding</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendControlDown.Description" xml:space="preserve">
-    <value>Simulates pressing the left Control key down.</value>
+    <value>左Ctrlキーの押し下げをシミュレートします。</value>
   </data>
   <data name="ActionStepMethods.SetCustomFloaterSize.HelpTip" xml:space="preserve">
     <value>カスタムフローターのサイズを設定します。フローターが現在表示されている場合にのみ機能します。</value>
@@ -8451,7 +8458,7 @@ These methods allow you to build dynamic modules, types, and methods via System.
     <value>メインストロークボタンのクリック</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Reload.Description" xml:space="preserve">
-    <value>Stops all scripts, timers, and reloads StrokesPlus.net.</value>
+    <value>すべてのスクリプトとタイマーを止めます。そして、StrokesPlus.netをリロードします。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.CommandLine.Type" xml:space="preserve">
     <value>string</value>
@@ -8481,19 +8488,19 @@ These methods allow you to build dynamic modules, types, and methods via System.
     <value>string</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterSetLocation.Parameters.point.Description" xml:space="preserve">
-    <value>Point representing the new location.</value>
+    <value>新しい場所を示すPoint</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleEnableTimestamps.Parameters.value.Description" xml:space="preserve">
-    <value>true or false.</value>
+    <value>true かfalseを指定</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.AbsoluteRectangle.Description" xml:space="preserve">
-    <value>Returns a Rectangle object for the window frame, including window borders.</value>
+    <value>ウィンドウの境界線を含む、ウィンドウフレームのRectangleオブジェクトを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetTemporaryMacroScript.Returns" xml:space="preserve">
     <value>string</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Alpha.Name" xml:space="preserve">
-    <value>Alpha 透明度</value>
+    <value>Alpha (不透明度)</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Alpha.Type" xml:space="preserve">
     <value>byte</value>
@@ -8567,7 +8574,7 @@ sp.GetSystemMetricsByIndex(intValue);</value>
     <value>このアプリケーションがフォーカスを獲得した場合はStrokesPlus.netを無効にします</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowMouseCursor.Description" xml:space="preserve">
-    <value>Shows the mouse cursor after a call to sp.HideMouseCursor. NOTE: This simply resets all cursors to the Windows default, overwriting any custom cursor selections.</value>
+    <value>sp.HideMouseCursorの呼び出しの後にマウスカーソルを表示します。注：これは単にすべてのカーソルをWindowsのデフォルトにリセットし、カスタムカーソルの選択を上書きするだけです。</value>
   </data>
   <data name="ActionStepMethods.SetCustomFloaterKeyMode.DisplayName" xml:space="preserve">
     <value>カスタムフローターキーモードを設定する</value>
@@ -8646,7 +8653,8 @@ var apiModBuilder = sp.NativeModule("WinAPI");</value>
     <value>アクションステップ パラメータエラー</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindow.Parameters.ProfileName.Description" xml:space="preserve">
-    <value>Name of the user data sub-folder to use for this WebView2 session; will create new or reuse previously created folder. This is helpful for using different browsing sessions.</value>
+      <value>Name of the user data sub-folder to use for this WebView2 session; will create new or reuse previously created folder. This is helpful for using different browsing sessions.</value>
+    <value>WebView2セッションで使用するデータサブフォルダの名前; 新規作成または以前作成したフォルダを再利用します。異なるブラウジングセッションを用いるときにの便利です。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredObject.Example.Simple" xml:space="preserve">
     <value>var storedobj = sp.GetStoredObject('test');</value>
@@ -8655,13 +8663,13 @@ var apiModBuilder = sp.NativeModule("WinAPI");</value>
     <value>アクション前の自動化を有効にする</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterIsCustomFloaterLoaded.Description" xml:space="preserve">
-    <value>Returns true if the floater matching the name is currently loaded.</value>
+    <value>呼び出されているフローターのなかにマッチする名前があればtrueを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetStoredPoint.Returns" xml:space="preserve">
     <value>Point</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunProgram.Parameters.noWindow.Description" xml:space="preserve">
-    <value>Specifies that no window should be created for the process.</value>
+    <value>プロセス用のウィンドウを作成しないことを指定</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RefreshNativeModules.Returns" xml:space="preserve">
     <value>void</value>
@@ -8679,7 +8687,7 @@ var apiModBuilder = sp.NativeModule("WinAPI");</value>
     <value>ポイントから画面を取得</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetPlaybackMixer.Description" xml:space="preserve">
-    <value>Returns a AudioSwitcher.AudioApi.CoreAudio.CoreAudioDevice object which allows controlling the default playback mixer/device.</value>
+    <value>デフォルトのキャプチャ（録音）用ミキサー／デバイスを制御するための AudioSwitcher.AudioApi.CoreAudio.CoreAudioDevice オブジェクトを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.IEnumerable.OrderByMultiple.Parameters.queryString.Description" xml:space="preserve">
     <value>Custom format string used to parse out the sorting operations. Property|Sort where Sort 0 = ascending and Sort 1 = descending. For example: "Category|0,Description|1". - sort by Category ASC first, then by Description DESC.</value>
@@ -8733,10 +8741,10 @@ var apiModBuilder = sp.NativeModule("WinAPI");</value>
     <value>有効</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleLog.Description" xml:space="preserve">
-    <value>Logs an information event to the User log in the console window.</value>
+    <value>コンソールウィンドウでユーザーログの情報のイベントを出力します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PlaySound.Description" xml:space="preserve">
-    <value>Plays a .wav file. Does not support other sound formats.</value>
+    <value>wavファイルを再生します。他の音声形式には対応していません。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StoreDecimal.Parameters.name.Description" xml:space="preserve">
     <value>Name used to store the decimal.</value>
@@ -8783,7 +8791,7 @@ var newType = new NativeModules.MyType();</value>
     <value>pt</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SetMouseCursor.Parameters.fileName.Description" xml:space="preserve">
-    <value>The cursor file to load. File must be .CUR or .ANI file type.</value>
+    <value>読み込むカーソルファイル名。ファイルはCURまたはANIタイプである必要があります。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.ScreenFromPoint.Parameters.pt.Type" xml:space="preserve">
     <value>Point</value>
@@ -8798,7 +8806,7 @@ var newType = new NativeModules.MyType();</value>
     <value>記録しようとしています</value>
   </data>
   <data name="ScriptHelpScriptObjectsClickText" xml:space="preserve">
-    <value>Passed into Global Actions &gt; Mouse Events &gt; Mouse Click scripts, variable name in script: click
+    <value>click: Global Actions &gt; Mouse Events &gt; Mouse Clickスクリプトに渡され、スクリプト内の変数名
 
     public class Click
     {
@@ -8869,7 +8877,10 @@ var newType = new NativeModules.MyType();</value>
     <value>常に上にサーフェスを描画します</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PlayTemporaryMacro.Example.Full" xml:space="preserve">
-    <value>//Here I have a hotkey which is Control+Win+A, so I will send the up event for all combinations of the keys first to make sure none of them get stuck in the down state.
+    <value>//以下の用意されたControl+Win+Aのホットキーがあるとします。 すべてのコンビネーションキーにアップイベントを送ります、 どのキーも押した状態にしないために
+    どのキーもDownの状態ではじめてハマることを避けるために、私はCtrl+Win+Aのホットキーの例を用意しました。それで、すべてのコンビネーションキーへUpイベントを送信します。
+    第一に、Downキーが押された状態ではじまることで往生することがないよう、ホットキーを作りました。
+    
 sp.SendVKeyUp(vk.LCONTROL);
 sp.SendVKeyUp(vk.RCONTROL);
 sp.SendVKeyUp(vk.CONTROL);
@@ -8903,7 +8914,7 @@ sp.PlayTemporaryMacro();</value>
     <value>アクションリスト</value>
   </data>
   <data name="ScriptHelp.ActionMethod.CreateTimer.Parameters.name.Description" xml:space="preserve">
-    <value>Name of the timer.</value>
+    <value>タイマーの名前</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryReadNumber.Parameters.subKey.Description" xml:space="preserve">
     <value>Name of the subkey within the baseKey to read the value from.</value>
@@ -8951,7 +8962,7 @@ sp.PlayTemporaryMacro();</value>
     <value>インポートを適用</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SetCommunicationsVolume.Parameters.newVolumeLevel.Description" xml:space="preserve">
-    <value>The new volume level.</value>
+    <value>音量レベルの数値</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunStoreApp.Parameters.packageName.Name" xml:space="preserve">
     <value>packageName</value>
@@ -8960,10 +8971,10 @@ sp.PlayTemporaryMacro();</value>
     <value>string</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.RECT.Description" xml:space="preserve">
-    <value>Returns a RECT object for the absolute position of the control or window on the screen. Probably more convenient to use .Rectangle instead. Use .Position for relative location of controls.</value>
+    <value>画面上のコントロールまたはウィンドウの絶対位置のRECTオブジェクトを返します。おそらく、代わりに.Rectangleを使用する方が便利です。コントロールの相対的な位置には、.Positionを使用してください。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.DialogID.Description" xml:space="preserve">
-    <value>Returns the dialog ID for the control or window.</value>
+    <value>コントロールまたはウィンドウのダイアログIDを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloatersReset.Returns" xml:space="preserve">
     <value>void</value>
@@ -9008,7 +9019,7 @@ sp.PlayTemporaryMacro();</value>
     <value>bool</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetSystemMetricsByIndex.Parameters.index.Description" xml:space="preserve">
-    <value>Index of the desired SystemMetric</value>
+    <value>要求されるSystemMetricの番号</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ModuleBuilder.DefineEnum.Name" xml:space="preserve">
     <value>ModuleBuilder.DefineEnum</value>
@@ -9017,7 +9028,7 @@ sp.PlayTemporaryMacro();</value>
     <value>名前でカスタムフローターを閉じます。フローターが現在表示されている場合にのみ機能します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCommunicationsCaptureMixer.Description" xml:space="preserve">
-    <value>Returns a AudioSwitcher.AudioApi.CoreAudio.CoreAudioDevice object which allows controlling the default communications capture (record) mixer/device.</value>
+    <value>デフォルトの通信キャプチャ（録音）用ミキサー／デバイスを制御するための AudioSwitcher.AudioApi.CoreAudio.CoreAudioDevice オブジェクトを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ExecuteStoredScript.Name" xml:space="preserve">
     <value>ExecuteStoredScript</value>
@@ -9032,7 +9043,7 @@ sp.PlayTemporaryMacro();</value>
     <value>パラメータ</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetPlaybackVolume.Description" xml:space="preserve">
-    <value>Returns the current volume level of the default playback mixer/device. (0 - 100)</value>
+    <value>デフォルトの再生用ミキサー／デバイスの現在の音量レベルを返します。(0 - 100)</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ModuleBuilder.DefineType.Parameters.typeName.Description" xml:space="preserve">
     <value>The name of the type to create.</value>
@@ -9053,7 +9064,7 @@ sp.PlayTemporaryMacro();</value>
     <value>Set Background Color</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindow.Parameters.HTML.Description" xml:space="preserve">
-    <value>HTML, file path and name, or URL to use for the start page, if IncludeBootstrapJQuery is true, HTML will be inserted inside the &amp;lt;body&amp;gt; tag, otherwise it will be the entire document. If a file or URL is passed in, IncludeBootstrapJQuery is ignored.</value>
+    <value>HTML, file path and name, or URL to use for the start page, if IncludeBootstrapJQuery is true, HTML will be inserted inside the &lt;body&gt; tag, otherwise it will be the entire document. If a file or URL is passed in, IncludeBootstrapJQuery is ignored.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ModuleBuilder.DefineType.Parameters.typeName.Type" xml:space="preserve">
     <value>string</value>
@@ -9101,16 +9112,16 @@ sp.PlayTemporaryMacro();</value>
     <value>screenPoint</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DesktopWindowListView.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object for the Desktop ListView window, which is where the desktop icons reside.</value>
+    <value>デスクトップアイコンが存在する Desktop ListView ウィンドウの SystemWindow オブジェクトを返します。</value>
   </data>
   <data name="tabPreferencesTextExpansionTriggerUseSpace" xml:space="preserve">
     <value>Space</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterToggle.Description" xml:space="preserve">
-    <value>Toggles the visibility of the floaters.</value>
+    <value>フローターの表示/非表示を切り替えます。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseMove.Description" xml:space="preserve">
-    <value>Moves the mouse to the specified location.</value>
+    <value>マウスを指定された位置に移動させます。</value>
   </data>
   <data name="FindReplaceOptionsRightToLeft" xml:space="preserve">
     <value>右から左に</value>
@@ -9125,12 +9136,14 @@ sp.PlayTemporaryMacro();</value>
     <value>showErrors</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Pause.Description" xml:space="preserve">
-    <value>Wait for the specified seconds before continuing execution. Use sp.Sleep for short or precise delays.</value>
+    <value>指定の秒数だけ待機したあと実行を継続します。短いもしくは正確な遅延にはsp.Sleepを使う。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowBalloonTip.Example.Simple" xml:space="preserve">
     <value>//Types include: Warning, Error, Info, None
 //Duration (5000 ms below) can be overridden by Windows Accessibility settings
 sp.ShowBalloonTip('Title', 'Message here', 'Info', 5000);
+// Type include: 警告、エラー、Info(情報)、なし
+//（5秒以下）表示時間はWindowsアクセシビリティーの設定によって上書きされます。
 </value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleCopyUser.Name" xml:space="preserve">
@@ -9161,7 +9174,7 @@ sp.ShowBalloonTip('Title', 'Message here', 'Info', 5000);
     <value>subKey</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegions.Parameters.columns.Description" xml:space="preserve">
-    <value>The number of columns to divide the rectangle into.</value>
+    <value>矩形を分割する列の数</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryReadMultiString.Parameters.subKey.Type" xml:space="preserve">
     <value>string</value>
@@ -9245,7 +9258,8 @@ sp.ShowBalloonTip('Title', 'Message here', 'Info', 5000);
     <value>マウスムーブX、Y</value>
   </data>
   <data name="ScriptHelp.ActionMethod.AllDevices.Description" xml:space="preserve">
-    <value>Returns a List&lt;DeviceInfo&gt; of all PnP entities.</value>
+    <value>すべてのPnPエントリーのList&lt;Deviceinfo&gt;を返す。
+    Returns a List&lt;DeviceInfo&gt; of all PnP entities.</value>
   </data>
   <data name="HotkeyKeysLabel" xml:space="preserve">
     <value>ホットキー:</value>
@@ -9263,13 +9277,13 @@ sp.ShowBalloonTip('Title', 'Message here', 'Info', 5000);
     <value>void</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ForegroundWindow.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object of the current foreground window</value>
+    <value>現在のフォアグラウンドウィンドウの SystemWindow オブジェクトを返します。</value>
   </data>
   <data name="ActionStepMethods.MouseMove.DisplayName" xml:space="preserve">
     <value>マウスの動き</value>
   </data>
   <data name="ScriptHelp.ActionMethod.AllApplications.Description" xml:space="preserve">
-    <value>Returns an array of SystemWindow objects for all primary application windows. This may incorrectly skip or include unconventional applications. See also sp.AllWindows().</value>
+    <value>すべてのプライマリアプリケーションウィンドウの SystemWindow オブジェクトの配列を返します。これは、不正にスキップしたり、非従順なアプリケーションを含むことがあります。sp.AllWindows() も参照してください。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseRestrictClear.Example.Simple" xml:space="preserve">
     <value>sp.MouseRestrictClear();</value>
@@ -9297,22 +9311,19 @@ sp.ShowBalloonTip('Title', 'Message here', 'Info', 5000);
   </data>
   <data name="ScriptHelpCategoryTextScriptObjects" xml:space="preserve">
     <value>以下のオブジェクトはStrokesPlus.netのオートメーションで通用し必要に応じてあなたのステップやスクリプトで使用可能。
+    
+"action" はActionVarsオブジェクトに名付けられたインスタンス。すべての標準的なアクションはActionVarsオブジェクトに渡されます。
+"wheel " はWheelTick オブジェクトに名付けられたインスタンス。Global Actions &gt; Mouse Events &gt; Mouse Wheel イベントはWheelTickオブジェクトに渡されています。
+"click " はClick     オブジェクトに名付けられたインスタンス。Global Actions &gt; Mouse Events &gt; Mouse Click イベントはClick オブジェクトに渡されています。
+"floater"はFloaterVarsオブジェクトに名付けられたインスタンス。フローターイベントはFloaterVarsオブジェクトに渡されます。
 
-すべての通常のアクションは、"action "という名前のActionVarsオブジェクトで渡されます。
-
-大域アクション &gt; マウスイベント &gt; マウスホイールは、"wheel "という名前のWheelTickオブジェクトで渡される。
-
-大域アクション &gt; マウスイベント &gt; 左クリックは、"click" という名前の Click オブジェクトで渡される。
-
-フローターイベントは、"floater" という名前の FloaterVars オブジェクトで渡される。
-
+------------------------------------------------- -------------------------------------------------
 These objects are passed into StrokesPlus.net automations which can be used in your steps or script as needed.
 
 All regular actions will be passed in an ActionVars object named "action".
+Global Actions > Mouse Events > Mouse Wheel are passed in a WheelTick object named "wheel".
 
-Global Actions &gt; Mouse Events &gt; Mouse Wheel are passed in a WheelTick object named "wheel".
-
-Global Actions &gt; Mouse Events &gt; Mouse Click are passed in a Click object named "click".
+Global Actions > Mouse Events > Mouse Click are passed in a Click object named "click".
 
 Floater events will be passed in a FloaterVars object named "floater".</value>
   </data>
@@ -9368,7 +9379,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>アクションステップエラー</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.ClassName.Description" xml:space="preserve">
-    <value>Gets the class name of the control or window.</value>
+    <value>コントロールまたはウィンドウのクラス名を取得します。</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendMessageObj.Name" xml:space="preserve">
     <value>SendMessageObj</value>
@@ -9517,7 +9528,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>StoreHandleを使用して以前に格納したハンドルを削除します</value>
   </data>
   <data name="ActionStepMethods.MoveWindowToPreviousScreen.HelpTip" xml:space="preserve">
-    <value>ウィンドウを前の画面に移動し、移動先のScreenオブジェクトを返します。画面の順序はウィンドウによって決定されます。</value>
+    <value>ウィンドウを前の画面に移動し、移動先の Screen オブジェクトを返します。画面の順番はWindowsによって決定されます。</value>
   </data>
   <data name="ActionStepMethods.GetExpandedEnvironmentVariables.HelpTip" xml:space="preserve">
     <value>環境変数が展開された文字列を返します。</value>
@@ -9553,7 +9564,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>exeName</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Size.Description" xml:space="preserve">
-    <value>The size of the control or window, excluding window borders.</value>
+    <value>コントロールまたはウィンドウのサイズ（ウィンドウの境界線を除く）</value>
   </data>
   <data name="tabPreferencesTouchFloaterMaxAlpha" xml:space="preserve">
     <value>フローター最大透明度(α:1-255)</value>
@@ -9568,7 +9579,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>型</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegions.Description" xml:space="preserve">
-    <value>Returns an array of RectRegion based on the rectangle passed in along with the number of columns and rows specified. This could be used to have a action perform different logic based on the area of the screen or application window, for example.</value>
+    <value>渡された矩形と、指定された列や行の数に基づいて RectRegion の配列を返します。これは、例えば画面やアプリケーションウィンドウの領域に応じて、アクションに異なるロジックを実行させるために使用できます。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteStoredString.Parameters.name.Type" xml:space="preserve">
     <value>string</value>
@@ -9619,7 +9630,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>保存された矩形を取得する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RecordTemporaryMacro.Description" xml:space="preserve">
-    <value>Starts recording a temporary macro. No messages show, you must remember to press Ctrl+Break (Pause) to stop recording.</value>
+    <value>一時的なマクロの記録を開始します。あなたは覚えておかなければなりません、Ctrl+Break (Pause)を押すことによってレコーディングを止めるまで何のメッセージも表示されないことを。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendAltUp.Name" xml:space="preserve">
     <value>SendAltUp</value>
@@ -9664,10 +9675,10 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>System.Threading.Timer</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowPopupMenu.Description" xml:space="preserve">
-    <value>Displays a context menu from which the user can select an item. This requires a global javascript callback to receive the selected item. See PopupMenuInfo and the examples for more information.</value>
+    <value>コンテキストメニューを表示し、そこからユーザーが項目を選択することができます。これは、選択されたアイテムを受け取るために、グローバルなjavascriptコールバックを必要とします。詳細については、PopupMenuInfoとサンプルを参照してください。Displays a context menu from which the user can select an item. This requires a global javascript callback to receive the selected item. See PopupMenuInfo and the examples for more information.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteTimer.Description" xml:space="preserve">
-    <value>Stops and deletes a timer previously created via sp.CreateTimer.</value>
+    <value>sp.CreateTimerを通して作られたタイマーを一つ指定し、停止して削除します。</value>
   </data>
   <data name="tabPreferencesDisableTextExpansionDisableSpaceLeftDeleteOnMatch" xml:space="preserve">
     <value>一致時にSpace、Left、Deleteを無効にする</value>
@@ -9678,7 +9689,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
 手直ししなければならないコードもありますが、インターネットで「C# how to {do something}」と検索すれば、正しい方向で始められることが多いでしょう。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsumePhysicalInput.Parameters.timeout.Description" xml:space="preserve">
-    <value>(optional) Seconds until physical input is automatically re-enabled. Default is 60 seconds, specify 0 for infinite.</value>
+    <value>(オプション) 物理入力が自動的に再有効化されるまでの秒数を指定します。デフォルトは60秒、0を指定すると無限になります。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.IEnumerable.Where.Name" xml:space="preserve">
     <value>IEnumerable.Where</value>
@@ -9687,7 +9698,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>.Restore()</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowFromPoint.Parameters.pt.Description" xml:space="preserve">
-    <value>Coordinates to use in finding the window, e.g. new Point(100, 100), sp.GetCurrentMousePoint(), action.Start</value>
+    <value>ウィンドウを見つけるために使用する座標、例：new Point(100, 100), sp.GetCurrentMousePoint(), action.Start</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetItemsInExplorer.Parameters.includeLinks.Type" xml:space="preserve">
     <value>bool</value>
@@ -9714,7 +9725,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>string</value>
   </data>
   <data name="ScriptHelp.ActionMethod.Run.Parameters.command.Description" xml:space="preserve">
-    <value>The file name of the item to execute or open.</value>
+    <value>実行または開く項目のファイル名</value>
   </data>
   <data name="ActionStepMethods.StoreNumber.DisplayName" xml:space="preserve">
     <value>数値を格納する</value>
@@ -9726,7 +9737,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>var mouseRestricted = sp.MouseRestrictActive();</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseClick.Parameters.btn.Description" xml:space="preserve">
-    <value>The mouse button to use for the event(s).</value>
+    <value>マウスイベントへ使用するマウスのボタン</value>
   </data>
   <data name="ScriptHelp.ActionMethod.StoreHistoryScript.Example.Simple" xml:space="preserve">
     <value>sp.StoreHistoryScript('test', timer);</value>
@@ -9777,7 +9788,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>現在実行中のすべてのスクリプトを停止します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleLog.Parameters.message.Description" xml:space="preserve">
-    <value>Message to log.</value>
+    <value>出力されるメッセージ</value>
   </data>
   <data name="FindReplaceStatusRegexError" xml:space="preserve">
     <value>正規表現のエラー:</value>
@@ -9822,7 +9833,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>.Minimize()</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseRestrictToRectangle.Description" xml:space="preserve">
-    <value>Restricts mouse movement to only within the specified rectangle.</value>
+    <value>マウスの動きを指定された矩形内にのみ制限する。</value>
   </data>
   <data name="ActionStepMethods.DeleteStoredDecimal.HelpTip" xml:space="preserve">
     <value>Deletes a decimal previously stored using StoreDecimal.</value>
@@ -9858,10 +9869,10 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>sp.StoreRectangle('test', action.Window.Rectangle);</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RunOrActivate.Description" xml:space="preserve">
-    <value>Takes a full path and EXE name and looks to see if there is a window already running for that EXE and activates it, otherwise it runs the EXE.</value>
+    <value>フルパスと EXE 名を取得しそのプログラムがすでに実行されているかどうかを調べます。すでに実行されていればアクティブにし、そうでなければプログラムを実行します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ShowPopupMenuEx.Parameters.info.Description" xml:space="preserve">
-    <value>The PopupMenuInfoEx object containing the info used when displaying the popup menu.</value>
+    <value>ポップアップメニューを表示する際に使用される情報を含むPopupMenuInfoExオブジェクト</value>
   </data>
   <data name="ActionStepMethods.ToggleWindowAlwaysOnTop.DisplayName" xml:space="preserve">
     <value>ウィンドウを常に上に切り替える</value>
@@ -9873,7 +9884,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>不使用</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.SendClose.Description" xml:space="preserve">
-    <value>Sends the WM_CLOSE message to the window.</value>
+    <value>WM_CLOSEメッセージをウィンドウに送ります。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetSavedString.Name" xml:space="preserve">
     <value>GetSavedString</value>
@@ -9918,7 +9929,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>ハードウェアイベント</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetCurrentMouseCursor.Description" xml:space="preserve">
-    <value>Returns the name of the current mouse cursor. NOTE: This will only compare against the standard Windows cursors as defined by the Microsoft 'Cursors Class' properties, e.g. 'AppStarting', 'Arrow', 'Hand', etc. Any custom cursors will not be recognized and the return value will be 'Unknown'.</value>
+    <value>現在のマウスカーソルの名前を返します。注意: これは、Microsoftの 'Cursors Class' プロパティで定義された標準のWindowsカーソルに対してのみ比較されます (例: 'AppStarting', 'Arrow', 'Hand', など)。カスタムカーソルは認識されず、戻り値は 'Unknown' となる。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DeleteAllStoredObjects.Returns" xml:space="preserve">
     <value>void</value>
@@ -9969,13 +9980,13 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>SystemWindow</value>
   </data>
   <data name="ScriptHelp.ActionMethod.CreateTimer.Description" xml:space="preserve">
-    <value>Creates a timer that executes a script repeatedly until stopped via sp.DeleteTimer.</value>
+    <value>タイマーを生成します。sp.DeleteTimerによって止められるまでスクリプトを繰り返し実行します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindow.Parameters.ID.Description" xml:space="preserve">
-    <value>Identifier for the window, if blank it will be a new GUID. This is helpful if you have multiple HTML windows open and need to distinguish them.</value>
+    <value>ウィンドウの識別子。空白の場合は新しいGUIDになります。これは、複数のHTMLウィンドウを開いていて、それらを区別する必要がある場合に便利です。</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.IsCloaked.Description" xml:space="preserve">
-    <value>Returns true if the window is cloaked, such as background Win8/10 apps or windows in a different virtual desktop.</value>
+    <value>バックグラウンドのWin8/10アプリや別の仮想デスクトップ内のウィンドウなど、ウィンドウが隠蔽されている場合にtrueを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.RegistryDelete.Parameters.keyName.Description" xml:space="preserve">
     <value>The key to delete from the keyName.</value>
@@ -10032,7 +10043,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>ウィンドウの位置(SystemWindow型として渡される)を画面座標のポイントとして返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendKeyUp.Description" xml:space="preserve">
-    <value>Simulates releasing the specified character.</value>
+    <value>特定の文字のリリースをシミュレートします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetRegions.Name" xml:space="preserve">
     <value>GetRegions</value>
@@ -10062,7 +10073,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>.WindowAbove</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.Restore.Description" xml:space="preserve">
-    <value>Restores the window.</value>
+    <value>ウィンドウを復元します。</value>
   </data>
   <data name="AddMacro" xml:space="preserve">
     <value>マクロを追加</value>
@@ -10083,7 +10094,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>すべてのアクションステップの実行を停止します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.HTMLWindow.Parameters.Title.Description" xml:space="preserve">
-    <value>Title of the window.</value>
+    <value>ウィンドウのタイトル</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PopupList.Parameters.HighlightColor.Name" xml:space="preserve">
     <value>HighlightColor</value>
@@ -10104,10 +10115,10 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>アクションを使用する</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PopupList.Parameters.BackgroundAlternateColor.Description" xml:space="preserve">
-    <value>Background color for alternating rows, or null to use system Menu color. Does NOT support alpha channel!</value>
+    <value>交互に並ぶ行の背景色、またはシステムメニューの色を使用する場合はnullを指定します。alpha チャンネルをサポートしていません!</value>
   </data>
   <data name="ScriptHelp.SystemWindowProperty.Text.Description" xml:space="preserve">
-    <value>Gets or sets the text of the control, if supported.</value>
+    <value>サポートされている場合は、コントロールのテキストを取得または設定します。</value>
   </data>
   <data name="LoadSettingsDefaultFileErrorMessage" xml:space="preserve">
     <value>デフォルト設定の読み込みに失敗しました。 StrokesPlus.netを再インストールしてみてください。</value>
@@ -10136,7 +10147,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
 現在、これにより設定がクラウドに保存されます。これにはすべてのアプリケーション、アクション、設定が含まれます。これは完全なエクスポートに相当します。詳細については、[設定の同期...]トレイアイコン メニュー項目をクリックしてください。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendWinDown.Description" xml:space="preserve">
-    <value>Simulates pressing the left Win key down.</value>
+    <value>左Winキーの押し下げをシミュレートします。</value>
   </data>
   <data name="FileAccessErrorTitle" xml:space="preserve">
     <value>ファイル アクセスエラー</value>
@@ -10169,7 +10180,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>画面上の指定されたX、Y座標でトップレベル(オーナー)ウィンドウを返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleWarning.Parameters.label.Description" xml:space="preserve">
-    <value>Label for the log entry, e.g. [label] message.</value>
+    <value>出力されるログへのエントリーのラベル名。例 [label] message.</value>
   </data>
   <data name="ImportCompleteObjectMessage" xml:space="preserve">
     <value>インポート用に選択したファイルは、完全な設定ファイルのように見えます。
@@ -10224,19 +10235,19 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>DesktopWindowListView</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendAltDown.Description" xml:space="preserve">
-    <value>Simulates pressing the left Alt key down.</value>
+    <value>左Altキーの押し下げをシミュレートします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.MouseWheel.Description" xml:space="preserve">
-    <value>Simulates scrolling the mouse wheel vertically (default) or horizontally.</value>
+    <value>マウスホイールの垂直方向（デフォルト）または水平方向へのスクロールをシミュレートします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.DisplayText.Parameters.info.Description" xml:space="preserve">
-    <value>The DisplayTextInfo object containing the information used to display the popup.</value>
+    <value>ポップアップを表示するために使用される情報を含む DisplayTextInfo オブジェクト</value>
   </data>
   <data name="ActionStepMethodCategories.Utility.DisplayName" xml:space="preserve">
     <value>ユーティリティ</value>
   </data>
   <data name="ScriptHelp.ActionMethod.PopupList.Parameters.TextAlternateColor.Description" xml:space="preserve">
-    <value>Text color to use for alternating rows, or null to use system Menu Text color.</value>
+    <value>交互に並ぶ行に使用するテキスト色、またはシステムメニューのテキスト色を使用する場合はnull</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleError.Parameters.color.Type" xml:space="preserve">
     <value>Color struct (.NET, optional)</value>
@@ -10245,10 +10256,10 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>color</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterIsCustomFloaterLoaded.Parameters.name.Description" xml:space="preserve">
-    <value>Name of the custom floater.</value>
+    <value>カスタムフローターの名前.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetFileVersionInfo.Parameters.filePath.Description" xml:space="preserve">
-    <value>The full path and name to the file.</value>
+    <value>ファイルへのフルパスとファイル名</value>
   </data>
   <data name="ScriptHelp.ActionMethod.TouchFloaterLoadCustomFloater.Description" xml:space="preserve">
     <value>フローターネームでカスタムフローターを読み込みます。フローターが表示中のときのみ動きます。Load a custom floater by name. Only works if floaters are currently shown.</value>
@@ -10305,13 +10316,13 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>down</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ExpandEnvironmentVariables.Description" xml:space="preserve">
-    <value>Returns a string with the environment variables expanded.</value>
+    <value>環境変数が展開されたときの文字列が返ります。 </value>
   </data>
   <data name="tabGlobalSettingsTabName" xml:space="preserve">
     <value>設定</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendKeyDown.Description" xml:space="preserve">
-    <value>Simulates pressing the specified character key down.</value>
+    <value>キーの押し下げをシミュレートします。</value>
   </data>
   <data name="tabPreferencesFireOnX2Click" xml:space="preserve">
     <value>有効</value>
@@ -10341,7 +10352,7 @@ Floater events will be passed in a FloaterVars object named "floater".</value>
     <value>マウス</value>
   </data>
   <data name="ScriptHelp.SystemWindowMethod.Activate.Description" xml:space="preserve">
-    <value>Restores, shows, and brings the window to the foreground.</value>
+    <value>ウィンドウの復元、表示、最前面への移動。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendKeys.Name" xml:space="preserve">
     <value>SendKeys</value>
@@ -10483,7 +10494,7 @@ Plus-in DLL: '{2}' </value>
     <value>GetSelectedFilesInExplorer</value>
   </data>
   <data name="ScriptHelp.ActionMethod.InputBox.Parameters.info.Description" xml:space="preserve">
-    <value>The InputBoxInfo object containing the info used when displaying the input window.</value>
+    <value>入力ウィンドウを表示する際に使用される情報を含むInputBoxInfoオブジェクト</value>
   </data>
   <data name="ActionStepMethods.Reload.DisplayName" xml:space="preserve">
     <value>再読み込み</value>
@@ -10498,7 +10509,7 @@ Plus-in DLL: '{2}' </value>
     <value>行</value>
   </data>
   <data name="ScriptHelp.ActionMethod.WindowFromClassOrTitle.Description" xml:space="preserve">
-    <value>Returns a SystemWindow object for a control or window based on the class name and/or title.</value>
+    <value>クラス名および/またはタイトルに基づいて、コントロールまたはウィンドウのSystemWindowオブジェクトを返します。</value>
   </data>
   <data name="ActionStepMethods.MouseClick.DisplayName" xml:space="preserve">
     <value>マウスクリック</value>
@@ -10507,7 +10518,7 @@ Plus-in DLL: '{2}' </value>
     <value>配列内のアイテムの総数を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.GetTemporaryMacroScript.Description" xml:space="preserve">
-    <value>Returns the script of the last temporary macro.</value>
+    <value>最後に呼び出した一時的なマクロの文字列を返します。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleWarning.Example.Simple" xml:space="preserve">
     <value>sp.ConsoleWarning('message', 'label', System.Drawing.Color.Red);</value>
@@ -10540,7 +10551,7 @@ Plus-in DLL: '{2}' </value>
     <value>var expanded = sp.ExpandEnvironmentVariables('My profile directory = %userprofile%');</value>
   </data>
   <data name="ScriptHelp.ActionMethod.SendControlUp.Description" xml:space="preserve">
-    <value>Simulates releasing the left Control key.</value>
+    <value>左Ctrlキーを離すのことをシミュレートします。</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ConsoleWarning.Parameters.color.Description" xml:space="preserve">
     <value>コンソールのテキストに特定の色を設定します。そうでない場合はデフォルトの色を使用します。</value>
@@ -10584,7 +10595,7 @@ Plus-in DLL: '{2}' </value>
     <value>Returns a boolean previously stored using sp.StoreBool.</value>
   </data>
   <data name="ScriptHelp.ActionMethod.ToggleCommunicationsMute.Description" xml:space="preserve">
-    <value>Toggles mute on the default communications mixer/device.</value>
+    <value>デフォルトの通信用ミキサー／デバイスのミュートをトグルします。</value>
   </data>
   <data name="FindReplaceMenuRegexWhitespace" xml:space="preserve">
     <value>\s 空白(\S 非空白)</value>
@@ -10602,7 +10613,7 @@ Plus-in DLL: '{2}' </value>
     <value>name</value>
   </data>
   <data name="ScriptHelp.ActionMethod.CloseSettings.Description" xml:space="preserve">
-    <value>変更を保存せずにウィンドウを閉じます。Closes the Settings window, with or without saving changes.</value>
+    <value>変更を保存せずにウィンドウを閉じます。</value>
   </data>
   <data name="ScriptHelpClassPopupMenuInfo" xml:space="preserve">
     <value>PopupMenuInfo</value>
