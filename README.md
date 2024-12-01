@@ -1,5 +1,5 @@
 # ja-JP.resources-to-StrokesPlus.net
-(note:for Japanese language only) StrokesPlus.net  0.5.7.8 日本語化ファイル
+(note:for Japanese language only) StrokesPlus.net  0.5.7.9 日本語化ファイル
 
 ※ 自信のある人と**必要性のある人だけ**進めてください。 （説明が簡素ですみません。）
 
